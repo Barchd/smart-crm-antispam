@@ -1,0 +1,48 @@
+version: "3.9"
+
+# web и worker используют один volume, чтобы делить db.sqlite3
+# При `docker compose down -v` данные теряются — используй `down` без -v
+
+services:
+  web:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - crm_data:/app
+    restart: unless-stopped
+    command: python manage.py runserver 0.0.0.0:8000
+
+  worker:
+    build: .
+    env_file: .env
+    volumes:
+      - crm_data:/app
+    restart: unless-stopped
+    command: python manage.py process_inbound
+    depends_on:
+      - web
+
+  # Telegram customer chat-bot (optional — uncomment to enable)
+  # bot:
+  #   build: .
+  #   env_file: .env
+  #   volumes:
+  #     - crm_data:/app
+  #   restart: unless-stopped
+  #   command: python manage.py run_admin_bot
+
+  # Ollama (local AI — optional, or set OLLAMA_URL to external host)
+  # ollama:
+  #   image: ollama/ollama
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+  #   profiles:
+  #     - ollama
+
+volumes:
+  crm_data:
+  # ollama_data:

@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+{% block title %}Входящие заявки{% endblock %}
+{% block content %}
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <div class="text-uppercase small fw-semibold text-primary mb-1">Admin Ops</div>
+      <h1 class="mb-1">Входящие заявки</h1>
+      <p class="text-muted mb-0">Одна карточка на thread: актуальный риск, AI-анализ и полная история общения.</p>
+    </div>
+  </div>
+
+  <section class="card card-soft mb-4" aria-label="Фильтры заявок">
+    <div class="card-body">
+      <div class="d-flex flex-wrap gap-2 mb-3">
+        {% for option in filter_options %}
+          <a
+            class="btn btn-sm {% if selected_filter == option.key %}btn-dark{% else %}btn-outline-secondary{% endif %}"
+            href="?status={{ option.key }}{% if search %}&amp;q={{ search|urlencode }}{% endif %}"
+          >
+            {{ option.label }} <span class="badge {% if selected_filter == option.key %}text-bg-light{% else %}text-bg-secondary{% endif %}">{{ option.count }}</span>
+          </a>
+        {% endfor %}
+      </div>
+      <form class="row g-2" method="get">
+        <input type="hidden" name="status" value="{{ selected_filter }}">
+        <div class="col-lg-9">
+          <label class="visually-hidden" for="requestSearch">Поиск</label>
+          <input id="requestSearch" class="form-control" type="search" name="q" value="{{ search }}" placeholder="Телефон, ID, external ID или AI-тема">
+        </div>
+        <div class="col-lg-3 d-flex gap-2">
+          <button class="btn btn-primary flex-grow-1" type="submit">Найти</button>
+          {% if search %}<a class="btn btn-outline-secondary" href="?status={{ selected_filter }}">Сбросить</a>{% endif %}
+        </div>
+      </form>
+    </div>
+  </section>
+
+  {% for card in cards %}
+    {% with item=card.item %}
+      <article class="card card-soft mb-4 overflow-hidden" id="request-{{ item.pk }}">
+        <div class="card-header bg-white border-0 pt-4 px-4">
+          <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+            <div>
+              <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                <span class="badge text-bg-dark">#{{ item.id }}</span>
+                <span class="badge {% if item.status == 'processed' %}text-bg-success{% elif item.status == 'suspicious' %}text-bg-danger{% elif item.status == 'blocked' or item.status == 'failed' %}text-bg-dark{% elif item.status == 'retry_wait' %}text-bg-warning{% else %}text-bg-secondary{% endif %}">{{ item.status }}</span>
+                <span class="badge text-bg-light border text-dark">{{ item.source_name|default:item.source_type }}</span>
+              </div>
+              <h2 class="h4 mb-1">{{ item.ai_topic|default:item.ai_need|default:item.message_text|default:"Обращение клиента"|truncatechars:110 }}</h2>
+              <div class="text-muted small">
+                Получена {{ item.received_at }} · обновлена {{ item.updated_at }}
+                {% if card.dialog %} · thread {{ card.dialog.external_thread_id }}{% endif %}
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              {% if item.linked_deal and not item.linked_deal.is_spam %}
+                <a class="btn btn-outline-primary btn-sm" href="{% url 'deal_detail' item.linked_deal.pk %}">Открыть сделку</a>
+              {% elif item.linked_deal and item.linked_deal.is_spam %}
+                <span class="badge text-bg-dark align-self-center">Сделка скрыта как спам</span>
+              {% endif %}
+              {% if item.status == "retry_wait" or item.status == "failed" %}
+                <form method="post" action="{% url 'inbound_request_retry' item.pk %}">
+                  {% csrf_token %}
+                  <button class="btn btn-warning btn-sm" type="submit">Повторить обработку</button>
+                </form>
+              {% endif %}
+              {% if item.status == "suspicious" or item.status == "blocked" %}
+                <form method="post" action="{% url 'inbound_request_not_spam' item.pk %}">
+                  {% csrf_token %}
+                  <button class="btn btn-success btn-sm" type="submit">Восстановить</button>
+                </form>
+                <form method="post" action="{% url 'inbound_request_spam' item.pk %}">
+                  {% csrf_token %}
+                  <button class="btn btn-outline-danger btn-sm" type="submit">Спам</button>
+                </form>
+              {% endif %}
+              <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#deleteRequestModal{{ item.pk }}">Удалить</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body px-4 pb-4">
+          <section class="rounded-3 border p-3 p-lg-4 mb-4 {% if card.risk_band == 'blocked' %}bg-dark text-white{% elif card.risk_band == 'suspicious' %}bg-danger-subtle border-danger-subtle{% elif card.risk_band == 'risk_flagged' %}bg-warning-subtle border-warning-subtle{% else %}bg-success-subtle border-success-subtle{% endif %}" aria-label="Риск-панель заявки {{ item.id }}">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-3 text-center text-lg-start">
+                <div class="small text-uppercase fw-semibold {% if card.risk_band == 'blocked' %}text-white-50{% else %}text-muted{% endif %}">Итоговый риск</div>
+                <div class="display-4 fw-bold lh-1 my-2">{{ card.risk_score }}<span class="fs-5">/100</span></div>
+                <span class="badge {% if card.risk_band == 'blocked' %}text-bg-light{% elif card.risk_band == 'suspicious' %}text-bg-danger{% elif card.risk_band == 'risk_flagged' %}text-bg-warning{% else %}text-bg-success{% endif %}">{{ card.risk_band_label }}</span>
+                <div class="small mt-2 {% if card.risk_band == 'blocked' %}text-white-50{% else %}text-muted{% endif %}">rules: {{ item.risk_score_rules }}/100</div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row g-2 mb-3">
+                  <div class="col-6 col-xl-3"><div class="bg-white border rounded p-3 h-100 text-dark"><div class="small text-muted">Spam</div><div class="h4 mb-0">{{ item.ai_spam_percent }}</div></div></div>
+                  <div class="col-6 col-xl-3"><div class="bg-white border rounded p-3 h-100 text-dark"><div class="small text-muted">Toxicity</div><div class="h4 mb-0">{{ item.ai_toxicity_percent }}</div></div></div>
+                  <div class="col-6 col-xl-3"><div class="bg-white border rounded p-3 h-100 text-dark"><div class="small text-muted">Troll</div><div class="h4 mb-0">{{ item.ai_troll_percent }}</div></div></div>
+                  <div class="col-6 col-xl-3"><div class="bg-white border rounded p-3 h-100 text-dark"><div class="small text-muted">Off-topic</div><div class="h4 mb-0">{{ item.ai_off_topic_percent }}</div></div></div>
+                </div>
+                {% if item.has_ai_analysis %}
+                  <div class="small mb-2 {% if card.risk_band == 'blocked' %}text-white-50{% else %}text-muted{% endif %}">Последний пересчёт: {{ card.risk_updated_at }}{% if card.latest_risk_log %} · {{ card.latest_risk_log.step }}{% endif %}</div>
+                {% else %}
+                  <div class="alert alert-light border py-2 mb-2">AI ещё не считал. Показан rules-only score.</div>
+                {% endif %}
+                <div class="fw-semibold mb-1">Причины</div>
+                <div class="mb-2">{{ item.spam_reason|default:"Сигналы риска не обнаружены" }}</div>
+                {% if item.ai_moderation_labels %}
+                  <div class="d-flex flex-wrap gap-1">
+                    {% for label in item.ai_moderation_labels %}<span class="badge text-bg-danger">{{ label }}</span>{% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+            <hr class="my-3 {% if card.risk_band == 'blocked' %}border-secondary{% endif %}">
+            <div class="row g-2 small">
+              <div class="col-md-4"><span class="fw-semibold">Телефон raw:</span> {{ item.phone_raw|default:"-" }}</div>
+              <div class="col-md-4"><span class="fw-semibold">Нормализован:</span> {{ item.phone_normalized|default:"не нормализован" }}</div>
+              <div class="col-md-4"><span class="fw-semibold">Источник:</span> {{ item.source_type }}{% if item.source_name %} · {{ item.source_name }}{% endif %}</div>
+            </div>
+          </section>
+
+          {% if card.cluster %}
+          <section class="rounded-3 border p-3 mb-4 bg-light" aria-label="Fingerprint-кластер заявки {{ item.id }}">
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+              <h3 class="h6 text-uppercase text-muted mb-0">Fingerprint / кластер</h3>
+              <span class="badge text-bg-warning">кластер {{ card.cluster.count }}</span>
+            </div>
+            <div class="row g-2 small mb-2">
+              <div class="col-md-6">
+                <span class="fw-semibold">User-Agent:</span>
+                {% if item.user_agent %}
+                  <span title="{{ item.user_agent }}">{{ item.user_agent|truncatechars:60 }}</span>
+                {% else %}
+                  <span class="text-muted">—</span>
+                {% endif %}
+              </div>
+              <div class="col-md-3">
+                <span class="fw-semibold">IP:</span> {{ item.ip_address|default:"—" }}
+              </div>
+              <div class="col-md-3">
+                <span class="fw-semibold">Связанных:</span>
+                {% for rid in card.cluster.request_ids %}
+                  <a href="#request-{{ rid }}">#{{ rid }}</a>{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% if card.cluster.unique_phones or card.cluster.unique_emails %}
+            <div class="small mb-2">
+              <span class="fw-semibold">Контакты кластера —</span>
+              телефоны: {% for p in card.cluster.unique_phones %}<code>{{ p }}</code>{% if not forloop.last %}, {% endif %}{% empty %}<span class="text-muted">нет</span>{% endfor %};
+              email: {% for e in card.cluster.unique_emails %}<code>{{ e }}</code>{% if not forloop.last %}, {% endif %}{% empty %}<span class="text-muted">нет</span>{% endfor %}
+            </div>
+            {% endif %}
+            {% if card.cluster.message_texts %}
+            <div class="small">
+              <span class="fw-semibold d-block mb-1">Лента сообщений кластера:</span>
+              <div class="border rounded bg-white p-2" style="max-height:160px;overflow-y:auto;">
+                {% for txt in card.cluster.message_texts %}
+                  <div class="mb-1 border-bottom pb-1">{{ txt|truncatechars:200 }}</div>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
+          </section>
+          {% endif %}
+
+          <div class="row g-4">
+            <div class="col-lg-5">
+              <section class="h-100">
+                <h3 class="h6 text-uppercase text-muted mb-3">AI-анализ</h3>
+                {% if item.has_ai_analysis %}
+                  <div class="small text-muted mb-2">{{ item.ai_category_display }} · {{ item.ai_urgency_display }}</div>
+                  <dl class="row small mb-3">
+                    <dt class="col-4">Тема</dt><dd class="col-8">{{ item.ai_topic|default:"-" }}</dd>
+                    <dt class="col-4">Потребность</dt><dd class="col-8">{{ item.ai_need|default:"-" }}</dd>
+                    <dt class="col-4">Срочность</dt><dd class="col-8">{{ item.ai_urgency_display }}</dd>
+                    <dt class="col-4">Категория</dt><dd class="col-8">{{ item.ai_category_display }}</dd>
+                  </dl>
+                  <div class="border rounded bg-light p-3">
+                    <div class="small fw-semibold text-uppercase text-muted mb-1">Резюме</div>
+                    {{ item.ai_summary|default:"Резюме не сформировано"|linebreaksbr }}
+                  </div>
+                {% else %}
+                  <div class="alert alert-light border">Анализ появится после выполнения worker.</div>
+                {% endif %}
+                {% if item.last_error %}<div class="alert alert-danger mt-3 mb-0"><strong>Ошибка:</strong> {{ item.last_error }}</div>{% endif %}
+              </section>
+            </div>
+            <div class="col-lg-7">
+              <section>
+                <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
+                  <h3 class="h6 text-uppercase text-muted mb-0">Сообщения</h3>
+                  {% if card.dialog %}<span class="badge text-bg-light border text-dark">{{ card.dialog.channel.get_type_display }} · {{ card.messages|length }}</span>{% else %}<span class="badge text-bg-warning">raw fallback</span>{% endif %}
+                </div>
+                <div class="border rounded bg-light p-3" style="max-height: 420px; overflow-y: auto;">
+                  {% for message in card.messages %}
+                    <div class="d-flex mb-3 {% if message.direction == 'outbound' %}justify-content-end{% else %}justify-content-start{% endif %}">
+                      <div class="rounded-3 px-3 py-2 {% if message.direction == 'outbound' %}bg-primary text-white{% else %}bg-white border{% endif %}" style="max-width: 88%;">
+                        <div class="small {% if message.direction == 'outbound' %}text-white-50{% else %}text-muted{% endif %}">
+                          {{ message.direction_label }} · {{ message.created_at|default:"время не указано" }} · {{ message.status_label }}{% if message.sent_by_label %} · {{ message.sent_by_label }}{% endif %}
+                        </div>
+                        <div>{{ message.text|linebreaksbr }}</div>
+                      </div>
+                    </div>
+                  {% empty %}
+                    <div class="text-muted">Сообщений пока нет.</div>
+                  {% endfor %}
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="accordion mt-4" id="requestDetails{{ item.pk }}">
+            <div class="accordion-item">
+              <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#processingLog{{ item.pk }}">Журнал обработки · {{ card.processing_logs|length }}</button></h3>
+              <div id="processingLog{{ item.pk }}" class="accordion-collapse collapse" data-bs-parent="#requestDetails{{ item.pk }}">
+                <div class="accordion-body p-0">
+                  <div class="list-group list-group-flush">
+                    {% for log in card.processing_logs %}
+                      <div class="list-group-item">
+                        <div class="small text-muted">{{ log.created_at }} · {{ log.status }}</div>
+                        <div><strong>{{ log.step }}</strong>{% if log.message %} · {{ log.message }}{% endif %}</div>
+                        {% if log.details_json %}
+                          <pre class="small bg-light border rounded p-2 mt-2 mb-0" style="white-space: pre-wrap;">{{ log.details_json }}</pre>
+                        {% endif %}
+                      </div>
+                    {% empty %}<div class="list-group-item text-muted">Журнал пока пуст.</div>{% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#technicalData{{ item.pk }}">Технические данные</button></h3>
+              <div id="technicalData{{ item.pk }}" class="accordion-collapse collapse" data-bs-parent="#requestDetails{{ item.pk }}">
+                <div class="accordion-body">
+                  <div class="small text-muted mb-1">external_id: {{ item.external_id }}</div>
+                  <div class="small text-muted mb-2">IP: {{ item.ip_address|default:"-" }} · User-Agent: {{ item.user_agent|default:"-" }}</div>
+                  <pre class="small bg-dark text-light rounded p-3 mb-0" style="white-space: pre-wrap;">{{ item.raw_payload_json }}</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    {% endwith %}
+  {% empty %}
+    <div class="card card-soft"><div class="card-body text-center text-muted py-5">По выбранному фильтру заявок нет.</div></div>
+  {% endfor %}
+
+  {% for card in cards %}
+    {% with item=card.item %}
+      <div class="modal fade" id="deleteRequestModal{{ item.pk }}" tabindex="-1" aria-labelledby="deleteRequestModalLabel{{ item.pk }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="deleteRequestModalLabel{{ item.pk }}">Удалить заявку?</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body">Заявка #{{ item.id }} и её журнал обработки будут удалены.{% if item.linked_deal %} Связанная сделка сохранится.{% endif %}</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Отмена</button>
+            <form method="post" action="{% url 'inbound_request_delete' item.pk %}">{% csrf_token %}<button class="btn btn-danger" type="submit">Да, удалить</button></form>
+          </div>
+        </div></div>
+      </div>
+    {% endwith %}
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,17 @@
+{% with current_url=request.resolver_match.url_name %}
+  <div class="mb-4">
+    <p class="text-uppercase text-muted fw-semibold small mb-1">Администрирование</p>
+    <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+      <div>
+        <h1 class="mb-1">Настройки</h1>
+        <p class="text-muted mb-0">Пользователи, AI provider и optional transport-настройки.</p>
+      </div>
+    </div>
+    <nav class="nav nav-pills gap-2 mt-3" aria-label="Разделы настроек">
+      <a class="nav-link {% if current_url == 'users' or current_url == 'user_create' or current_url == 'user_edit' or current_url == 'user_delete' %}active{% endif %}" href="{% url 'users' %}">Пользователи</a>
+      <a class="nav-link {% if current_url == 'ai_settings' %}active{% endif %}" href="{% url 'ai_settings' %}">AI</a>
+      <a class="nav-link {% if current_url == 'bot_settings' %}active{% endif %}" href="{% url 'bot_settings' %}">Transport</a>
+      <a class="nav-link {% if current_url == 'webhook_settings' %}active{% endif %}" href="{% url 'webhook_settings' %}">Webhook</a>
+    </nav>
+  </div>
+{% endwith %}

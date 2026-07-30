@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Настройки Telegram и чат-бота{% endblock %}
+
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h2 class="h3 mb-1">Telegram и клиентский чат-бот</h2>
+      <p class="text-muted mb-0">Подключение Telegram и поведение AI-черновиков настраиваются независимо.</p>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="card card-soft h-100">
+        <div class="card-body">
+          <h2 class="h5">Текущее состояние</h2>
+          <dl class="mb-0">
+            <dt>Bot token</dt>
+            <dd>
+              {% if bot_token_mask %}
+                <code>{{ bot_token_mask }}</code>
+              {% else %}
+                <span class="text-muted">не задан</span>
+              {% endif %}
+            </dd>
+            <dt>Перезапуск</dt>
+            <dd class="mb-0">После смены token перезапустите <code>python manage.py run_admin_bot</code>.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card card-soft">
+        <div class="card-body">
+          <form method="post">
+            {% csrf_token %}
+            <section>
+              <h2 class="h5">Telegram transport</h2>
+              <p class="text-muted small">Token и allowlist административных команд. Полный token после сохранения не отображается.</p>
+              {{ form.bot_token_input.as_field_group }}
+              {{ form.admin_chat_id.as_field_group }}
+              {{ form.admin_telegram_ids.as_field_group }}
+            </section>
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <button class="btn btn-primary" type="submit" name="action" value="save_transport">Сохранить подключение</button>
+              <button class="btn btn-outline-success" type="submit" name="action" value="check_transport">Сохранить и проверить подключение</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card card-soft mt-4">
+    <div class="card-body">
+      <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
+        <div>
+          <h2 class="h5 mb-1">Промпт клиентского чат-бота</h2>
+          <p class="text-muted small mb-0">
+            Отдельная настройка тона и сценария AI-черновика. Факты автоматически берутся из базы знаний.
+          </p>
+        </div>
+        <span class="badge text-bg-light border">
+          {% if settings_obj.customer_prompt %}
+            задан · {{ settings_obj.customer_prompt|length }} символов
+          {% else %}
+            используется системный prompt
+          {% endif %}
+        </span>
+      </div>
+      <div class="alert alert-light border small" role="alert">
+        Промпт не может отключить JSON-валидацию, модерацию или подтверждение менеджером. Ответ клиенту автоматически не отправляется.
+      </div>
+      <form method="post">
+        {% csrf_token %}
+        {{ customer_prompt_form.customer_prompt.as_field_group }}
+        <button class="btn btn-primary mt-3" type="submit" name="action" value="save_customer_prompt">Сохранить промпт</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

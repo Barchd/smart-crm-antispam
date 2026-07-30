@@ -1,0 +1,437 @@
+brand|model|name|price_from|credit_month|benefit|engine|transmission|drive|in_stock|url
+Aito|M5|Aito M5|6215000|84796|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/aito/m5
+Aito|M7|Aito M7|7415000|101169|75000|1.5 л|DHT|Полный|1|https://skayavto.ru/catalog/aito/m7
+Aito|M9|Aito M9|8425000|114949|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/aito/m9
+Amberauto|A5|Amberauto A5|2150000|29334|75000|0 л|AT|Передний|1|https://skayavto.ru/catalog/amberauto/a5
+Avatr|07|Avatr 07|6425000|87661|75000|1.5 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/avatr/07
+Avatr|12|Avatr 12|6706000|91495|75000|0 л|AT|Полный|1|https://skayavto.ru/catalog/avatr/12
+Avatr|11|Avatr 11|6875000|93801|75000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/avatr/11
+BAIC|X35|Baic X35|1299000|17723|576000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/baic/x35
+BAIC|U5 Plus|Baic U5 Plus|1569000|21407|664000|1.5 л|5MT, CVT|Передний|1|https://skayavto.ru/catalog/baic/u5-plus
+BAIC|U5 Plus CNG|BAIC U5 Plus CNG|1645522|22451|445000|1.5 л|5MT, CVT|Передний|1|https://skayavto.ru/catalog/baic/u5
+BAIC|EU5|BAIC EU5|1755000|23945|445000|0 л|AT|Передний|1|https://skayavto.ru/catalog/baic/eu5
+BAIC|X7|BAIC X7|1815000|24764|125000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/baic/x7
+BAIC|X55|BAIC X55|1840000|25105|1130000|1.5 л|7CVT|Передний|1|https://skayavto.ru/catalog/baic/x55
+BAIC|X75|BAIC X75|2024000|27615|76000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/baic/x75
+BAIC|BJ40|BAIC BJ40|2810000|38339|215000|2-2 л|8AT|Полный|1|https://skayavto.ru/catalog/baic/bj40
+BAIC|BJ60|BAIC BJ60|4625000|63103|875000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/baic/bj60
+BYD|Qin Plus|BYD Qin Plus|2489900|33972|410000|1.5 л|AT, CVT|Передний|1|https://skayavto.ru/catalog/byd/qin-plus
+BYD|Song Pro|BYD Song Pro|2570000|35065|420000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/byd/song-pro
+BYD|Yuan Plus|BYD Yuan Plus|3210000|43797|480000|0 л|AT|Передний|1|https://skayavto.ru/catalog/byd/yuan-plus
+BYD|Han|BYD Han|4619000|63021|580000|0 л|AT|Полный|1|https://skayavto.ru/catalog/byd/han
+BYD|Tang|BYD Tang|5075000|69242|675000|0 л|AT|Полный|1|https://skayavto.ru/catalog/byd/tang
+BYD|FangChengBao Leopard 5|BYD FangChengBao Leopard 5|5125000|69925|75000|1.5 л|CVT|Полный|1|https://skayavto.ru/catalog/byd/fangchengbao-leopard-5
+Belgee|S50|Belgee S50|1694000|23113|155000|1.5 л|AT, MT|Передний|1|https://skayavto.ru/catalog/belgee/s50
+Belgee|X50|Belgee X50|1725000|23536|755000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/belgee/x50
+Belgee|X70|Belgee X70|1829000|24955|750000|1.5 л|AMT, AT|Передний, Полный|1|https://skayavto.ru/catalog/belgee/x70
+Belgee|X50+|Belgee X50+|2244990|30630|75000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/belgee/x50-plus
+Changan|Alsvin|Changan Alsvin|1304900|17804|635000|1.5 л|5DCT|Передний|1|https://skayavto.ru/catalog/changan/alsvin
+Changan|CS55 Plus III|Changan CS55 Plus III|1304900|17804||1.5 л|7DCT|Передний|0|https://skayavto.ru/catalog/changan/cs55
+Changan|CS95 Plus|Changan CS95 Plus|1304900|17804||2 л|8AT|Полный|0|https://skayavto.ru/catalog/changan/cs95-plus
+Changan|Eado Plus|Changan Eado Plus|1444900|19714|935000|1.4-1.4 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/eadoplus
+Changan|Hunter Plus|Changan Hunter Plus|2134900|29128|835000|2 л|6MT|Полный|1|https://skayavto.ru/catalog/changan/hunter-plus
+Changan|UNI-S|Changan UNI-S|2144900|29265|1035000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/uni-s
+Changan|CS75FL|Changan CS75FL|2149900|29333|320000|1.8 л|6AT|Передний, Полный|1|https://skayavto.ru/catalog/changan/cs75fl
+Changan|UNI-T|Changan UNI-T|2269900|30970|970000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/changan/uni-t
+Changan|UNI-V|Changan UNI-V|2274900|31038|915000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/uni-v
+Changan|CS75 Plus|Changan CS75 Plus|2344900|31993|1475000|1.5-2 л|AT|Передний|1|https://skayavto.ru/catalog/changan/cs75plus
+Changan|Lamore|Changan Lamore|2404900|32812|525000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/lamore
+Changan|CS55 Plus|Changan CS55 Plus|2465900|33644|714000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/cs55plus
+Changan|Raeton Plus|Changan Raeton Plus|2510000|34246|275000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/raeton-plus
+Changan|CS35 max|Changan CS35 max|2524900|34449|75000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/changan/cs35-max
+Changan|CS35 Plus New|Changan CS35 Plus New|2539900|34654|240000|1.4 л|7DCT|Передний|1|https://skayavto.ru/catalog/changan/cs35plus-new
+Changan|UNI-L|Changan UNI-L|2854900|38952|75000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/changan/uni-l
+Changan|UNI-S new|Changan UNI-S new|2904900|39634|75000|1.5 л|AMT|Полный|1|https://skayavto.ru/catalog/changan/uni-s-new
+Changan|UNI-K|Changan UNI-K|3194900|43591|1015000|2 л|8AT|Передний, Полный|1|https://skayavto.ru/catalog/changan/uni-k
+Changan|CS95|Changan CS95|3299000|45011|1230000|2 л|6AT|Полный|1|https://skayavto.ru/catalog/changan/cs95
+Changan|CS85 Coupe|Changan CS85 Coupe|3359900|45842|400000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/changan/cs85-coupe
+Changan|CS75 Plus IV|Changan CS75 Plus IV|4024900|54915|165000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/changan/cs75
+Changan|CS95 New|Changan CS95 New|4449900|60714|400000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/changan/cs95-new
+Changan|UNI-K iDD|Changan UNI-K iDD|4629900|63169|700000|1.5 л|6AT|Передний|1|https://skayavto.ru/catalog/changan/uni-k-idd
+Chery|Tiggo 4 Pro|Chery Tiggo 4 Pro|1555000|21216|350000|1.5 л|7CVT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-4-pro
+Chery|Tiggo 7 Pro e+|Chery Tiggo 7 Pro e+|1555000|21216||0 л|* Привод|* Клиренс мм|0|https://skayavto.ru/catalog/chery/tiggo-7-pro-e
+Chery|Tiggo 4|Chery Tiggo 4|1565000|21353|474000|1.5-1.5 л|AMT, CVT, MT|Передний|1|https://skayavto.ru/catalog/chery/tiggo4
+Chery|Explore 06|Chery Explore 06|1990000|27151|360000|1.5 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/chery/explore-06
+Chery|Tiggo 7 Pro|Chery Tiggo 7 Pro|2055000|28038|345000|1.5 л|9CVT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-7-pro
+Chery|Arrizo 8|Chery Arrizo 8|2070000|28243|795000|1.6 л|7DCT|Передний|1|https://skayavto.ru/catalog/chery/arrizo-8
+Chery|Tiggo 7L|Chery Tiggo 7L|2105000|28720|630000|1.6 л|DCT|Передний, Полный|1|https://skayavto.ru/catalog/chery/chery
+Chery|Tiggo 7 Pro Max|Chery Tiggo 7 Pro Max|2376000|32418|234000|1.6 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/chery/tiggo-7-pro-max
+Chery|8 Pro Max New|Tiggo 8 Pro Max New|2530000|34519|775000|1.6-2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/chery/tiggo-8-pro-max-new
+Chery|Tiggo 8 Pro Max|Chery Tiggo 8 Pro Max|2530000|34519|775000|1.6-2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/chery/tiggo-8-pro-max
+Chery|Tiggo 8|Chery Tiggo 8|2590000|35337|450000|1.5 л|6DCT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-8-new
+Chery|Tiggo 8 Pro|Chery Tiggo 8 Pro|2925000|39908|405000|1.6 л|7DCT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-8-pro
+Chery|Tiggo 7 Pro Plug-in Hybrid|Chery Tiggo 7 Pro Plug-in Hybrid|3190000|43524|519000|1.5 л|DHT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-7pro-plug-in-hybrid
+Chery|Tiggo 9|Chery Tiggo 9|3305000|45093|1030000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/chery/tiggo-9
+Chery|Tiggo 8 Pro Plug-in Hybrid|Chery Tiggo 8 Pro Plug-in Hybrid|3625000|49459|440000|1.5 л|DHT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-8-pro-plug-in-hybrid
+Chery|Tiggo 8 Pro e+|Chery Tiggo 8 Pro e+|4350000|59351|580000|1.5 л|DHT|Передний|1|https://skayavto.ru/catalog/chery/tiggo-8-pro-e
+CheryExeed|LX New|CheryExeed LX New|2420000|33018|430000|1.5-1.6 л|7DCT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/cheryexeed/lx-new
+CheryExeed|TXL New|CheryExeed TXL New|2875000|39226|805000|1.6-2 л|7DCT, 8AT|Полный|1|https://skayavto.ru/catalog/cheryexeed/txl-new
+CheryExeed|RX|CheryExeed RX|3800000|51846|1100000|2 л|7DCT, 8AT|Полный|1|https://skayavto.ru/catalog/cheryexeed/rx
+CheryExeed|VX New|CheryExeed VX New|4535000|61875|995000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/cheryexeed/vx-new
+Citroen|Berlingo|Citroen Berlingo|1239000|16905||0 л|* Привод|* Клиренс мм|0|https://skayavto.ru/catalog/citroen/berlingo
+Citroen|C3 Aircross|Citroen C3 Aircross|1239000|16905|420000|1.2-1.6 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/citroen/c3-aircross
+Citroen|Multispace|Berlingo Multispace|1774000|24204|335000|1.6-1.6 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/citroen/berlingo-multispace
+Citroen|C4 Sedan|Citroen C4 Sedan|1794000|24477|455000|1.6-1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/citroen/c4-sedan
+Citroen|Jumpy|Citroen Jumpy|2594900|35404|425000|1.6-2 л|5MT, 6AT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/citroen/jumpy
+Citroen|C5 Aircross|Citroen C5 Aircross|3574000|48763|425000|1.6 л|8AT|Передний|1|https://skayavto.ru/catalog/citroen/c5-aircross
+Citroen|C5 X|Citroen C5 X|3974000|54220|325000|1.6 л|8AT|Передний|1|https://skayavto.ru/catalog/citroen/c5
+Citroen|SpaceTourer XL I Рестайлинг|Citroen SpaceTourer XL I Рестайлинг|5925000|80840|75000|2 л|AT|Передний|1|https://skayavto.ru/catalog/citroen/spacetourer-xl-restyling
+Dacia|Bigster|Dacia Bigster|||75000|1.2 л|MT|Полный|1|https://skayavto.ru/catalog/dacia/bigster
+Datsun|ON-DO|Datsun ON-DO|520000|7095|170000|1.6 л|4 AT, 5 MT|Передний|1|https://skayavto.ru/catalog/datsun/on-do
+Datsun|MI-DO|Datsun MI-DO|550000|7504|170000|1.6 л|4 AT, 5 MT|Передний|1|https://skayavto.ru/catalog/datsun/mi-do
+Deepal|G318|Deepal G318|5575000|76064|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/deepal/g318
+Dongfeng|AX7|Dongfeng AX7|1182900|16139|415000|2 л|6 AT|Передний|1|https://skayavto.ru/catalog/dongfeng/ax7
+Dongfeng|Aeolus AX7 Plus|Dongfeng Aeolus AX7 Plus|1182900|16139||1.5-1.5 л|AMT, MT|Передний|0|https://skayavto.ru/catalog/dongfeng/dongfeng-aeolus-ax7-pius
+Dongfeng|Fukang ES600|Dongfeng Fukang ES600|1182900|16139||0 л|AT|Передний|0|https://skayavto.ru/catalog/dongfeng/fukang-es600
+Dongfeng|580|Dongfeng 580|1324000|18064|575000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/dongfeng/580
+Dongfeng|Captain-T|Dongfeng Captain-T|1345000|18351|345000|2.2 л|5MT|Задний|1|https://skayavto.ru/catalog/dongfeng/captain-t
+Dongfeng|DFSK 500|Dongfeng DFSK 500|1625000|22171|274000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/dongfeng/dfsk-500
+Dongfeng|DFSK ix5|Dongfeng DFSK ix5|1635000|22308|355000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/dongfeng/dfsk-ix5
+Dongfeng|Aeolus Shine Max|Dongfeng Aeolus Shine Max|1804000|24613|395000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/dongfeng/aeolus-shine-max
+Dongfeng|DF6|Dongfeng DF6|2024000|27615|625000|2.3-2.5 л|5MT, 6MT, 8AT|Полный|1|https://skayavto.ru/catalog/dongfeng/df6
+Dongfeng|DFSK ix7|DongFeng DFSK ix7|2405000|32813|585000|2 л|6AT|Полный|1|https://skayavto.ru/catalog/dongfeng/dfsk-ix7
+Dongfeng|MAGE|Dongfeng MAGE|2524000|34437|375000|1.5 л|DCT|Передний|1|https://skayavto.ru/catalog/dongfeng/mage
+Dongfeng|Shine Max|Dongfeng Shine Max|2645000|36088|345000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/dongfeng/shine-max
+Dongfeng|Aeolus Huge|Dongfeng Aeolus Huge|2755000|37589|284000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/dongfeng/aeolus-huge
+EONYX|City (M2)|Eonyx City (M2)|471000|6426|75000|0 л|AT|Задний|1|https://skayavto.ru/catalog/eonyx/eonyx-city-m2
+Evolute|i-PRO|Evolute i-PRO|1584000|21612|906000|0 л|AT|Передний|1|https://skayavto.ru/catalog/evolute/i-pro
+Evolute|i-Joy|Evolute i-Joy|1875000|25582|900000|0 л|AT|Передний|1|https://skayavto.ru/catalog/evolute/i-joy
+Evolute|i-Sky City Edition|Evolute i-Sky City Edition|2115000|28857|1100000|0 л|AT|Передний|1|https://skayavto.ru/catalog/evolute/i-sky-city-edition
+Evolute|i-Space|Evolute i-Space|2324000|31708|175000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/evolute/i-space
+Evolute|i-Space|Evolute i-Space|2375000|32404|1040000|1.5 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/evolute/i-space-new
+Evolute|i-Van|Evolute i-Van|2890000|39431|1030000|0 л|AT|Задний|1|https://skayavto.ru/catalog/evolute/i-van
+Evolute|i-Sky|Evolute i-Sky|3105000|42364|815000|0 л|AT|Передний|1|https://skayavto.ru/catalog/evolute/i-sky
+Exlantix|ES|Exlantix ES|5805000|79202|365000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/exlanix/es
+Exlantix|ET|Exlantix ET|6325000|86297|665000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/exlanix/et
+Faw|Besturn X40|Faw Besturn X40|1442000|19674|458000|1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/faw/besturn-x40
+Faw|Besturn X80|Faw Besturn X80|1498000|20438|681000|2 л|6 AT, 6 MT|Передний|1|https://skayavto.ru/catalog/faw/besturn-x80
+Faw|Bestune T55|FAW Bestune T55|1666000|22731|745000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/faw/bestune-t55
+Faw|Bestune T77|Faw Bestune T77|1885000|25719|139000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/faw/bestune-t77
+Faw|Bestune B70|FAW Bestune B70|1999000|27274|375000|1.5-2 л|6AT, 7DCT|Передний|1|https://skayavto.ru/catalog/faw/bestune-b70
+Faw|Bestune T90|FAW Bestune T90|2225000|30357|554000|1.5-2 л|AT, DCT|Передний|1|https://skayavto.ru/catalog/faw/bestune-t90
+Faw|Bestune B70 new|FAW Bestune B70 new|2284990|31176|215000|1.5-2 л|AT, DCT|Передний, Полный|1|https://skayavto.ru/catalog/faw/bestune-b70-new
+Faw|Bestune T99|FAW Bestune T99|2743000|37425|330000|2 л|6AT|Передний|1|https://skayavto.ru/catalog/faw/bestune-t99
+Faw|Bestune M9|Faw Bestune M9|3225000|44001|695000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/faw/bestune
+Ford|Fiesta Хэтчбек|Ford Fiesta Хэтчбек|747500|10199|390000|1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ford/fiesta-hatchback
+Ford|Fiesta Седан|Ford Fiesta Седан|760500|10376|390000|1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ford/fiesta
+Ford|Focus Хэтчбек|Ford Focus Хэтчбек|932900|12728|410000|1.5-1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ford/focus-hatchback
+Ford|Focus Седан|Ford Focus Седан|945900|12906|410000|1.5-1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ford/focus-sedan
+Ford|Focus Универсал|Ford Focus Универсал|1036900|14147|410000|1.5-1.6 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ford/focus-universal
+Ford|EcoSport|Ford EcoSport|1040900|14202|410000|1.5-2 л|5 MT, 6 AT, 6AT|Передний, Полный|1|https://skayavto.ru/catalog/ford/ecosport
+Ford|Mondeo|Ford Mondeo|1660600|22657|435000|2-2.5 л|6 AT|Передний|1|https://skayavto.ru/catalog/ford/mondeo
+Ford|Kuga|Ford Kuga|1733500|23652|435000|1.5-2.5 л|6 AT|Передний, Полный|1|https://skayavto.ru/catalog/ford/kuga
+Ford|Explorer|Ford Explorer|3308000|45134|605000|3.5 л|6 AT|Полный|1|https://skayavto.ru/catalog/ford/explorer
+Ford|Tourneo Custom рестайлинг|Ford Tourneo Custom рестайлинг|6825000|93119|75000|2 л|AT|Передний|1|https://skayavto.ru/catalog/ford/tourneo-custom-restyling
+Forthing|T5 HEV|Forthing T5 HEV|2110000|28788|490000|1.5 л|DCT|Передний|1|https://skayavto.ru/catalog/forthing/t5-hev
+Forthing|forthing|Forthing|2220000|30289|380000|1.5 л|7DCT, DHT|Передний|1|https://skayavto.ru/catalog/forthing/forthing
+Forthing|Yacht|Forthing Yacht|3660000|49936|530000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/forthing/yacht
+Forthing|M7|Forthing M7|4920000|67128|580000|2 л|8AT|Задний|1|https://skayavto.ru/catalog/forthing/m7
+Foton|Sauvana|Foton Sauvana|1696900|23152|435000|2 л|5 MT, 6 AT|Полный|1|https://skayavto.ru/catalog/foton/sauvana
+Foton|Tunland|Foton Tunland|1709900|23330|435000|2.8 л|5 MT|Полный|1|https://skayavto.ru/catalog/foton/tunland
+Foton|Tunland G7|Futon Tunland G7|2950000|40249|450000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/foton/tunland-g7
+GAC|Aion V|GAC Aion V|1925000|26264||0 л|AT|Передний|0|https://skayavto.ru/catalog/gac/aion-v
+GAC|GS3|GAC GS3|1925000|26264|365000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/gac/gs3
+GAC|GS4|GAC GS4|2625000|35815|674000|1.5-2 л|AMT, AT|Передний, Полный|1|https://skayavto.ru/catalog/gac/gs4
+GAC|Empow|GAC Empow|2755000|37589|344000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/gac/empow
+GAC|GS4 Max|GAC GS4 Max|2866000|39103|274000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/gac/gs4-max
+GAC|GN8|GAC GN8|3375000|46048|545000|2 л|6AT|Передний|1|https://skayavto.ru/catalog/gac/gn8
+GAC|GS8 II|GAC GS8 II|3609000|49241|490000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/gac/gs8-ii
+GAC|GS8|GAC GS8|3724000|50810|675000|2 л|AT|Полный|1|https://skayavto.ru/catalog/gac/gs8
+GAC|S7|Gac S7|5535000|75518|164000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/gac/s7
+GAC|M8|GAC M8|5724999|78111|275000|2 л|AT|Передний|1|https://skayavto.ru/catalog/gac/m8
+Geely|Emgrand|Geely Emgrand|1574990|21489|605000|1.5 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/geely/emgrand
+Geely|Atlas Pro|Geely Atlas Pro|1831990|24995|1005000|1.5 л|6AT, 7DCT|Передний, Полный|1|https://skayavto.ru/catalog/geely/atlas-pro
+Geely|Coolray|Geely Coolray|1959990|26742|835000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/geely/coolray
+Geely|Cityray|Geely Cityray|1979990|27015|870000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/geely/cityray
+Geely|Knewstar 001|Geely Knewstar 001|2398990|32731|1397000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/geely/knewstar
+Geely|New Coolray|Geely New Coolray|2409990|32881|385000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/geely/new
+Geely|Galaxy L7|Geely Galaxy L7|2473000|33741|527000|1.5 л|3AT|Передний|1|https://skayavto.ru/catalog/geely/galaxy-l7
+Geely|Atlas|Geely Atlas|2566990|35024|883000|1.5-2 л|8AT, AMT|Передний, Полный|1|https://skayavto.ru/catalog/geely/atlas
+Geely|Icon|Geely Icon|2679000|36552|474000|1.5 л|6AT, 7DCT|Передний|1|https://skayavto.ru/catalog/geely/icon
+Geely|Okavango|Geely Okavango|2850990|38898|1058000|2 л|7DCT|Передний|1|https://skayavto.ru/catalog/geely/okavango
+Geely|Preface|Geely Preface|2956990|40345|373000|2 л|7DCT|Передний|1|https://skayavto.ru/catalog/geely/preface
+Geely|New Tugella|Geely New Tugella|3132990|42746|827000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/geely/new-tugella
+Geely|Monjaro|Geely Monjaro|3259990|44479|1340000|2 л|AT|Полный|1|https://skayavto.ru/catalog/geely/monjaro
+Geely|EX5|Geely EX5|3475990|47426|694000|0 л|AT|Передний|1|https://skayavto.ru/catalog/geely/geely-ex5
+Geely|EX5 EM-i|Geely EX5 EM-i|3594990|49049|75000|1.5 л|AT|Передний|1|https://skayavto.ru/catalog/geely/geely-ex5-em-i
+Great Wall|Poer Kingkong|Great Wall Poer Kingkong|2674000|36484|625000|2-2 л|6MT|Полный|1|https://skayavto.ru/catalog/great-wall/poer-kingkong
+Great Wall|Poer|Great Wall Poer|3059000|41736|490000|2 л|6MT, 8AT|Полный|1|https://skayavto.ru/catalog/great-wall/poer
+Haima|8s|Haima 8s|2760000|37657|440000|1.6 л|6AT|Передний|1|https://skayavto.ru/catalog/haima/8s
+Haima|7x|Haima 7x|3130000|42705|470000|1.6 л|6AT|Передний|1|https://skayavto.ru/catalog/haima/7x
+Haval|M6|Haval M6|1624000|22158|425000|1.5 л|6MT, 7AMT|Передний|1|https://skayavto.ru/catalog/haval/m6
+Haval|Big Dog|Haval Big Dog|1774000|24204||0 л|* Привод|* Клиренс мм|0|https://skayavto.ru/catalog/haval/bigdog
+Haval|H6 PHEV|Haval H6 PHEV|1774000|24204||1.5 л|DHT|Передний|0|https://skayavto.ru/catalog/haval/phev
+Haval|Jolion|Haval Jolion|1774000|24204|225000|1.5-1.5 л|6MT, 7DCT|Передний, Полный|1|https://skayavto.ru/catalog/haval/jolion
+Haval|H6|Haval H6|1775000|24218|265000|1.5-2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/haval/h6
+Haval|H3|Haval H3|2364000|32254|335000|1.5-1.5 л|AMT|Передний, Полный|1|https://skayavto.ru/catalog/haval/h3
+Haval|F7|Haval F7|2459000|33550|340000|1.5-2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/haval/f7
+Haval|Dargo|Haval Dargo|2524000|34437|525000|2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/haval/dargo
+Haval|Dargo X|Haval Dargo X|2634000|35938|715000|2 л|7DCT|Полный|1|https://skayavto.ru/catalog/haval/dargo-x
+Haval|F7x|Haval F7x|3074000|41941|525000|2 л|AMT|Полный|1|https://skayavto.ru/catalog/haval/f7x
+Haval|H5|Haval H5|3304000|45079|395000|2-2 л|8AT|Полный|1|https://skayavto.ru/catalog/haval/h5-new
+Haval|H7|Haval H7|3724000|50810|275000|2 л|AMT|Полный|1|https://skayavto.ru/catalog/haval/haval-h7
+Haval|H9 II|Haval H9 II|4244000|57904|555000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/haval/h9
+Honda|CR-V|Honda CR-V|4085000|55735|225000|2-2 л|CVT|Полный|1|https://skayavto.ru/catalog/honda/cr-v
+Hongqi|HS3|Hongqi HS3|2815000|38407|275000|1.5-2 л|7DCT, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/hongqi/hs3
+Hongqi|HS5|Hongqi HS5|3225000|44001|335000|2 л|6AT|Полный|1|https://skayavto.ru/catalog/hongqi/hs5
+Hongqi|H5|Hongqi H5|3415000|46594|325000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/hongqi/h5
+Hongqi|H6|Hongqi H6|3625000|49459|345000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/hongqi/h6
+Hongqi|New HS5|Hongqi New HS5|3805000|51915|325000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/hongqi/new-hs5
+Hongqi|New HS7|Hongqi New HS7|4725000|64467|325000|2 л|AT|Польный|1|https://skayavto.ru/catalog/hongqi/new-hs7
+Hongqi|H9|Hongqi H9|4802000|65518|345000|2-3 л|7DCT, AT|Задний, Полный|1|https://skayavto.ru/catalog/hongqi/h9
+Hongqi|HS7|Hongqi HS7|4815000|65695|345000|3 л|8AT|Полный|1|https://skayavto.ru/catalog/hongqi/hs7
+Hongqi|E-HS9|Hongqi E-HS9|5054000|68956|345000|0 л|AT|Полный|1|https://skayavto.ru/catalog/hongqi/e-hs9
+Hongqi|HQ9|Hongqi HQ9|6515000|88889|385000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/hongqi/hq9
+Hyundai|Creta|Hyundai Creta|1349000|18405|315000|1.6-2 л|6AT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/hyundai/creta
+Hyundai|Solaris|Hyundai Solaris|1643000|22417|315000|1.4-1.6 л|6 AT, 6 MT|Передний|1|https://skayavto.ru/catalog/hyundai/solaris
+Hyundai|Elantra|Hyundai Elantra|1960000|26742|315000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/hyundai/elantra
+Hyundai|Mufasa|Hyundai Mufasa|2375000|32404|405000|2 л|AT|Передний|1|https://skayavto.ru/catalog/hyundai/mufasa
+Hyundai|Sonata|Hyundai Sonata|2664000|36347|415000|2-2.5 л|6 AT|Передний|1|https://skayavto.ru/catalog/hyundai/newsonata
+Hyundai|Tucson|Hyundai Tucson|3295000|44956|415000|1.5-2 л|AT|Полный|1|https://skayavto.ru/catalog/hyundai/tucson
+Hyundai|Custin|Hyundai Custin|3575000|48777|465000|1.5 л|AT|Передний|1|https://skayavto.ru/catalog/hyundai/custin
+Hyundai|Sonata New|Hyunday Sonata New|3699000|50468|465000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/hyundai/sonata-new
+Hyundai|Santa Fe|Hyunday Santa Fe|5325000|72653|465000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/hyundai/santa-fe
+Hyundai|Staria|Hyundai Staria|6664000|90922|465000|2.2 л|6MT, 8AT|Полный|1|https://skayavto.ru/catalog/hyundai/staria
+Hyundai|Palisade|Hyundai Palisade|7799000|106408|465000|3.5 л|AT|Полный|1|https://skayavto.ru/catalog/hyundai/palisade
+Hyundai|Palisade II|Hyundai Palisade II|8715000|118906|465000|2.5 л|AT|Передний, Полный|1|https://skayavto.ru/catalog/hyundai/palisade-2
+JMC|Vigus Work|JMC Vigus Work|2579000|35187|420000|2.5 л|5MT|Полный|1|https://skayavto.ru/catalog/jmc/vigus
+Jac|J4|Jac J4|1184000|16154||1.5 л|MT|Передний|0|https://skayavto.ru/catalog/jac/j4
+Jac|S3|Jac S3|1184000|16154|415000|1.6 л|6MT, CVT|Передний|1|https://skayavto.ru/catalog/jac/s3
+Jac|JS3|Jac JS3|1259000|17178|630000|1.6 л|6MT, CVT|Передний|1|https://skayavto.ru/catalog/jac/js3
+Jac|J7|Jac J7|1600000|21830|550000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/jac/j7
+Jac|S7|Jac S7|1692000|23085|435000|1.5 л|6DCT|Передний|1|https://skayavto.ru/catalog/jac/s7
+Jac|JS6|Jac JS6|1814000|24750|995000|1.5 л|6DCT|Передний|1|https://skayavto.ru/catalog/jac/js6
+Jac|T6|Jac T6|2439000|33277|460000|2-2 л|6MT|Полный|1|https://skayavto.ru/catalog/jac/t6
+Jac|T8|JAC T8|2514000|34301|545000|2-2 л|6MT|Полный|1|https://skayavto.ru/catalog/jac/t8
+Jac|T8 Pro|Jac T8 Pro|2654000|36211|625000|2.4 л|6MT|Полный|1|https://skayavto.ru/catalog/jac/t8-pro
+Jac|IEV7S|Jac IEV7S|2674000|36484|575000|0 л|AT|Передний|1|https://skayavto.ru/catalog/jac/iev7s
+Jac|T9|Jac T9|3304000|45079|415000|2-2 л|8AT, AT|Полный|1|https://skayavto.ru/catalog/jac/t9
+Jac|RF8|Jac RF8|4699000|64112|375000|2 л|AT|Передний|1|https://skayavto.ru/catalog/jac/rf8
+Jaecoo|J6|Jaecoo J6|2215000|30221|75000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/jaecoo/j6
+Jaecoo|J7 new|Jaecoo J7 new|2534000|34573|725000|1.6 л|AMT|Полный|1|https://skayavto.ru/catalog/jaecoo/j7-new
+Jaecoo|J7|Jaecoo J7|3094000|42214|75000|1.6 л|AMT|Передний|1|https://skayavto.ru/catalog/jaecoo/j7
+Jaecoo|J8|Jaecoo J8|3404000|46444|1195000|2 л|7DCT|Полный|1|https://skayavto.ru/catalog/jaecoo/j8
+Jetour|X50|Jetour X50|1760000|24013|230000|1.5-1.5 л|5MT, 6DCT|Передний|1|https://skayavto.ru/catalog/jetour/x50
+Jetour|Dashing|Jetour Dashing|1774900|24216|715000|1.5-1.6 л|6DCT, 6MT, 7DCT, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/jetour/dashing
+Jetour|X70 PLUS|Jetour X70 PLUS|2129900|29060|870000|1.6 л|7DCT|Передний|1|https://skayavto.ru/catalog/jetour/x70
+Jetour|X70|Jetour X70|2409000|32868|240000|1.5 л|DCT|Передний|1|https://skayavto.ru/catalog/jetour/jetour-x70
+Jetour|X90 Plus|Jetour X90 Plus|2449900|33426|950000|1.6-2 л|7DCT|Передний|1|https://skayavto.ru/catalog/jetour/x90plus
+Jetour|T2|Jetour T2|3064000|41805|895000|2 л|7DCT, 8AT|Полный|1|https://skayavto.ru/catalog/jetour/t2
+Jetour|T1|Jetour T1|3295000|44956|475000|2 л|8 AT|Полный|1|https://skayavto.ru/catalog/jetour/t1
+Jetta|VA3|Jetta VA3|1075000|14667|705000|1.5 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/jetta/va3
+Jetta|VS7|Jetta VS7|1893000|25828|907000|1.4 л|6AT|Передний|1|https://skayavto.ru/catalog/jetta/vs7
+Jetta|VS5|Jetta VS5|1943000|26510|911000|1.4 л|6AT|Передний|1|https://skayavto.ru/catalog/jetta/vs5
+Kaiyi|E5|Kaiyi E5|1220000|16645|295000|1.5 л|9CVT, MT|Передний|1|https://skayavto.ru/catalog/kaiyi/e5
+Kaiyi|X3|Kaiyi X3|1293000|17641|380000|1.5 л|5MT, 7CVT|Передний|1|https://skayavto.ru/catalog/kaiyi/x3
+Kaiyi|X3 Pro|Kaiyi X3 Pro|1614000|22021|360000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/kaiyi/kaiyi-x3-pro
+Kaiyi|X7 Kunlun|Kaiyi X7 Kunlun|2222000|30317|445000|1.6-2 л|7DCT|Передний|1|https://skayavto.ru/catalog/kaiyi/kaiyi-x7-kunlun
+Kia|Picanto|KIA Picanto|924900|12619|410000|1 л|AT, MT|Передний|1|https://skayavto.ru/catalog/kia/picanto
+Kia|Rio|KIA Rio|1019900|13915|415000|1.4-1.6 л|6 AT, 6 MT|Передний|1|https://skayavto.ru/catalog/kia/rio
+Kia|Rio Х|Kia Rio Х|1159900|15825|415000|1.4-1.6 л|6 AT, 6 MT|Передний|1|https://skayavto.ru/catalog/kia/rio-x
+Kia|Soul|Kia Soul|1499900|20464|435000|1.6-2 л|AT, DCT, MT|Передний|1|https://skayavto.ru/catalog/kia/soul
+Kia|Seltos|KIA Seltos|1629900|22238|435000|1.6-2 л|6AT, 6MT, 7AMT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/kia/seltos
+Kia|Cerato|KIA Cerato|1724900|23534|435000|1.6-2 л|6AT, 6MT|Передний|1|https://skayavto.ru/catalog/kia/cerato
+Kia|Ceed SW|KIA Ceed SW|1859900|25376|455000|1.5-1.6 л|6AT, 7DCT|Передний|1|https://skayavto.ru/catalog/kia/ceed-sw-new
+Kia|Ceed|KIA Ceed|1909900|26058|455000|1.6 л|6AT|Передний|1|https://skayavto.ru/catalog/kia/ceed
+Kia|K5|Kia K5|2279900|31107|455000|2-2.5 л|6 AT, 8 AT|Передний|1|https://skayavto.ru/catalog/kia/k5
+Kia|Sportage|KIA Sportage|2444900|33358|405000|2-2.5 л|AT, MT|Передний, Полный|1|https://skayavto.ru/catalog/kia/sportage-new
+Kia|Stinger|Kia Stinger|3424900|46729|615000|2-3.3 л|8AT|Передний, Полный|1|https://skayavto.ru/catalog/kia/stinger
+Kia|Carnival|Kia Carnival|3519900|48025|625000|2.2-3.5 л|8A|Передний|1|https://skayavto.ru/catalog/kia/carnival
+Kia|Mohave|KIA Mohave|5034900|68695|795000|3 л|8AT|Полный|1|https://skayavto.ru/catalog/kia/mohave
+Kia|K9|Kia K9|6579900|89775|795000|3.3 л|8AT|Полный|1|https://skayavto.ru/catalog/kia/k-9
+Kia|Sorento|KIA Sorento|8505000|116041|595000|2.5 л|AMT|Полный|1|https://skayavto.ru/catalog/kia/sorento
+Lada|Granta Седан|Lada Granta Седан|529900|7230|220000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-granta-sedan
+Lada|Iskra|Lada Iskra|529900|7230||0 л|* Привод|* Клиренс мм|0|https://skayavto.ru/catalog/vaz/iskra
+Lada|Granta Хэтчбек|Lada Granta Хэтчбек|554575|7567|223925|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-hatchback
+Lada|Niva legend 5dr|Lada Niva legend 5dr|677955|9250|240945|1.7 л|5MT|Полный|1|https://skayavto.ru/catalog/vaz/lada-legend-5dr
+Lada|Granta Drive Active|Lada Granta Drive Active|783155|10685|251745|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-granta-driveactive
+Lada|Niva legend 3 dr.|Lada Niva legend 3 dr.|817505|11154|241495|1.7 л|5MT|Полный|1|https://skayavto.ru/catalog/vaz/legend-3dr
+Lada|Granta Лифтбек|Lada Granta Лифтбек|825900|11268|251100|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-liftbek
+Lada|Granta Drive Active liftback|Lada Granta Drive Active liftback|881655|12029|183245|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-driveactive-liftback
+Lada|Granta Sport Drive Active лифтбек|Lada Granta Sport Drive Active лифтбек|886655|12097|178245|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-sport-driveactive
+Lada|Granta Cross|Lada Granta Cross|914000|12470|261000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-granta-cross
+Lada|Vesta|Lada Vesta|962905|13138|276995|1.6-1.8 л|5MT, ATT, MT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-sedan
+Lada|iskra sedan|Lada iskra sedan|1062000|14490|215000|1.6 л|CVT, MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-iskra-sedan
+Lada|Niva Travel|Lada Niva Travel|1062300|14494|280700|1.7-1.8 л|5MT|Полный|1|https://skayavto.ru/catalog/vaz/niva-travel
+Lada|Largus Универсал|Lada Largus Универсал|1135000|15486|525000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/largus-universal
+Lada|Granta Sportline|Lada Granta Sportline|1155700|15768|185300|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-sportline
+Lada|Granta Sportline Лифтбек|Lada Granta Sportline Лифтбек|1189200|16225|191800|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-sportline-liftback
+Lada|Bronto|Lada Bronto|1196800|16329|290200|1.7 л|5 MT|Полный|1|https://skayavto.ru/catalog/vaz/lada-bronto
+Lada|Granta Sport седан|Lada Granta Sport седан|1201850|16398|291150|1.6 л|5 MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-sport
+Lada|Vesta SW|Lada Vesta SW|1275805|17407|412195|1.6-1.8 л|5MT, AT, MT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-sw
+Lada|Granta Sport Лифтбек|Lada Granta Sport Лифтбек|1309850|17871|223150|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/granta-sport-liftback
+Lada|ISKRA SW|LADA ISKRA SW|1312000|17901|215000|1.6 л|AT, MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-iskra-sw
+Lada|Vesta Cross|Lada Vesta Cross|1344000|18337|415000|1.6-1.8 л|5 MT, 6MT, AT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-cross
+Lada|Largus furgon|Lada Largus furgon|1355000|18487|315000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/largus-furgon
+Lada|Iskra sw cross|Lada Iskra sw cross|1442000|19674|215000|1.6 л|AT, MT|Передний|1|https://skayavto.ru/catalog/vaz/lada-iskra-sw-cross
+Lada|Vesta SW Cross|Lada Vesta SW Cross|1464000|19975|415000|1.6-1.8 л|5MT, 6MT, AT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-sw-cross
+Lada|niva sport|Lada niva sport|1519000|20725|215000|1.6 л|MT|Полный|1|https://skayavto.ru/catalog/vaz/lada-niva-sport
+Lada|Largus Cross|LADA Largus Cross|1727805|23574|292195|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/largus-cross
+Lada|X-Cross 5|Lada X-Cross 5|1875550|25590|293450|1.5 л|6MT, 7DCT|Передний|1|https://skayavto.ru/catalog/vaz/xross
+Lada|Vesta Sportline|Lada Vesta Sportline|1978000|26987|295000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-sportline
+Lada|Vesta SW Sportline|Lada Vesta SW Sportline|2118000|28898|325000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/vaz/vesta-sw-sportline
+Lada|Aura|Lada Aura|2434000|33209|165000|1.8 л|AT|Передний|1|https://skayavto.ru/catalog/vaz/vesta
+Li Auto|i8|Lixiang i8|5925000|80840|75000|0 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/i8
+Li Auto|L6|LiXiang L6|6925000|94483|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/l6
+Li Auto|L8|LiXiang L8|7925000|108127|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/l8
+Li Auto|L7|LiXiang L7|8925000|121771|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/l7
+Li Auto|Mega|Lixiang Mega|9425000|128593|75000|0 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/mega
+Li Auto|L9|LiXiang L9|9625000|131322|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/li-auto/l9
+Lifan|X50|Lifan X50|544900|7435|145000|1.5 л|5MT, CVT|Передний|1|https://skayavto.ru/catalog/lifan/x50
+Lifan|Solano II|Lifan Solano II|564900|7707|145000|1.5-1.8 л|5MT, CVT|Передний|1|https://skayavto.ru/catalog/lifan/solano
+Lifan|X60 New|Lifan X60 New|619900|8458|150000|1.8 л|5MT, CVT|Передний|1|https://skayavto.ru/catalog/lifan/x60
+Livan|X3 Pro|Livan X3 Pro|1377000|18788|295000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/livan/x3-pro
+Livan|S6 Pro|Livan S6 Pro|2174900|29674|375000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/livan/s6-pro
+Livan|X6 Pro|Livan X6 Pro|2244900|30629|385000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/livan/x6-pro
+Lynk & Co|05|Lynk & Co 05|3025000|41273|375000|2 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/lynk-co/05
+Lynk & Co|06|Lynk & Co 06|3125500|42644|375000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/lynk-co/06
+Lynk & Co|& Co 08|Lync & Co 08|4625000|63103|445000|1.5 л|3AT|Полный|1|https://skayavto.ru/catalog/lynk-co/08
+Lynk & Co|09|Lynk & Co 09|6025000|82204|495000|2 л|8AT, AT|Полный|1|https://skayavto.ru/catalog/lynk-co/09
+Lynk & Co|900|Lynk & Co 900|7025000|95848|535000|1.5-2 л|AT|Полный|1|https://skayavto.ru/catalog/lynk-co/900
+M-Hero|I|M-Hero I|15915000|217141|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/m-hero/i
+MG|5|MG 5|2102000|28679|375000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/mg/5
+MG|6|MG 6|2489000|33959|410000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/mg/6
+MG|One|MG One|2780000|37930|440000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/mg/one
+MG|7|MG 7|3461000|47221|510000|1.5-2 л|7AMT, 9AT|Передний|1|https://skayavto.ru/catalog/mg/7
+Mazda|6|6|2093000|28556|455000|2-2.5 л|6 AT|Передний|1|https://skayavto.ru/catalog/mazda/6-sedan
+Mazda|CX-5|Mazda CX-5|2245000|30630|155000|2-2.5 л|AT|Передний, Передняя, Полный|1|https://skayavto.ru/catalog/mazda/cx-5
+Mazda|CX-30|Mazda CX-30|3555000|48504|421000|2-2 л|AT|Передний, Полный|1|https://skayavto.ru/catalog/mazda/cx-30
+Mazda|CX-9|Mazda CX-9|3945000|53825|640000|2.5 л|6 AT|Полный|1|https://skayavto.ru/catalog/mazda/cx-9
+Mitsubishi|ASX|Mitsubishi ASX|2214000|30207|455000|1.6-2 л|5MT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/mitsubishi/asx
+Mitsubishi|Outlander New|Mitsubishi Outlander New|2234000|30480|455000|2-2.4 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/mitsubishi/outlander
+Mitsubishi|Outlander 7 seats|Mitsubishi Outlander 7 seats|2959000|40372|590000|2-2.4 л|CVT|Полный|1|https://skayavto.ru/catalog/mitsubishi/outlander-7seats
+Mitsubishi|Eclipse Cross|Mitsubishi Eclipse Cross|3039000|41464|590000|1.5-2 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/mitsubishi/eclipse-cross
+Mitsubishi|L200|Mitsubishi L200|3549000|48422|630000|2.4 л|6 AT, 6 MT|Полный|1|https://skayavto.ru/catalog/mitsubishi/l200
+Mitsubishi|не найдена|Страница не найдена|3814000|52037|||||0|https://skayavto.ru/catalog/mitsubishi/pajero-sport-old
+Nissan|Terrano|Nissan Terrano|2725000|37179|315000|1.6-2 л|4AT, 5MT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/nissan/terrano
+Nissan|Qashqai|Nissan Qashqai|3110000|42432|315000|2 л|CVT|Передний|1|https://skayavto.ru/catalog/nissan/qashqai
+Nissan|X-Trail|Nissan X-Trail|3195000|43592|405000|2 л|CVT|Передний|1|https://skayavto.ru/catalog/nissan/x-trail
+Nissan|Murano|Nissan Murano|3644000|49718|415000|3.5 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/nissan/murano
+Nissan|Pathfinder|Nissan Pathfinder|4880000|66582|465000|3.5 л|AT|Полный|1|https://skayavto.ru/catalog/nissan/pathfinder
+Omoda|E5|Omoda E5|1483000|20234||0 л|AT|Передний|0|https://skayavto.ru/catalog/omoda/e5
+Omoda|S5|Omoda S5|1483000|20234|646000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/omoda/s5
+Omoda|C5|Omoda C5|1674000|22840|605000|1.5-1.6 л|CVT, DCT|Передний, Полный|1|https://skayavto.ru/catalog/omoda/c5
+Omoda|C5 new|Omoda C5 new|1744000|23795|605000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/omoda/c5-new
+Omoda|C5 Restyle|Omoda C5 Restyle|2064900|28173|215000|1.5-1.6 л|CVT, DCT|Передний, Полный|1|https://skayavto.ru/catalog/omoda/omoda-c5-restyle
+Omoda|C7|Omoda C7|2874000|39212|235000|1.6 л|AMT|Передний, Полный|1|https://skayavto.ru/catalog/omoda/c7
+Opel|Crossland|Opel Crossland|1554000|21202|435000|1.2 л|6AT|Передний|1|https://skayavto.ru/catalog/opel/crossland
+Opel|Combo Cargo|Opel Combo Cargo|1634000|22294|315000|1.6-1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/opel/combo-cargo
+Opel|Grandland X|Opel Grandland X|1724000|23522|435000|1.6 л|6 AT|Передний|1|https://skayavto.ru/catalog/opel/grandlandx
+Opel|Combo Life|Opel Combo Life|1744000|23795|450000|1.6-1.6 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/opel/combo-life
+Opel|Vivaro|Opel Vivaro|2594900|35404|425000|1.6-2 л|5MT, 6AT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/opel/vivaro
+Opel|Zafira Life|Opel Zafira Life|3659900|49935|630000|2 л|6AT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/opel/zafira-life
+Ora|03|Ora 03|3039000|41464|460000|0 л|AT|Передний|1|https://skayavto.ru/catalog/ora/03
+Ora|03 GT|Ora 03 GT|3219000|43919|480000|0 л|AT|Передний|1|https://skayavto.ru/catalog/ora/03-gt
+Oting|Paladin|Oting Paladin|3309000|45147|490000|2 л|8AT|Задний, Полный|1|https://skayavto.ru/catalog/oting/paladin
+Peugeot|408|Peugeot 408|1714000|23385|435000|1.6 л|6 AT, 6 MT|Передний|1|https://skayavto.ru/catalog/peugeot/408
+Peugeot|Partner Crossway|Peugeot Partner Crossway|1719000|23454|330000|1.6-1.6 л|5MT, 6AT|Передний|1|https://skayavto.ru/catalog/peugeot/partner
+Peugeot|3008|Peugeot 3008|2064000|28161|375000|1.6-2 л|AT|Передний|1|https://skayavto.ru/catalog/peugeot/3008
+Peugeot|2008|Peugeot 2008|2269000|30958|430000|1.2 л|6 AT, 6MT, 8 AT|Передний|1|https://skayavto.ru/catalog/peugeot/2008
+Peugeot|Traveller|Peugeot Traveller|3379900|46115|610000|2 л|6 AT, 6MT|Передний, Полный|1|https://skayavto.ru/catalog/peugeot/traveller
+Peugeot|4008|Peugeot 4008|3574000|48763|325000|1.6 л|6AT|Передний|1|https://skayavto.ru/catalog/peugeot/4008
+Peugeot|5008|Peugeot 5008|3674000|50127|525000|1.8 л|8AT|Передний|1|https://skayavto.ru/catalog/peugeot/5008
+Peugeot|408X|Peugeot 408X|4374000|59678|325000|1.6 л|AT|Передний|1|https://skayavto.ru/catalog/peugeot/408x
+Ravon|Nexia R3|Ravon Nexia R3|610000|8323|215000|1.5 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/ravon/nexia
+Ravon|R4|Ravon R4|636000|8677|215000|1.5 л|5 MT, 6 AT|передний|1|https://skayavto.ru/catalog/ravon/r4
+Ravon|R2|Ravon R2|668000|9114|215000|1.2 л|4 AT|Передний|1|https://skayavto.ru/catalog/ravon/r2
+Renault|Logan New|Renault Logan New|925000|12621|275000|1.6 л|5 MT|Передний|1|https://skayavto.ru/catalog/renault/logan
+Renault|Logan Stepway|Renault Logan Stepway|1075000|14667|275000|1.6 л|5 MT, CVT|Передний|1|https://skayavto.ru/catalog/renault/logan-stepway
+Renault|Sandero|Renault Sandero|1125000|15349|275000|1.6 л|5MT|Передний|1|https://skayavto.ru/catalog/renault/sandero
+Renault|Sandero Stepway New|Renault Sandero Stepway New|1275000|17396|275000|1.6 л|5 MT, CVT|Передний|1|https://skayavto.ru/catalog/renault/sandero-stepway
+Renault|Duster|Renault Duster|1425000|19442|275000|1.3-2 л|5MT, 6MT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/renault/duster
+Renault|Kaptur|Renault Kaptur|1625000|22171|275000|1.3-1.6 л|5 MT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/renault/kaptur
+Renault|Arkana|Renault Arkana|1725000|23536|275000|1.3-1.6 л|5MT, 6MT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/renault/arkana
+Renault|Express II|Renault Express II|3385000|46184|355000|1.6 л|MT|Передний|1|https://skayavto.ru/catalog/renault/express-ll
+Rising|F7|Rising F7|6585000|89844|815000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/rising/f7
+Rising|R7|Rising R7|7275000|99259|825000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/rising/r7
+Rox|01|Rox 01|8001000|109164|215000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/rox/01
+SWM|G01|SWM G01|1529500|20868|225000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/swm/g01
+SWM|G01f|SWM G01f|1909000|26046|225000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/swm/g01f
+SWM|G05 Pro|SWM G05 Pro|2274900|31038|225000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/swm/g05-pro
+Skoda|Rapid|Skoda Rapid|1187000|16195|415000|1.4-1.6 л|5 MT, 6 AT, 7 DSG|Передний|1|https://skayavto.ru/catalog/skoda/rapid
+Skoda|Octavia|Skoda Octavia|2159000|29457|455000|1.4 л|AMT, AT|Передний|1|https://skayavto.ru/catalog/skoda/octavia
+Skoda|Superb|Skoda Superb|2165000|29539|585000|1.4-2 л|AMT|Передний|1|https://skayavto.ru/catalog/skoda/superb
+Skoda|Karoq|Skoda Karoq|2661000|36306|455000|1.4-1.6 л|5MT, 6AT, 7DSG, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/skoda/karog
+Skoda|Superb Combi|Skoda Superb Combi|3222000|43960|595000|1.4-2 л|6DSG, 7DSG|Передний, Полный|1|https://skayavto.ru/catalog/skoda/superb-combi
+Skoda|Kodiaq|Skoda Kodiaq|4410000|60169|590000|2 л|AMT|Полный|1|https://skayavto.ru/catalog/skoda/kodiaq
+Skywell|HT-i|Skywell HT-i|3905000|53279|545000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/skywell/ht-i
+Skywell|ET5|Skywell ET5|4025000|54916|555000|0 л|1AT|Передний|1|https://skayavto.ru/catalog/skywell/et5
+Solaris|HS|Solaris HS|1605000|21898|325000|1.4-1.6 л|6AT, 6MT|Передний|1|https://skayavto.ru/catalog/solaris/hs
+Solaris|KRS|Solaris KRS|1625000|22171|335000|1.6 л|6AT, MT|Передний|1|https://skayavto.ru/catalog/solaris/krs
+Solaris|KRX|Solaris KRX|1625000|22171|335000|1.6 л|6AT, MT|Передний|1|https://skayavto.ru/catalog/solaris/krx
+Solaris|HC|Solaris HC|2010000|27424|380000|1.6-2 л|6AT, 6MT, AT, MT|Передний, Полный|1|https://skayavto.ru/catalog/solaris/hc
+Sollers|ST6|Sollers ST6|2270000|30971|360000|2-2 л|6MT|Полный|1|https://skayavto.ru/catalog/sollers/st6
+Sollers|ST6|Sollers ST6|2843000|38789|75000|2-2.4 л|MT|Полный|1|https://skayavto.ru/catalog/sollers/st8
+Sollers|ST9|Sollers ST9|3483000|47521|75000|2-2 л|AT|Полный|1|https://skayavto.ru/catalog/sollers/st9
+Sollers|SP7|Sollers SP7|5000000|68219|75000|2 л|AT|Передний|1|https://skayavto.ru/catalog/sollers/sp7
+Soueast|DX8S|Soueast DX8S|1830000|24968|570000|1.5 л|6DCT|Передний|1|https://skayavto.ru/catalog/soueast/dx8s
+Soueast|DX5|Soueast DX5|1915000|26128|335000|1.5 л|5MT, 8CVT|Передний|1|https://skayavto.ru/catalog/soueast/dx5
+Soueast|S07|Soueast S07|2279000|31094|820000|1.6 л|7DCT, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/soueast/s07
+Soueast|S09|Soueast S09|2659000|36279|1240000|2 л|7DCT, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/soueast/s09
+Suzuki|SX4|Suzuki SX4|1634000|22294|435000|1.4-1.6 л|5MT, 6AT|Передний, Полный|1|https://skayavto.ru/catalog/suzuki/sx-4
+Suzuki|Vitara|Suzuki Vitara|2205000|30085|455000|1.6 л|6AT|Передний|1|https://skayavto.ru/catalog/suzuki/new-vitara
+Suzuki|Jimny|Suzuki Jimny|2945000|40181|455000|1.5 л|4AT, 5MT|Полный|1|https://skayavto.ru/catalog/suzuki/newjimny-fl
+Tank|300|Tank 300|3634000|49582|665000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/tank/300
+Tank|400|Tank 400|4814000|65681|585000|2 л|9AT|Полный|1|https://skayavto.ru/catalog/tank/400
+Tank|500|Tank 500|5939000|81031|1110000|2-3 л|9AT|Полный|1|https://skayavto.ru/catalog/tank/500
+Tank|700|Tank 700|8284000|113025|1415000|3 л|9AT|Полный|1|https://skayavto.ru/catalog/tank/700
+Tenet|T4|Tenet T4|1575000|21489|464000|1.5-1.5 л|5MT, AMT, CVT|Передний, Полный|1|https://skayavto.ru/catalog/tenet/t4
+Tenet|T7|Tenet T7|1925000|26264|810000|1.6 л|AMT|Передний, Полный|1|https://skayavto.ru/catalog/tenet/t7
+Tenet|T8|Tenet T8|2815000|38407|795000|2 л|AMT|Полный|1|https://skayavto.ru/catalog/tenet/t8
+Toyota|Corolla|Toyota Corolla|2345000|31995|455000|1.2-1.8 л|CVT|Передний|1|https://skayavto.ru/catalog/toyota/corolla
+Toyota|C-HR (NA Market)|Toyota C-HR (NA Market)|2745000|37452|455000|0 л|AT|Полный|1|https://skayavto.ru/catalog/toyota/c-hr-na-market
+Toyota|Corolla Kross|Toyta Corolla Kross|2825000|38544|455000|2 л|* Привод Передний|Передний|1|https://skayavto.ru/catalog/toyota/corolla-cross
+Toyota|C-HR|Toyota C-HR|3145000|42910|455000|1.8-2 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/toyota/c-hr
+Toyota|Fortuner|Toyota Fortuner|3618000|49363|455000|2.7-2.8 л|5MT, 6AT|Полный|1|https://skayavto.ru/catalog/toyota/fortuner
+Toyota|Rav4|Toyota Rav4|3734000|50946|455000|2 л|CVT|Полный|1|https://skayavto.ru/catalog/toyota/rav4
+Toyota|Rav4-2026|Toyota Rav4-2026|4025000|54916|75000|2-2.5 л|CVT|Передний, Полный|1|https://skayavto.ru/catalog/toyota/rav4-g6
+Toyota|Highlander|Toyota Highlander|5285000|72108|455000|2 л|8AT|Полный|1|https://skayavto.ru/catalog/toyota/highlander
+Toyota|Hilux|Toyota Hilux|7185000|98031|455000|2.4-2.8 л|5MT, 6AT, 6MT|Полный|1|https://skayavto.ru/catalog/toyota/hilux
+Toyota|Hiace|Toyota Hiace|9470000|129207|455000|2.8 л|6AT, 6MT|Задний|1|https://skayavto.ru/catalog/toyota/hiace
+Toyota|Land Cruiser Prado 250 Series|Toyota Land Cruiser Prado 250 Series|9885000|134869|455000|2.4-2.8 л|6AT, 8AT|Полный|1|https://skayavto.ru/catalog/toyota/land-cruiser-prado
+Toyota|Land Cruiser 300|Toyota Land Cruiser 300|11284000|153957|455000|3.4-4 л|10AT, 6AT|Полный|1|https://skayavto.ru/catalog/toyota/land-cruiser-300
+Toyota|Alphard|Toyota Alphard|13675000|186579|455000|2.5 л|CVT|Полный|1|https://skayavto.ru/catalog/toyota/alphard
+Toyota|не найдена|Страница не найдена|||||||0|https://skayavto.ru/catalog/toyota/camry
+UAZ|Hunter|UAZ Hunter|1186000|16182|414000|2.7 л|5MT|Полный|1|https://skayavto.ru/catalog/uaz/hunter
+UAZ|Patriot|UAZ Patriot|1337000|18242|443000|2.7 л|5MT|Полный|1|https://skayavto.ru/catalog/uaz/patriot
+UAZ|Pickup|UAZ Pickup|1374500|18753|430500|2.7 л|5MT|Полный|1|https://skayavto.ru/catalog/uaz/patriot-pickup
+UAZ|SGR Expedition|UAZ SGR Expedition|1471000|20070|344000|2.7 л|5MT|Полный|1|https://skayavto.ru/catalog/uaz/sgr-expedition
+UMO|5|UMO 5|2425000|33086|75000|0 л|AT|Передний|1|https://skayavto.ru/catalog/umo/5
+VGV|U70 Pro|VGV U70 Pro|1959900|26741|340000|1.5 л|6AT, 6MT|Передний|1|https://skayavto.ru/catalog/vgv/u70-pro
+VGV|U75 Plus|VGV U75 Plus|2549900|34790|400000|2 л|8AT|Передний|1|https://skayavto.ru/catalog/vgv/u75-plus
+Venucia|D60 Plus|Venucia D60 Plus|2165000|29539|375000|1.6 л|CVT|Передний|1|https://skayavto.ru/catalog/venucia/d60-plus
+Venucia|V-Online|Venucia V-Online|2740000|37384|440000|1.5 л|7DCT|Передний|1|https://skayavto.ru/catalog/venucia/v-online
+Volga|K40|Volga K40|||75000|2 л|AMT|Полный|1|https://skayavto.ru/catalog/volga/k40
+Volkswagen|Polo|Volkswagen Polo|1200900|16385|420000|1.4-1.6 л|5MT, 6AT, 7DSG|Передний|1|https://skayavto.ru/catalog/volkswagen/polo
+Volkswagen|Passat|Volkswagen Passat|2147000|29293|455000|1.4-2 л|6 DSG, 7 DSG|Передний|1|https://skayavto.ru/catalog/volkswagen/passat
+Volkswagen|Taos|Volkswagen Taos|2373900|32389|455000|1.4-1.6 л|5MT, 6AT, 7DSG, 8AT|Передний, Полный|1|https://skayavto.ru/catalog/volkswagen/taos
+Volkswagen|Tiguan|Volkswagen Tiguan|2790900|38079|585000|1.4-2 л|6DSG, 6MT, 7DSG|Передний, Полный|1|https://skayavto.ru/catalog/volkswagen/tiguan
+Volkswagen|Golf|Volkswagen Golf|3671000|50086|620000|1.4 л|8AT|Передний|1|https://skayavto.ru/catalog/volkswagen/golf-new
+Volkswagen|Teramont|Volkswagen Teramont|5321500|72606|825000|2-3.6 л|8AT|Полный|1|https://skayavto.ru/catalog/volkswagen/teramont
+Volkswagen|Touareg|Volkswagen Touareg|7644500|104300|1025000|3 л|8AT|Полный|1|https://skayavto.ru/catalog/volkswagen/touareg
+Voyah|Passion|Voyah Passion|4515000|61602|1550000|0 л|AT|Полный|1|https://skayavto.ru/catalog/voyah/passion
+Voyah|Free|Voyah Free|4625000|63103|545000|1.5-1.5 л|AT|Полный|1|https://skayavto.ru/catalog/voyah/free
+Voyah|Free Sport Edition|Voyah Free Sport Edition|4875000|66514|1375000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/voyah/free-sport-edition
+Voyah|Free Sport plus|Voyah Free Sport plus|4900000|66855|1350000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/voyah/free-sport-plus
+Voyah|Dream|Voyah Dream|7925000|108127|635000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/voyah/dream
+Wey|05|Wey 05|5924000|80826|75000|2 л|9DCT|Полный|1|https://skayavto.ru/catalog/wey/05
+Wey|Coffee 01|Wey Coffee 01|6424000|87648|75000|2 л|9DCT|Полный|1|https://skayavto.ru/catalog/wey/coffee-01
+Wey|07|Wey 07|7024000|95834|75000|1.5 л|AT|Полный|1|https://skayavto.ru/catalog/wey/07
+Xcite|X-Cross 7|Xcite X-Cross 7|2124000|28979|375000|1.5 л|CVT|Передний|1|https://skayavto.ru/catalog/xcite/x-cross-7
+Xcite|X-Cross 8|Xcite X-Cross 8|2780500|37937|215000|1.6 л|7DCT|Передний, Полный|1|https://skayavto.ru/catalog/xcite/x-cross-8
+Xiaomi|SU7|Xiaomi SU7|4625000|63103|325000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/xiaomi/xiaomi-su-7
+Xiaomi|xiaomi|Xiaomi|5905000|80567|75000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/xiaomi/xiaomi
+Xiaomi|SU7 Ultra|Xiaomi SU7 Ultra|8825000|120407|75000|0 л|AT|Полный|1|https://skayavto.ru/catalog/xiaomi/xiaomi-su-7-ultra
+Zeekr|X|Zeekr X|4125000|56281|75000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/zeekr/x
+Zeekr|007|Zeekr 007|4395000|59965|205000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/zeekr/007
+Zeekr|7x|Zeekr 7x|4725000|64467|75000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/zeekr/7x
+Zeekr|001|Zeekr 001|5325000|72653|275000|0 л|AT|Задний, Полный|1|https://skayavto.ru/catalog/zeekr/001
+Zeekr|009|Zeekr 009|9085000|123954|415000|0 л|AT|Полный|1|https://skayavto.ru/catalog/zeekr/009
+Zotye|T600|Zotye T600|863000|11775|400000|1.5-2 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/zotye/t600
+Zotye|Coupa|Zotye Coupa|1131500|15438|415000|1.5 л|5 MT, 6 AT|Передний|1|https://skayavto.ru/catalog/zotye/coupa
+Москвич|3|Moskvich 3|1492000|20357|421000|1.5 л|6MT, CVT|Передний|1|https://skayavto.ru/catalog/moskvich/3
+Москвич|6|Moskvich 6|1802000|24586|475000|1.5 л|6DCT, CVT|Передний|1|https://skayavto.ru/catalog/moskvich/6
+Москвич|3e|Moskvich 3e|2455000|33496|570000|0 л|AT|Передний|1|https://skayavto.ru/catalog/moskvich/3e
+Москвич|8|Moskvich 8|2805000|38271|175000|1.5 л|AMT|Передний|1|https://skayavto.ru/catalog/moskvich/8
+Москвич|М70|Москвич М70|3225000|44001|75000|1.5-2 л|AMT, AT|Передний, Передняя|1|https://skayavto.ru/catalog/moskvich/m70
+Москвич|М90|Москвич М90|4225000|57645|75000|2 л|AT|Полный|1|https://skayavto.ru/catalog/moskvich/m90

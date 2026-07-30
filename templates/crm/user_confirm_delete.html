@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Удаление пользователя{% endblock %}
+
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="card card-soft border-danger mx-auto" style="max-width: 680px;">
+    <div class="card-header bg-danger text-white">
+      <h1 class="h4 mb-0">Удаление пользователя</h1>
+    </div>
+    <div class="card-body">
+      <p class="mb-1">Вы действительно хотите удалить пользователя?</p>
+      <p class="fw-semibold mb-4">{{ deleted_user.full_name }} · {{ deleted_user.username }}</p>
+      <div class="alert alert-warning">
+        Если пользователь связан с клиентами, сделками или журналами, физическое удаление будет запрещено. В таком случае отключите его через поле <strong>Активен</strong>.
+      </div>
+      <form method="post">
+        {% csrf_token %}
+        <div class="d-flex gap-2">
+          <button class="btn btn-danger" type="submit">Удалить</button>
+          <a class="btn btn-outline-secondary" href="{% url 'users' %}">Отмена</a>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

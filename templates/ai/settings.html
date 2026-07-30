@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}AI-настройки{% endblock %}
+
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h2 class="h3 mb-1">AI-настройки</h2>
+      <p class="text-muted mb-0">Подключения разделены: каждое проверяется, удаляется и назначается по умолчанию отдельно.</p>
+    </div>
+  </div>
+
+  <div class="row g-4 mb-4">
+    {% for connection in connections %}
+      <div class="col-lg-4">
+        <div class="card card-soft h-100 {% if connection.is_default %}border border-success{% endif %}">
+          <div class="card-body d-flex flex-column">
+            <div class="d-flex justify-content-between gap-2 mb-2">
+              <h2 class="h5 mb-0">{{ connection.name }}</h2>
+              {% if connection.is_default %}
+                <span class="badge text-bg-success">по умолчанию</span>
+              {% endif %}
+            </div>
+            <p class="text-muted small mb-3">{{ connection.get_connection_type_display }}</p>
+
+            <dl class="small mb-3">
+              <dt>Base URL</dt>
+              <dd><code>{{ connection.active_base_url }}</code></dd>
+              <dt>Model</dt>
+              <dd><code>{{ connection.active_model }}</code></dd>
+              <dt>Key</dt>
+              <dd>
+                {% if connection.provider == "openai" %}
+                  {% if connection.active_key_mask %}
+                    <code>{{ connection.active_key_mask }}</code>
+                  {% else %}
+                    <span class="text-danger">не задан</span>
+                  {% endif %}
+                {% else %}
+                  <span class="text-muted">не нужен</span>
+                {% endif %}
+              </dd>
+              <dt>API style</dt>
+              <dd><code>{{ connection.active_api_style }}</code></dd>
+              <dt>Последняя проверка</dt>
+              <dd class="mb-0">
+                {% if connection.last_check_status == "ok" %}
+                  <span class="badge text-bg-success">ok</span>
+                {% elif connection.last_check_status == "fail" %}
+                  <span class="badge text-bg-danger">fail</span>
+                {% else %}
+                  <span class="badge text-bg-secondary">unknown</span>
+                {% endif %}
+                {% if connection.last_check_message %}
+                  <div class="text-muted mt-1">{{ connection.last_check_message }}</div>
+                {% endif %}
+                {% if connection.last_checked_at %}
+                  <div class="text-muted mt-1">{{ connection.last_checked_at|date:"d.m.Y H:i" }}</div>
+                {% endif %}
+              </dd>
+            </dl>
+
+            <div class="mt-auto">
+              <form method="post" action="{% url 'ai_connection_check' connection.pk %}" class="mb-2">
+                {% csrf_token %}
+                <button class="btn btn-outline-success btn-sm w-100" type="submit">Проверить подключение</button>
+              </form>
+
+              {% if connection.provider == "openai" %}
+                <form method="post" action="{% url 'ai_connection_check' connection.pk %}" class="row g-2 mb-2">
+                  {% csrf_token %}
+                  <div class="col-7">
+                    <input class="form-control form-control-sm" name="openai_check_model" value="{{ connection.openai_model }}" aria-label="Модель для проверки">
+                  </div>
+                  <div class="col-5">
+                    <select class="form-select form-select-sm" name="openai_check_kind" aria-label="Тип проверки">
+                      <option value="chat">Chat</option>
+                      <option value="responses">Responses</option>
+                      <option value="list">/models</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-outline-secondary btn-sm w-100" type="submit">Проверить модель</button>
+                  </div>
+                </form>
+              {% endif %}
+
+              <div class="d-flex flex-wrap gap-2">
+                {% if not connection.is_default %}
+                  <form method="post" action="{% url 'ai_connection_default' connection.pk %}" class="flex-grow-1">
+                    {% csrf_token %}
+                    <button class="btn btn-primary btn-sm w-100" type="submit">По умолчанию</button>
+                  </form>
+                {% endif %}
+                <a class="btn btn-outline-primary btn-sm flex-grow-1" href="{% url 'ai_settings' %}?edit={{ connection.pk }}">Редактировать</a>
+                <button class="btn btn-outline-danger btn-sm flex-grow-1" type="button" data-bs-toggle="modal" data-bs-target="#deleteAiConnection{{ connection.pk }}">
+                  Удалить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="deleteAiConnection{{ connection.pk }}" tabindex="-1" aria-labelledby="deleteAiConnectionLabel{{ connection.pk }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="deleteAiConnectionLabel{{ connection.pk }}">Удалить подключение?</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <p class="mb-0">Подключение «{{ connection.name }}» будет удалено. Если оно было подключением по умолчанию, CRM назначит другое доступное подключение.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+              <form method="post" action="{% url 'ai_connection_delete' connection.pk %}" class="m-0">
+                {% csrf_token %}
+                <button class="btn btn-danger" type="submit">Удалить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div class="col-12">
+        <div class="alert alert-info">Подключений пока нет. Создайте первое подключение ниже.</div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="card card-soft">
+    <div class="card-body">
+      <h2 class="h5">{% if edit_connection %}Редактировать подключение{% else %}Добавить подключение{% endif %}</h2>
+      <form method="post" data-ai-settings-form>
+        {% csrf_token %}
+        {% if edit_connection %}
+          <input type="hidden" name="connection_id" value="{{ edit_connection.pk }}">
+        {% endif %}
+        {{ form.non_field_errors }}
+
+        <div class="mb-3">
+          <label class="form-label" for="{{ form.name.id_for_label }}">{{ form.name.label }}</label>
+          {{ form.name }}
+          {{ form.name.errors }}
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="{{ form.connection_type.id_for_label }}">{{ form.connection_type.label }}</label>
+          {{ form.connection_type }}
+          {{ form.connection_type.errors }}
+        </div>
+
+        <div data-connection-panel="ollama">
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.ollama_url.id_for_label }}">{{ form.ollama_url.label }}</label>
+            {{ form.ollama_url }}
+            <div class="form-text">{{ form.ollama_url.help_text }}</div>
+            {{ form.ollama_url.errors }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.ollama_model.id_for_label }}">{{ form.ollama_model.label }}</label>
+            {{ form.ollama_model }}
+            {{ form.ollama_model.errors }}
+          </div>
+        </div>
+
+        <div data-openai-panel>
+          <div class="alert alert-warning" data-custom-help>
+            Для custom bridge обычно нужны все 4 поля: Base URL + API key + Model + API style.
+            Если сменить только Base URL, а Model/API style останутся от OpenAI official, подключение часто будет «модель недоступна».
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.openai_base_url.id_for_label }}">{{ form.openai_base_url.label }}</label>
+            {{ form.openai_base_url }}
+            <div class="form-text" data-official-help>Official endpoint: https://api.openai.com/v1</div>
+            <div class="form-text" data-custom-help>Например: https://your-bridge.example или https://your-bridge.example/v1</div>
+            {{ form.openai_base_url.errors }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.openai_model.id_for_label }}">{{ form.openai_model.label }}</label>
+            {{ form.openai_model }}
+            <div class="form-text" data-official-help>{{ form.openai_model.help_text }}</div>
+            <div class="form-text" data-custom-help>Точный id модели у провайдера, например gpt-5.4.</div>
+            {{ form.openai_model.errors }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.openai_api_key_input.id_for_label }}">{{ form.openai_api_key_input.label }}</label>
+            {{ form.openai_api_key_input }}
+            <div class="form-text">
+              {% if openai_key_mask %}Сейчас сохранен ключ {{ openai_key_mask }}. {% endif %}
+              Пустое поле при редактировании не меняет ключ.
+            </div>
+            {{ form.openai_api_key_input.errors }}
+          </div>
+          <div class="mb-3" data-api-style-field>
+            <label class="form-label" for="{{ form.openai_api_style.id_for_label }}">{{ form.openai_api_style.label }}</label>
+            {{ form.openai_api_style }}
+            {{ form.openai_api_style.errors }}
+          </div>
+        </div>
+
+        <details class="border rounded p-3 mb-3" data-openai-advanced>
+          <summary class="fw-semibold">Дополнительно</summary>
+          <div class="mt-3">
+            <label class="form-label" for="{{ form.openai_transcription_model.id_for_label }}">{{ form.openai_transcription_model.label }}</label>
+            {{ form.openai_transcription_model }}
+            <div class="form-text">{{ form.openai_transcription_model.help_text }}</div>
+            {{ form.openai_transcription_model.errors }}
+          </div>
+        </details>
+
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <button class="btn btn-primary" type="submit" name="action" value="save">Сохранить</button>
+          <button class="btn btn-outline-success" type="submit" name="action" value="check">Сохранить и проверить</button>
+          <a class="btn btn-outline-secondary" href="{% url 'ai_settings' %}">Отмена</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const form = document.querySelector("[data-ai-settings-form]");
+      if (!form) {
+        return;
+      }
+      const typeSelect = document.getElementById("id_connection_type");
+      const panels = Array.from(document.querySelectorAll("[data-connection-panel]"));
+      const openAiPanel = document.querySelector("[data-openai-panel]");
+      const advanced = document.querySelector("[data-openai-advanced]");
+      const officialHelp = Array.from(document.querySelectorAll("[data-official-help]"));
+      const customHelp = Array.from(document.querySelectorAll("[data-custom-help]"));
+      const apiStyleField = document.querySelector("[data-api-style-field]");
+      const baseUrl = document.getElementById("id_openai_base_url");
+      const apiStyle = document.getElementById("id_openai_api_style");
+
+      function updateVisibleFields() {
+        const type = typeSelect.value;
+        panels.forEach((panel) => {
+          panel.hidden = panel.dataset.connectionPanel !== type;
+        });
+        if (openAiPanel) {
+          openAiPanel.hidden = type === "ollama";
+        }
+        if (advanced) {
+          advanced.hidden = type === "ollama";
+        }
+        officialHelp.forEach((node) => {
+          node.hidden = type !== "openai_official";
+        });
+        customHelp.forEach((node) => {
+          node.hidden = type !== "openai_compatible";
+        });
+        if (apiStyleField) {
+          apiStyleField.hidden = type !== "openai_compatible";
+        }
+        if (baseUrl) {
+          if (type === "openai_official") {
+            baseUrl.value = baseUrl.value || "https://api.openai.com/v1";
+            baseUrl.readOnly = true;
+          } else {
+            baseUrl.readOnly = false;
+          }
+        }
+        if (apiStyle && type === "openai_official") {
+          apiStyle.value = "chat_completions";
+        }
+      }
+
+      typeSelect.addEventListener("change", updateVisibleFields);
+      updateVisibleFields();
+    })();
+  </script>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Пользователи{% endblock %}
+
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h2 class="h3 mb-1">Пользователи</h2>
+      <p class="text-muted mb-0">Управление аккаунтами, ролями и доступом.</p>
+    </div>
+    <a class="btn btn-primary" href="{% url 'user_create' %}">Добавить пользователя</a>
+  </div>
+
+  <div class="card card-soft">
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>Логин</th>
+            <th>Имя</th>
+            <th>Роль</th>
+            <th>Активен</th>
+            <th class="text-end">Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in users %}
+            <tr>
+              <td class="fw-semibold">{{ item.username }}</td>
+              <td>{{ item.full_name }}</td>
+              <td><span class="badge text-bg-dark">{{ item.get_role_display }}</span></td>
+              <td>
+                {% if item.is_active %}
+                  <span class="badge text-bg-success">да</span>
+                {% else %}
+                  <span class="badge text-bg-secondary">нет</span>
+                {% endif %}
+              </td>
+              <td class="text-end">
+                <a class="btn btn-outline-primary btn-sm" href="{% url 'user_edit' item.pk %}">Редактировать</a>
+                {% if item.pk != user.pk %}
+                  <a class="btn btn-outline-danger btn-sm" href="{% url 'user_delete' item.pk %}">Удалить</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% empty %}
+            <tr><td colspan="5" class="text-center text-muted py-4">Пользователей пока нет.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

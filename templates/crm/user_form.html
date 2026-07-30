@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="card card-soft mx-auto" style="max-width: 720px;">
+    <div class="card-header bg-white">
+      <h1 class="h4 mb-0">{{ title }}</h1>
+    </div>
+    <div class="card-body">
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="border rounded bg-light p-3 mb-3" data-password-generator>
+          <label class="form-label fw-semibold" for="generated-password">Генератор пароля</label>
+          <div class="input-group">
+            <input class="form-control" id="generated-password" type="text" readonly placeholder="Нажмите «Сгенерировать»">
+            <button class="btn btn-outline-primary" type="button" data-generate-password>Сгенерировать</button>
+            <button class="btn btn-outline-secondary" type="button" data-copy-password>Скопировать</button>
+          </div>
+          <div class="form-text">Пароль генерируется в браузере, заполняет оба поля пароля и не сохраняется в открытом виде.</div>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary" type="submit">Сохранить</button>
+          <a class="btn btn-outline-secondary" href="{% url 'users' %}">Назад</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    (() => {
+      const password1 = document.getElementById("id_password1");
+      const password2 = document.getElementById("id_password2");
+      const output = document.getElementById("generated-password");
+      const generateButton = document.querySelector("[data-generate-password]");
+      const copyButton = document.querySelector("[data-copy-password]");
+      if (!password1 || !password2 || !output || !generateButton || !copyButton) {
+        return;
+      }
+
+      const groups = [
+        "ABCDEFGHJKLMNPQRSTUVWXYZ",
+        "abcdefghijkmnopqrstuvwxyz",
+        "23456789",
+        "!@#$%*-_=+",
+      ];
+      const allChars = groups.join("");
+
+      function randomChar(chars) {
+        const values = new Uint32Array(1);
+        window.crypto.getRandomValues(values);
+        return chars[values[0] % chars.length];
+      }
+
+      function shuffle(value) {
+        const chars = value.split("");
+        for (let index = chars.length - 1; index > 0; index -= 1) {
+          const values = new Uint32Array(1);
+          window.crypto.getRandomValues(values);
+          const swapIndex = values[0] % (index + 1);
+          [chars[index], chars[swapIndex]] = [chars[swapIndex], chars[index]];
+        }
+        return chars.join("");
+      }
+
+      generateButton.addEventListener("click", () => {
+        const requiredChars = groups.map(randomChar).join("");
+        let password = requiredChars;
+        while (password.length < 20) {
+          password += randomChar(allChars);
+        }
+        password = shuffle(password);
+        password1.value = password;
+        password2.value = password;
+        output.value = password;
+      });
+
+      copyButton.addEventListener("click", async () => {
+        if (!output.value) {
+          return;
+        }
+        await navigator.clipboard.writeText(output.value);
+        copyButton.textContent = "Скопировано";
+        window.setTimeout(() => {
+          copyButton.textContent = "Скопировать";
+        }, 1500);
+      });
+    })();
+  </script>
+{% endblock %}

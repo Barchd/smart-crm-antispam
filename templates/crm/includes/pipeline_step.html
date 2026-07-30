@@ -1,0 +1,25 @@
+{% if step.can_transition %}
+  <form class="crm-pipeline-slot" method="post" action="{% url 'deal_stage_change' deal.pk %}">
+    {% csrf_token %}
+    <input type="hidden" name="stage" value="{{ step.code }}">
+    <button class="crm-pipeline-step {{ step.css_class }} is-{{ step.state }}" type="submit" title="{{ step.title }}">
+      <span class="crm-pipeline-marker">{{ step.number }}</span>
+      <span class="crm-pipeline-copy">
+        <strong>{{ step.label }}</strong>
+        <small>Перейти на этап</small>
+      </span>
+    </button>
+  </form>
+{% else %}
+  <div class="crm-pipeline-slot">
+    <div class="crm-pipeline-step {{ step.css_class }} is-{{ step.state }}" title="{{ step.title }}" aria-disabled="true">
+      <span class="crm-pipeline-marker">{% if step.state == 'completed' %}✓{% else %}{{ step.number }}{% endif %}</span>
+      <span class="crm-pipeline-copy">
+        <strong>{{ step.label }}</strong>
+        <small>
+          {% if step.state == 'active' %}Текущий этап{% elif step.state == 'completed' %}Пройден{% else %}Недоступно{% endif %}
+        </small>
+      </span>
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Клиенты{% endblock %}
+{% block content %}
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h1 class="mb-1">Клиенты</h1>
+      <p class="text-muted mb-0">Карточки клиентов с защитой от дублей по телефону.</p>
+    </div>
+    <a class="btn btn-primary" href="{% url 'client_create' %}">Создать клиента</a>
+  </div>
+
+  <div class="card card-soft mb-4">
+    <div class="card-body">
+      <form method="get" class="row g-3">
+        <div class="col-md-10">
+          <input class="form-control" type="search" name="q" value="{{ search }}" placeholder="Имя, телефон, email">
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-outline-primary w-100" type="submit">Найти</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card card-soft">
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>Клиент</th>
+            <th>Телефон</th>
+            <th>Email</th>
+            <th>Источник</th>
+            <th>Ответственный</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for client in clients %}
+            <tr>
+              <td><a class="fw-semibold" href="{% url 'client_edit' client.pk %}">{{ client.name }}</a></td>
+              <td>{{ client.phone_normalized }}</td>
+              <td>{{ client.email|default:"-" }}</td>
+              <td>{{ client.source|default:"-" }}</td>
+              <td>{{ client.manager.full_name }}</td>
+            </tr>
+          {% empty %}
+            <tr><td colspan="5" class="text-center text-muted py-4">Клиентов пока нет.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

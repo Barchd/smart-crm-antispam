@@ -1,0 +1,2 @@
+"""Bot tests package."""
+

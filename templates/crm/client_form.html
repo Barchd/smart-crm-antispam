@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+  <div class="card card-soft mx-auto" style="max-width: 760px;">
+    <div class="card-header bg-white">
+      <h1 class="h4 mb-0">{{ title }}</h1>
+    </div>
+    <div class="card-body">
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary" type="submit">Сохранить</button>
+          <a class="btn btn-outline-secondary" href="{% url 'clients' %}">Назад</a>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

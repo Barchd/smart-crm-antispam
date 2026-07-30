@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block title %}Сделки{% endblock %}
+{% block content %}
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h1 class="mb-1">Сделки</h1>
+      <p class="text-muted mb-0">Добро пожаловать, {{ user_full_name }}. Роль: {{ user_role }}</p>
+    </div>
+    <a class="btn btn-primary" href="{% url 'deal_create' %}">Создать сделку</a>
+  </div>
+
+  <div class="card card-soft mb-4">
+    <div class="card-body">
+      <form method="get" class="row g-3 align-items-end">
+        <div class="col-md-5">
+          <label class="form-label" for="deal-search">Поиск</label>
+          <input class="form-control" id="deal-search" type="search" name="q" value="{{ search }}" placeholder="Название, клиент, телефон">
+        </div>
+        <div class="col-md-3">
+          <label class="form-label" for="deal-stage">Этап</label>
+          <select class="form-select" id="deal-stage" name="stage">
+            <option value="">Все этапы</option>
+            <option value="new" {% if selected_stage == "new" %}selected{% endif %}>Новая заявка</option>
+            <option value="first_contact" {% if selected_stage == "first_contact" %}selected{% endif %}>Первичный контакт</option>
+            <option value="qualification" {% if selected_stage == "qualification" %}selected{% endif %}>Квалификация</option>
+            <option value="proposal" {% if selected_stage == "proposal" %}selected{% endif %}>Предложение</option>
+            <option value="negotiation" {% if selected_stage == "negotiation" %}selected{% endif %}>Переговоры</option>
+            <option value="won" {% if selected_stage == "won" %}selected{% endif %}>Успешно реализовано</option>
+            <option value="lost" {% if selected_stage == "lost" %}selected{% endif %}>Отказ</option>
+          </select>
+        </div>
+        {% if user.is_head %}
+          <div class="col-md-3">
+            <label class="form-label" for="deal-manager">Менеджер</label>
+            <select class="form-select" id="deal-manager" name="manager">
+              <option value="">Все менеджеры</option>
+              {% for manager in managers %}
+                <option value="{{ manager.pk }}">{{ manager.full_name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        {% endif %}
+        <div class="col-md-1">
+          <button class="btn btn-outline-primary w-100" type="submit">ОК</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card card-soft">
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>ID</th>
+            <th>Тема</th>
+            <th>Клиент</th>
+            <th>Этап</th>
+            <th>Ответственный</th>
+            <th>Метки</th>
+            {% if user.is_head %}<th class="text-end">Действия</th>{% endif %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for deal in deals %}
+            <tr>
+              <td><a class="text-muted text-decoration-none" href="{% url 'deal_detail' deal.pk %}">#{{ deal.pk }}</a></td>
+              <td><a class="fw-semibold" href="{% url 'deal_detail' deal.pk %}">{{ deal.title }}</a></td>
+              <td>{{ deal.client.name }}</td>
+              <td><span class="badge rounded-pill stage-badge {{ deal.stage_css_class }}">{{ deal.get_stage_display }}</span></td>
+              <td>{{ deal.manager.full_name }}</td>
+              <td>
+                {% if deal.risk_flagged %}<span class="badge text-bg-warning">риск</span>{% endif %}
+                {% if deal.created_without_ai %}<span class="badge text-bg-info">без AI</span>{% endif %}
+              </td>
+              {% if user.is_head %}
+                <td class="text-end">
+                  <button
+                    class="btn btn-outline-danger btn-sm"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#deleteDealModal{{ deal.pk }}"
+                  >
+                    Удалить
+                  </button>
+                </td>
+              {% endif %}
+            </tr>
+          {% empty %}
+            <tr><td colspan="{% if user.is_head %}7{% else %}6{% endif %}" class="text-center text-muted py-4">Сделок пока нет.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {% if user.is_head %}
+    {% for deal in deals %}
+      <div class="modal fade" id="deleteDealModal{{ deal.pk }}" tabindex="-1" aria-labelledby="deleteDealModalLabel{{ deal.pk }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="deleteDealModalLabel{{ deal.pk }}">Удалить сделку?</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <p class="mb-2">Вы собираетесь удалить сделку <strong>{{ deal.title }}</strong>.</p>
+              <p class="text-muted mb-0">Это действие нельзя отменить. Для обычного отказа лучше сменить этап сделки на «Отказ».</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+              <form method="post" action="{% url 'deal_delete' deal.pk %}" class="m-0">
+                {% csrf_token %}
+                <button class="btn btn-danger" type="submit">Да, удалить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endblock %}

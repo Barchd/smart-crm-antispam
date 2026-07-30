@@ -1,0 +1,12 @@
+.venv/
+.venv-crm/
+__pycache__/
+.ai/
+.cloud/
+.claude/
+*.py[cod]
+.env
+db.sqlite3
+db.sqlite3-wal
+db.sqlite3-shm
+.DS_Store

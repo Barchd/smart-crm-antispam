@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block title %}Настройки webhook{% endblock %}
+{% block content %}
+  {% include "includes/settings_subnav.html" %}
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h2 class="h3 mb-1">Webhook intake</h2>
+      <p class="text-muted mb-0">HMAC-подпись для server-to-server заявок от PHP-сайта, 1C и других backend-систем.</p>
+    </div>
+  </div>
+
+  {% if new_secret %}
+    <div class="alert alert-warning border d-flex gap-3 align-items-start mb-4" role="alert">
+      <div class="flex-grow-1">
+        <strong>Новый секрет сгенерирован — скопируйте прямо сейчас.</strong>
+        <p class="mb-2 mt-1 small text-muted">После закрытия этой страницы полный секрет больше не отобразится.</p>
+        <div class="d-flex align-items-center gap-2 flex-wrap">
+          <code id="newSecretValue" class="user-select-all bg-light border rounded px-3 py-2 fs-6">{{ new_secret }}</code>
+          <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="navigator.clipboard.writeText('{{ new_secret }}').then(() => this.textContent='✓ Скопировано')">
+            Копировать
+          </button>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="card card-soft h-100">
+        <div class="card-body">
+          <h2 class="h5">Текущее состояние</h2>
+          <dl class="mb-3">
+            <dt>Секрет</dt>
+            <dd>
+              {% if secret_mask %}
+                <code>{{ secret_mask }}</code>
+              {% else %}
+                <span class="text-muted">не задан (используется .env)</span>
+              {% endif %}
+            </dd>
+            <dt>Обновлён</dt>
+            <dd class="mb-0">
+              {% if settings_obj.updated_by %}
+                {{ settings_obj.updated_at }} · {{ settings_obj.updated_by.full_name|default:settings_obj.updated_by.username }}
+              {% else %}
+                <span class="text-muted">не изменялся в UI</span>
+              {% endif %}
+            </dd>
+          </dl>
+
+          <form method="post">
+            {% csrf_token %}
+            <button
+              type="button"
+              class="btn btn-danger btn-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#confirmRotateModal"
+            >
+              Сгенерировать новый секрет
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card card-soft">
+        <div class="card-body">
+          <h2 class="h5 mb-1">Документация для интегратора</h2>
+          <p class="text-muted small mb-3">Передайте этот раздел PHP-разработчику или интегратору 1C.</p>
+
+          <h3 class="h6">Endpoint</h3>
+          <code class="d-block mb-3">POST {{ request.scheme }}://{{ request.get_host }}/api/v1/intake/lead</code>
+
+          <h3 class="h6">Обязательные заголовки</h3>
+          <table class="table table-sm table-bordered small mb-3">
+            <thead class="table-light"><tr><th>Заголовок</th><th>Значение</th></tr></thead>
+            <tbody>
+              <tr><td><code>Content-Type</code></td><td><code>application/json</code></td></tr>
+              <tr><td><code>X-Timestamp</code></td><td>Unix timestamp (целое, окно ±5 мин)</td></tr>
+              <tr><td><code>X-Signature</code></td><td>HMAC-SHA256 hex(secret, body)</td></tr>
+            </tbody>
+          </table>
+
+          <h3 class="h6">Опциональный заголовок (internal trust)</h3>
+          <table class="table table-sm table-bordered small mb-3">
+            <thead class="table-light"><tr><th>Заголовок</th><th>Значение</th><th>Эффект</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><code>X-Intake-Trust</code></td>
+                <td><code>internal</code></td>
+                <td>Отключает IP/UA velocity-проверки. Только для backend-систем с одного IP-сервера.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="h6">Пример PHP (подпись)</h3>
+          <pre class="small bg-dark text-light rounded p-3 mb-3" style="white-space:pre-wrap;">$secret = getenv('WEBHOOK_SECRET');
+$body   = json_encode($payload, JSON_UNESCAPED_UNICODE);
+$ts     = time();
+$sig    = hash_hmac('sha256', $body, $secret);
+
+curl_setopt_array($ch, [
+  CURLOPT_URL        => 'https://example.com/api/v1/intake/lead',
+  CURLOPT_POST       => true,
+  CURLOPT_POSTFIELDS => $body,
+  CURLOPT_HTTPHEADER => [
+    'Content-Type: application/json',
+    "X-Timestamp: $ts",
+    "X-Signature: $sig",
+  ],
+]);</pre>
+
+          <div class="alert alert-light border small mb-0" role="alert">
+            <strong>Ротация:</strong> после смены секрета в старом .env или PHP-коде ответы перестанут быть подписаны корректно. Обновите переменную окружения на PHP-сервере <em>до</em> нажатия «Сгенерировать».
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm rotate modal -->
+  <div class="modal fade" id="confirmRotateModal" tabindex="-1" aria-labelledby="confirmRotateLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="confirmRotateLabel">Сгенерировать новый секрет?</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <p>Старый секрет <strong>перестанет работать сразу</strong>. Все подписанные запросы с PHP-сайта и других интеграторов будут возвращать <code>401</code> до обновления их переменной <code>WEBHOOK_SECRET</code>.</p>
+          <p class="mb-0">Обновите интегратор <em>после</em> копирования нового секрета.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Отмена</button>
+          <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-danger" type="submit" name="action" value="generate">
+              Сгенерировать и показать один раз
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

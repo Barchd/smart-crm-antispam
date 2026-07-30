@@ -1,0 +1,3646 @@
+{
+  "Aito": [
+    {
+      "model": "M5",
+      "name": "Aito M5",
+      "price_from": 6215000,
+      "price_from_text": "6 215 000 ₽",
+      "credit_from_text": "84 796 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/aito/m5"
+    },
+    {
+      "model": "M7",
+      "name": "Aito M7",
+      "price_from": 7415000,
+      "price_from_text": "7 415 000 ₽",
+      "credit_from_text": "101 169 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/aito/m7"
+    },
+    {
+      "model": "M9",
+      "name": "Aito M9",
+      "price_from": 8425000,
+      "price_from_text": "8 425 000 ₽",
+      "credit_from_text": "114 949 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/aito/m9"
+    }
+  ],
+  "Amberauto": [
+    {
+      "model": "A5",
+      "name": "Amberauto A5",
+      "price_from": 2150000,
+      "price_from_text": "2 150 000 ₽",
+      "credit_from_text": "29 334 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/amberauto/a5"
+    }
+  ],
+  "Avatr": [
+    {
+      "model": "07",
+      "name": "Avatr 07",
+      "price_from": 6425000,
+      "price_from_text": "6 425 000 ₽",
+      "credit_from_text": "87 661 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/avatr/07"
+    },
+    {
+      "model": "12",
+      "name": "Avatr 12",
+      "price_from": 6706000,
+      "price_from_text": "6 706 000 ₽",
+      "credit_from_text": "91 495 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/avatr/12"
+    },
+    {
+      "model": "11",
+      "name": "Avatr 11",
+      "price_from": 6875000,
+      "price_from_text": "6 875 000 ₽",
+      "credit_from_text": "93 801 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/avatr/11"
+    }
+  ],
+  "BAIC": [
+    {
+      "model": "X35",
+      "name": "Baic X35",
+      "price_from": 1299000,
+      "price_from_text": "1 299 000 ₽",
+      "credit_from_text": "17 723 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/x35"
+    },
+    {
+      "model": "U5 Plus",
+      "name": "Baic U5 Plus",
+      "price_from": 1569000,
+      "price_from_text": "1 569 000 ₽",
+      "credit_from_text": "21 407 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/u5-plus"
+    },
+    {
+      "model": "U5 Plus CNG",
+      "name": "BAIC U5 Plus CNG",
+      "price_from": 1645522,
+      "price_from_text": "1 645 522 ₽",
+      "credit_from_text": "22 451 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/u5"
+    },
+    {
+      "model": "EU5",
+      "name": "BAIC EU5",
+      "price_from": 1755000,
+      "price_from_text": "1 755 000 ₽",
+      "credit_from_text": "23 945 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/eu5"
+    },
+    {
+      "model": "X7",
+      "name": "BAIC X7",
+      "price_from": 1815000,
+      "price_from_text": "1 815 000 ₽",
+      "credit_from_text": "24 764 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/x7"
+    },
+    {
+      "model": "X55",
+      "name": "BAIC X55",
+      "price_from": 1840000,
+      "price_from_text": "1 840 000 ₽",
+      "credit_from_text": "25 105 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/x55"
+    },
+    {
+      "model": "X75",
+      "name": "BAIC X75",
+      "price_from": 2024000,
+      "price_from_text": "2 024 000 ₽",
+      "credit_from_text": "27 615 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/x75"
+    },
+    {
+      "model": "BJ40",
+      "name": "BAIC BJ40",
+      "price_from": 2810000,
+      "price_from_text": "2 810 000 ₽",
+      "credit_from_text": "38 339 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/bj40"
+    },
+    {
+      "model": "BJ60",
+      "name": "BAIC BJ60",
+      "price_from": 4625000,
+      "price_from_text": "4 625 000 ₽",
+      "credit_from_text": "63 103 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/baic/bj60"
+    }
+  ],
+  "BYD": [
+    {
+      "model": "Qin Plus",
+      "name": "BYD Qin Plus",
+      "price_from": 2489900,
+      "price_from_text": "2 489 900 ₽",
+      "credit_from_text": "33 972 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/qin-plus"
+    },
+    {
+      "model": "Song Pro",
+      "name": "BYD Song Pro",
+      "price_from": 2570000,
+      "price_from_text": "2 570 000 ₽",
+      "credit_from_text": "35 065 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/song-pro"
+    },
+    {
+      "model": "Yuan Plus",
+      "name": "BYD Yuan Plus",
+      "price_from": 3210000,
+      "price_from_text": "3 210 000 ₽",
+      "credit_from_text": "43 797 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/yuan-plus"
+    },
+    {
+      "model": "Han",
+      "name": "BYD Han",
+      "price_from": 4619000,
+      "price_from_text": "4 619 000 ₽",
+      "credit_from_text": "63 021 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/han"
+    },
+    {
+      "model": "Tang",
+      "name": "BYD Tang",
+      "price_from": 5075000,
+      "price_from_text": "5 075 000 ₽",
+      "credit_from_text": "69 242 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/tang"
+    },
+    {
+      "model": "FangChengBao Leopard 5",
+      "name": "BYD FangChengBao Leopard 5",
+      "price_from": 5125000,
+      "price_from_text": "5 125 000 ₽",
+      "credit_from_text": "69 925 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/byd/fangchengbao-leopard-5"
+    }
+  ],
+  "Belgee": [
+    {
+      "model": "S50",
+      "name": "Belgee S50",
+      "price_from": 1694000,
+      "price_from_text": "1 694 000 ₽",
+      "credit_from_text": "23 113 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/belgee/s50"
+    },
+    {
+      "model": "X50",
+      "name": "Belgee X50",
+      "price_from": 1725000,
+      "price_from_text": "1 725 000 ₽",
+      "credit_from_text": "23 536 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/belgee/x50"
+    },
+    {
+      "model": "X70",
+      "name": "Belgee X70",
+      "price_from": 1829000,
+      "price_from_text": "1 829 000 ₽",
+      "credit_from_text": "24 955 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/belgee/x70"
+    },
+    {
+      "model": "X50+",
+      "name": "Belgee X50+",
+      "price_from": 2244990,
+      "price_from_text": "2 244 990 ₽",
+      "credit_from_text": "30 630 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/belgee/x50-plus"
+    }
+  ],
+  "Changan": [
+    {
+      "model": "Alsvin",
+      "name": "Changan Alsvin",
+      "price_from": 1304900,
+      "price_from_text": "1 304 900 ₽",
+      "credit_from_text": "17 804 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/alsvin"
+    },
+    {
+      "model": "CS55 Plus III",
+      "name": "Changan CS55 Plus III",
+      "price_from": 1304900,
+      "price_from_text": "1 304 900 ₽",
+      "credit_from_text": "17 804 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs55"
+    },
+    {
+      "model": "CS95 Plus",
+      "name": "Changan CS95 Plus",
+      "price_from": 1304900,
+      "price_from_text": "1 304 900 ₽",
+      "credit_from_text": "17 804 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs95-plus"
+    },
+    {
+      "model": "Eado Plus",
+      "name": "Changan Eado Plus",
+      "price_from": 1444900,
+      "price_from_text": "1 444 900 ₽",
+      "credit_from_text": "19 714 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/eadoplus"
+    },
+    {
+      "model": "Hunter Plus",
+      "name": "Changan Hunter Plus",
+      "price_from": 2134900,
+      "price_from_text": "2 134 900 ₽",
+      "credit_from_text": "29 128 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/hunter-plus"
+    },
+    {
+      "model": "UNI-S",
+      "name": "Changan UNI-S",
+      "price_from": 2144900,
+      "price_from_text": "2 144 900 ₽",
+      "credit_from_text": "29 265 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-s"
+    },
+    {
+      "model": "CS75FL",
+      "name": "Changan CS75FL",
+      "price_from": 2149900,
+      "price_from_text": "2 149 900 ₽",
+      "credit_from_text": "29 333 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs75fl"
+    },
+    {
+      "model": "UNI-T",
+      "name": "Changan UNI-T",
+      "price_from": 2269900,
+      "price_from_text": "2 269 900 ₽",
+      "credit_from_text": "30 970 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-t"
+    },
+    {
+      "model": "UNI-V",
+      "name": "Changan UNI-V",
+      "price_from": 2274900,
+      "price_from_text": "2 274 900 ₽",
+      "credit_from_text": "31 038 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-v"
+    },
+    {
+      "model": "CS75 Plus",
+      "name": "Changan CS75 Plus",
+      "price_from": 2344900,
+      "price_from_text": "2 344 900 ₽",
+      "credit_from_text": "31 993 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs75plus"
+    },
+    {
+      "model": "Lamore",
+      "name": "Changan Lamore",
+      "price_from": 2404900,
+      "price_from_text": "2 404 900 ₽",
+      "credit_from_text": "32 812 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/lamore"
+    },
+    {
+      "model": "CS55 Plus",
+      "name": "Changan CS55 Plus",
+      "price_from": 2465900,
+      "price_from_text": "2 465 900 ₽",
+      "credit_from_text": "33 644 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs55plus"
+    },
+    {
+      "model": "Raeton Plus",
+      "name": "Changan Raeton Plus",
+      "price_from": 2510000,
+      "price_from_text": "2 510 000 ₽",
+      "credit_from_text": "34 246 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/raeton-plus"
+    },
+    {
+      "model": "CS35 max",
+      "name": "Changan CS35 max",
+      "price_from": 2524900,
+      "price_from_text": "2 524 900 ₽",
+      "credit_from_text": "34 449 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs35-max"
+    },
+    {
+      "model": "CS35 Plus New",
+      "name": "Changan CS35 Plus New",
+      "price_from": 2539900,
+      "price_from_text": "2 539 900 ₽",
+      "credit_from_text": "34 654 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs35plus-new"
+    },
+    {
+      "model": "UNI-L",
+      "name": "Changan UNI-L",
+      "price_from": 2854900,
+      "price_from_text": "2 854 900 ₽",
+      "credit_from_text": "38 952 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-l"
+    },
+    {
+      "model": "UNI-S new",
+      "name": "Changan UNI-S new",
+      "price_from": 2904900,
+      "price_from_text": "2 904 900 ₽",
+      "credit_from_text": "39 634 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-s-new"
+    },
+    {
+      "model": "UNI-K",
+      "name": "Changan UNI-K",
+      "price_from": 3194900,
+      "price_from_text": "3 194 900 ₽",
+      "credit_from_text": "43 591 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-k"
+    },
+    {
+      "model": "CS95",
+      "name": "Changan CS95",
+      "price_from": 3299000,
+      "price_from_text": "3 299 000 ₽",
+      "credit_from_text": "45 011 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs95"
+    },
+    {
+      "model": "CS85 Coupe",
+      "name": "Changan CS85 Coupe",
+      "price_from": 3359900,
+      "price_from_text": "3 359 900 ₽",
+      "credit_from_text": "45 842 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs85-coupe"
+    },
+    {
+      "model": "CS75 Plus IV",
+      "name": "Changan CS75 Plus IV",
+      "price_from": 4024900,
+      "price_from_text": "4 024 900 ₽",
+      "credit_from_text": "54 915 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs75"
+    },
+    {
+      "model": "CS95 New",
+      "name": "Changan CS95 New",
+      "price_from": 4449900,
+      "price_from_text": "4 449 900 ₽",
+      "credit_from_text": "60 714 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/cs95-new"
+    },
+    {
+      "model": "UNI-K iDD",
+      "name": "Changan UNI-K iDD",
+      "price_from": 4629900,
+      "price_from_text": "4 629 900 ₽",
+      "credit_from_text": "63 169 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/changan/uni-k-idd"
+    }
+  ],
+  "Chery": [
+    {
+      "model": "Tiggo 4 Pro",
+      "name": "Chery Tiggo 4 Pro",
+      "price_from": 1555000,
+      "price_from_text": "1 555 000 ₽",
+      "credit_from_text": "21 216 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-4-pro"
+    },
+    {
+      "model": "Tiggo 7 Pro e+",
+      "name": "Chery Tiggo 7 Pro e+",
+      "price_from": 1555000,
+      "price_from_text": "1 555 000 ₽",
+      "credit_from_text": "21 216 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-7-pro-e"
+    },
+    {
+      "model": "Tiggo 4",
+      "name": "Chery Tiggo 4",
+      "price_from": 1565000,
+      "price_from_text": "1 565 000 ₽",
+      "credit_from_text": "21 353 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo4"
+    },
+    {
+      "model": "Explore 06",
+      "name": "Chery Explore 06",
+      "price_from": 1990000,
+      "price_from_text": "1 990 000 ₽",
+      "credit_from_text": "27 151 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/explore-06"
+    },
+    {
+      "model": "Tiggo 7 Pro",
+      "name": "Chery Tiggo 7 Pro",
+      "price_from": 2055000,
+      "price_from_text": "2 055 000 ₽",
+      "credit_from_text": "28 038 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-7-pro"
+    },
+    {
+      "model": "Arrizo 8",
+      "name": "Chery Arrizo 8",
+      "price_from": 2070000,
+      "price_from_text": "2 070 000 ₽",
+      "credit_from_text": "28 243 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/arrizo-8"
+    },
+    {
+      "model": "Tiggo 7L",
+      "name": "Chery Tiggo 7L",
+      "price_from": 2105000,
+      "price_from_text": "2 105 000 ₽",
+      "credit_from_text": "28 720 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/chery"
+    },
+    {
+      "model": "Tiggo 7 Pro Max",
+      "name": "Chery Tiggo 7 Pro Max",
+      "price_from": 2376000,
+      "price_from_text": "2 376 000 ₽",
+      "credit_from_text": "32 418 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-7-pro-max"
+    },
+    {
+      "model": "8 Pro Max New",
+      "name": "Tiggo 8 Pro Max New",
+      "price_from": 2530000,
+      "price_from_text": "2 530 000 ₽",
+      "credit_from_text": "34 519 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-pro-max-new"
+    },
+    {
+      "model": "Tiggo 8 Pro Max",
+      "name": "Chery Tiggo 8 Pro Max",
+      "price_from": 2530000,
+      "price_from_text": "2 530 000 ₽",
+      "credit_from_text": "34 519 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-pro-max"
+    },
+    {
+      "model": "Tiggo 8",
+      "name": "Chery Tiggo 8",
+      "price_from": 2590000,
+      "price_from_text": "2 590 000 ₽",
+      "credit_from_text": "35 337 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-new"
+    },
+    {
+      "model": "Tiggo 8 Pro",
+      "name": "Chery Tiggo 8 Pro",
+      "price_from": 2925000,
+      "price_from_text": "2 925 000 ₽",
+      "credit_from_text": "39 908 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-pro"
+    },
+    {
+      "model": "Tiggo 7 Pro Plug-in Hybrid",
+      "name": "Chery Tiggo 7 Pro Plug-in Hybrid",
+      "price_from": 3190000,
+      "price_from_text": "3 190 000 ₽",
+      "credit_from_text": "43 524 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-7pro-plug-in-hybrid"
+    },
+    {
+      "model": "Tiggo 9",
+      "name": "Chery Tiggo 9",
+      "price_from": 3305000,
+      "price_from_text": "3 305 000 ₽",
+      "credit_from_text": "45 093 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-9"
+    },
+    {
+      "model": "Tiggo 8 Pro Plug-in Hybrid",
+      "name": "Chery Tiggo 8 Pro Plug-in Hybrid",
+      "price_from": 3625000,
+      "price_from_text": "3 625 000 ₽",
+      "credit_from_text": "49 459 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-pro-plug-in-hybrid"
+    },
+    {
+      "model": "Tiggo 8 Pro e+",
+      "name": "Chery Tiggo 8 Pro e+",
+      "price_from": 4350000,
+      "price_from_text": "4 350 000 ₽",
+      "credit_from_text": "59 351 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/chery/tiggo-8-pro-e"
+    }
+  ],
+  "CheryExeed": [
+    {
+      "model": "LX New",
+      "name": "CheryExeed LX New",
+      "price_from": 2420000,
+      "price_from_text": "2 420 000 ₽",
+      "credit_from_text": "33 018 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/cheryexeed/lx-new"
+    },
+    {
+      "model": "TXL New",
+      "name": "CheryExeed TXL New",
+      "price_from": 2875000,
+      "price_from_text": "2 875 000 ₽",
+      "credit_from_text": "39 226 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/cheryexeed/txl-new"
+    },
+    {
+      "model": "RX",
+      "name": "CheryExeed RX",
+      "price_from": 3800000,
+      "price_from_text": "3 800 000 ₽",
+      "credit_from_text": "51 846 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/cheryexeed/rx"
+    },
+    {
+      "model": "VX New",
+      "name": "CheryExeed VX New",
+      "price_from": 4535000,
+      "price_from_text": "4 535 000 ₽",
+      "credit_from_text": "61 875 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/cheryexeed/vx-new"
+    }
+  ],
+  "Citroen": [
+    {
+      "model": "Berlingo",
+      "name": "Citroen Berlingo",
+      "price_from": 1239000,
+      "price_from_text": "1 239 000 ₽",
+      "credit_from_text": "16 905 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/berlingo"
+    },
+    {
+      "model": "C3 Aircross",
+      "name": "Citroen C3 Aircross",
+      "price_from": 1239000,
+      "price_from_text": "1 239 000 ₽",
+      "credit_from_text": "16 905 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/c3-aircross"
+    },
+    {
+      "model": "Multispace",
+      "name": "Berlingo Multispace",
+      "price_from": 1774000,
+      "price_from_text": "1 774 000 ₽",
+      "credit_from_text": "24 204 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/berlingo-multispace"
+    },
+    {
+      "model": "C4 Sedan",
+      "name": "Citroen C4 Sedan",
+      "price_from": 1794000,
+      "price_from_text": "1 794 000 ₽",
+      "credit_from_text": "24 477 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/c4-sedan"
+    },
+    {
+      "model": "Jumpy",
+      "name": "Citroen Jumpy",
+      "price_from": 2594900,
+      "price_from_text": "2 594 900 ₽",
+      "credit_from_text": "35 404 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/jumpy"
+    },
+    {
+      "model": "C5 Aircross",
+      "name": "Citroen C5 Aircross",
+      "price_from": 3574000,
+      "price_from_text": "3 574 000 ₽",
+      "credit_from_text": "48 763 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/c5-aircross"
+    },
+    {
+      "model": "C5 X",
+      "name": "Citroen C5 X",
+      "price_from": 3974000,
+      "price_from_text": "3 974 000 ₽",
+      "credit_from_text": "54 220 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/c5"
+    },
+    {
+      "model": "SpaceTourer XL I Рестайлинг",
+      "name": "Citroen SpaceTourer XL I Рестайлинг",
+      "price_from": 5925000,
+      "price_from_text": "5 925 000 ₽",
+      "credit_from_text": "80 840 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/citroen/spacetourer-xl-restyling"
+    }
+  ],
+  "Dacia": [
+    {
+      "model": "Bigster",
+      "name": "Dacia Bigster",
+      "price_from": null,
+      "price_from_text": null,
+      "credit_from_text": null,
+      "url": "https://skayavto.ru/catalog/dacia/bigster"
+    }
+  ],
+  "Datsun": [
+    {
+      "model": "ON-DO",
+      "name": "Datsun ON-DO",
+      "price_from": 520000,
+      "price_from_text": "520 000 ₽",
+      "credit_from_text": "7 095 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/datsun/on-do"
+    },
+    {
+      "model": "MI-DO",
+      "name": "Datsun MI-DO",
+      "price_from": 550000,
+      "price_from_text": "550 000 ₽",
+      "credit_from_text": "7 504 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/datsun/mi-do"
+    }
+  ],
+  "Deepal": [
+    {
+      "model": "G318",
+      "name": "Deepal G318",
+      "price_from": 5575000,
+      "price_from_text": "5 575 000 ₽",
+      "credit_from_text": "76 064 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/deepal/g318"
+    }
+  ],
+  "Dongfeng": [
+    {
+      "model": "AX7",
+      "name": "Dongfeng AX7",
+      "price_from": 1182900,
+      "price_from_text": "1 182 900 ₽",
+      "credit_from_text": "16 139 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/ax7"
+    },
+    {
+      "model": "Aeolus AX7 Plus",
+      "name": "Dongfeng Aeolus AX7 Plus",
+      "price_from": 1182900,
+      "price_from_text": "1 182 900 ₽",
+      "credit_from_text": "16 139 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/dongfeng-aeolus-ax7-pius"
+    },
+    {
+      "model": "Fukang ES600",
+      "name": "Dongfeng Fukang ES600",
+      "price_from": 1182900,
+      "price_from_text": "1 182 900 ₽",
+      "credit_from_text": "16 139 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/fukang-es600"
+    },
+    {
+      "model": "580",
+      "name": "Dongfeng 580",
+      "price_from": 1324000,
+      "price_from_text": "1 324 000 ₽",
+      "credit_from_text": "18 064 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/580"
+    },
+    {
+      "model": "Captain-T",
+      "name": "Dongfeng Captain-T",
+      "price_from": 1345000,
+      "price_from_text": "1 345 000 ₽",
+      "credit_from_text": "18 351 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/captain-t"
+    },
+    {
+      "model": "DFSK 500",
+      "name": "Dongfeng DFSK 500",
+      "price_from": 1625000,
+      "price_from_text": "1 625 000 ₽",
+      "credit_from_text": "22 171 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/dfsk-500"
+    },
+    {
+      "model": "DFSK ix5",
+      "name": "Dongfeng DFSK ix5",
+      "price_from": 1635000,
+      "price_from_text": "1 635 000 ₽",
+      "credit_from_text": "22 308 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/dfsk-ix5"
+    },
+    {
+      "model": "Aeolus Shine Max",
+      "name": "Dongfeng Aeolus Shine Max",
+      "price_from": 1804000,
+      "price_from_text": "1 804 000 ₽",
+      "credit_from_text": "24 613 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/aeolus-shine-max"
+    },
+    {
+      "model": "DF6",
+      "name": "Dongfeng DF6",
+      "price_from": 2024000,
+      "price_from_text": "2 024 000 ₽",
+      "credit_from_text": "27 615 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/df6"
+    },
+    {
+      "model": "DFSK ix7",
+      "name": "DongFeng DFSK ix7",
+      "price_from": 2405000,
+      "price_from_text": "2 405 000 ₽",
+      "credit_from_text": "32 813 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/dfsk-ix7"
+    },
+    {
+      "model": "MAGE",
+      "name": "Dongfeng MAGE",
+      "price_from": 2524000,
+      "price_from_text": "2 524 000 ₽",
+      "credit_from_text": "34 437 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/mage"
+    },
+    {
+      "model": "Shine Max",
+      "name": "Dongfeng Shine Max",
+      "price_from": 2645000,
+      "price_from_text": "2 645 000 ₽",
+      "credit_from_text": "36 088 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/shine-max"
+    },
+    {
+      "model": "Aeolus Huge",
+      "name": "Dongfeng Aeolus Huge",
+      "price_from": 2755000,
+      "price_from_text": "2 755 000 ₽",
+      "credit_from_text": "37 589 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/dongfeng/aeolus-huge"
+    }
+  ],
+  "EONYX": [
+    {
+      "model": "City (M2)",
+      "name": "Eonyx City (M2)",
+      "price_from": 471000,
+      "price_from_text": "471 000 ₽",
+      "credit_from_text": "6 426 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/eonyx/eonyx-city-m2"
+    }
+  ],
+  "Evolute": [
+    {
+      "model": "i-PRO",
+      "name": "Evolute i-PRO",
+      "price_from": 1584000,
+      "price_from_text": "1 584 000 ₽",
+      "credit_from_text": "21 612 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-pro"
+    },
+    {
+      "model": "i-Joy",
+      "name": "Evolute i-Joy",
+      "price_from": 1875000,
+      "price_from_text": "1 875 000 ₽",
+      "credit_from_text": "25 582 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-joy"
+    },
+    {
+      "model": "i-Sky City Edition",
+      "name": "Evolute i-Sky City Edition",
+      "price_from": 2115000,
+      "price_from_text": "2 115 000 ₽",
+      "credit_from_text": "28 857 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-sky-city-edition"
+    },
+    {
+      "model": "i-Space",
+      "name": "Evolute i-Space",
+      "price_from": 2324000,
+      "price_from_text": "2 324 000 ₽",
+      "credit_from_text": "31 708 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-space"
+    },
+    {
+      "model": "i-Space",
+      "name": "Evolute i-Space",
+      "price_from": 2375000,
+      "price_from_text": "2 375 000 ₽",
+      "credit_from_text": "32 404 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-space-new"
+    },
+    {
+      "model": "i-Van",
+      "name": "Evolute i-Van",
+      "price_from": 2890000,
+      "price_from_text": "2 890 000 ₽",
+      "credit_from_text": "39 431 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-van"
+    },
+    {
+      "model": "i-Sky",
+      "name": "Evolute i-Sky",
+      "price_from": 3105000,
+      "price_from_text": "3 105 000 ₽",
+      "credit_from_text": "42 364 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/evolute/i-sky"
+    }
+  ],
+  "Exlantix": [
+    {
+      "model": "ES",
+      "name": "Exlantix ES",
+      "price_from": 5805000,
+      "price_from_text": "5 805 000 ₽",
+      "credit_from_text": "79 202 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/exlanix/es"
+    },
+    {
+      "model": "ET",
+      "name": "Exlantix ET",
+      "price_from": 6325000,
+      "price_from_text": "6 325 000 ₽",
+      "credit_from_text": "86 297 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/exlanix/et"
+    }
+  ],
+  "Faw": [
+    {
+      "model": "Besturn X40",
+      "name": "Faw Besturn X40",
+      "price_from": 1442000,
+      "price_from_text": "1 442 000 ₽",
+      "credit_from_text": "19 674 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/besturn-x40"
+    },
+    {
+      "model": "Besturn X80",
+      "name": "Faw Besturn X80",
+      "price_from": 1498000,
+      "price_from_text": "1 498 000 ₽",
+      "credit_from_text": "20 438 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/besturn-x80"
+    },
+    {
+      "model": "Bestune T55",
+      "name": "FAW Bestune T55",
+      "price_from": 1666000,
+      "price_from_text": "1 666 000 ₽",
+      "credit_from_text": "22 731 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-t55"
+    },
+    {
+      "model": "Bestune T77",
+      "name": "Faw Bestune T77",
+      "price_from": 1885000,
+      "price_from_text": "1 885 000 ₽",
+      "credit_from_text": "25 719 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-t77"
+    },
+    {
+      "model": "Bestune B70",
+      "name": "FAW Bestune B70",
+      "price_from": 1999000,
+      "price_from_text": "1 999 000 ₽",
+      "credit_from_text": "27 274 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-b70"
+    },
+    {
+      "model": "Bestune T90",
+      "name": "FAW Bestune T90",
+      "price_from": 2225000,
+      "price_from_text": "2 225 000 ₽",
+      "credit_from_text": "30 357 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-t90"
+    },
+    {
+      "model": "Bestune B70 new",
+      "name": "FAW Bestune B70 new",
+      "price_from": 2284990,
+      "price_from_text": "2 284 990 ₽",
+      "credit_from_text": "31 176 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-b70-new"
+    },
+    {
+      "model": "Bestune T99",
+      "name": "FAW Bestune T99",
+      "price_from": 2743000,
+      "price_from_text": "2 743 000 ₽",
+      "credit_from_text": "37 425 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune-t99"
+    },
+    {
+      "model": "Bestune M9",
+      "name": "Faw Bestune M9",
+      "price_from": 3225000,
+      "price_from_text": "3 225 000 ₽",
+      "credit_from_text": "44 001 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/faw/bestune"
+    }
+  ],
+  "Ford": [
+    {
+      "model": "Fiesta Хэтчбек",
+      "name": "Ford Fiesta Хэтчбек",
+      "price_from": 747500,
+      "price_from_text": "747 500 ₽",
+      "credit_from_text": "10 199 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/fiesta-hatchback"
+    },
+    {
+      "model": "Fiesta Седан",
+      "name": "Ford Fiesta Седан",
+      "price_from": 760500,
+      "price_from_text": "760 500 ₽",
+      "credit_from_text": "10 376 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/fiesta"
+    },
+    {
+      "model": "Focus Хэтчбек",
+      "name": "Ford Focus Хэтчбек",
+      "price_from": 932900,
+      "price_from_text": "932 900 ₽",
+      "credit_from_text": "12 728 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/focus-hatchback"
+    },
+    {
+      "model": "Focus Седан",
+      "name": "Ford Focus Седан",
+      "price_from": 945900,
+      "price_from_text": "945 900 ₽",
+      "credit_from_text": "12 906 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/focus-sedan"
+    },
+    {
+      "model": "Focus Универсал",
+      "name": "Ford Focus Универсал",
+      "price_from": 1036900,
+      "price_from_text": "1 036 900 ₽",
+      "credit_from_text": "14 147 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/focus-universal"
+    },
+    {
+      "model": "EcoSport",
+      "name": "Ford EcoSport",
+      "price_from": 1040900,
+      "price_from_text": "1 040 900 ₽",
+      "credit_from_text": "14 202 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/ecosport"
+    },
+    {
+      "model": "Mondeo",
+      "name": "Ford Mondeo",
+      "price_from": 1660600,
+      "price_from_text": "1 660 600 ₽",
+      "credit_from_text": "22 657 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/mondeo"
+    },
+    {
+      "model": "Kuga",
+      "name": "Ford Kuga",
+      "price_from": 1733500,
+      "price_from_text": "1 733 500 ₽",
+      "credit_from_text": "23 652 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/kuga"
+    },
+    {
+      "model": "Explorer",
+      "name": "Ford Explorer",
+      "price_from": 3308000,
+      "price_from_text": "3 308 000 ₽",
+      "credit_from_text": "45 134 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/explorer"
+    },
+    {
+      "model": "Tourneo Custom рестайлинг",
+      "name": "Ford Tourneo Custom рестайлинг",
+      "price_from": 6825000,
+      "price_from_text": "6 825 000 ₽",
+      "credit_from_text": "93 119 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ford/tourneo-custom-restyling"
+    }
+  ],
+  "Forthing": [
+    {
+      "model": "T5 HEV",
+      "name": "Forthing T5 HEV",
+      "price_from": 2110000,
+      "price_from_text": "2 110 000 ₽",
+      "credit_from_text": "28 788 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/forthing/t5-hev"
+    },
+    {
+      "model": "forthing",
+      "name": "Forthing",
+      "price_from": 2220000,
+      "price_from_text": "2 220 000 ₽",
+      "credit_from_text": "30 289 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/forthing/forthing"
+    },
+    {
+      "model": "Yacht",
+      "name": "Forthing Yacht",
+      "price_from": 3660000,
+      "price_from_text": "3 660 000 ₽",
+      "credit_from_text": "49 936 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/forthing/yacht"
+    },
+    {
+      "model": "M7",
+      "name": "Forthing M7",
+      "price_from": 4920000,
+      "price_from_text": "4 920 000 ₽",
+      "credit_from_text": "67 128 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/forthing/m7"
+    }
+  ],
+  "Foton": [
+    {
+      "model": "Sauvana",
+      "name": "Foton Sauvana",
+      "price_from": 1696900,
+      "price_from_text": "1 696 900 ₽",
+      "credit_from_text": "23 152 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/foton/sauvana"
+    },
+    {
+      "model": "Tunland",
+      "name": "Foton Tunland",
+      "price_from": 1709900,
+      "price_from_text": "1 709 900 ₽",
+      "credit_from_text": "23 330 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/foton/tunland"
+    },
+    {
+      "model": "Tunland G7",
+      "name": "Futon Tunland G7",
+      "price_from": 2950000,
+      "price_from_text": "2 950 000 ₽",
+      "credit_from_text": "40 249 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/foton/tunland-g7"
+    }
+  ],
+  "GAC": [
+    {
+      "model": "Aion V",
+      "name": "GAC Aion V",
+      "price_from": 1925000,
+      "price_from_text": "1 925 000 ₽",
+      "credit_from_text": "26 264 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/aion-v"
+    },
+    {
+      "model": "GS3",
+      "name": "GAC GS3",
+      "price_from": 1925000,
+      "price_from_text": "1 925 000 ₽",
+      "credit_from_text": "26 264 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gs3"
+    },
+    {
+      "model": "GS4",
+      "name": "GAC GS4",
+      "price_from": 2625000,
+      "price_from_text": "2 625 000 ₽",
+      "credit_from_text": "35 815 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gs4"
+    },
+    {
+      "model": "Empow",
+      "name": "GAC Empow",
+      "price_from": 2755000,
+      "price_from_text": "2 755 000 ₽",
+      "credit_from_text": "37 589 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/empow"
+    },
+    {
+      "model": "GS4 Max",
+      "name": "GAC GS4 Max",
+      "price_from": 2866000,
+      "price_from_text": "2 866 000 ₽",
+      "credit_from_text": "39 103 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gs4-max"
+    },
+    {
+      "model": "GN8",
+      "name": "GAC GN8",
+      "price_from": 3375000,
+      "price_from_text": "3 375 000 ₽",
+      "credit_from_text": "46 048 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gn8"
+    },
+    {
+      "model": "GS8 II",
+      "name": "GAC GS8 II",
+      "price_from": 3609000,
+      "price_from_text": "3 609 000 ₽",
+      "credit_from_text": "49 241 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gs8-ii"
+    },
+    {
+      "model": "GS8",
+      "name": "GAC GS8",
+      "price_from": 3724000,
+      "price_from_text": "3 724 000 ₽",
+      "credit_from_text": "50 810 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/gs8"
+    },
+    {
+      "model": "S7",
+      "name": "Gac S7",
+      "price_from": 5535000,
+      "price_from_text": "5 535 000 ₽",
+      "credit_from_text": "75 518 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/s7"
+    },
+    {
+      "model": "M8",
+      "name": "GAC M8",
+      "price_from": 5724999,
+      "price_from_text": "5 724 999 ₽",
+      "credit_from_text": "78 111 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/gac/m8"
+    }
+  ],
+  "Geely": [
+    {
+      "model": "Emgrand",
+      "name": "Geely Emgrand",
+      "price_from": 1574990,
+      "price_from_text": "1 574 990 ₽",
+      "credit_from_text": "21 489 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/emgrand"
+    },
+    {
+      "model": "Atlas Pro",
+      "name": "Geely Atlas Pro",
+      "price_from": 1831990,
+      "price_from_text": "1 831 990 ₽",
+      "credit_from_text": "24 995 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/atlas-pro"
+    },
+    {
+      "model": "Coolray",
+      "name": "Geely Coolray",
+      "price_from": 1959990,
+      "price_from_text": "1 959 990 ₽",
+      "credit_from_text": "26 742 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/coolray"
+    },
+    {
+      "model": "Cityray",
+      "name": "Geely Cityray",
+      "price_from": 1979990,
+      "price_from_text": "1 979 990 ₽",
+      "credit_from_text": "27 015 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/cityray"
+    },
+    {
+      "model": "Knewstar 001",
+      "name": "Geely Knewstar 001",
+      "price_from": 2398990,
+      "price_from_text": "2 398 990 ₽",
+      "credit_from_text": "32 731 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/knewstar"
+    },
+    {
+      "model": "New Coolray",
+      "name": "Geely New Coolray",
+      "price_from": 2409990,
+      "price_from_text": "2 409 990 ₽",
+      "credit_from_text": "32 881 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/new"
+    },
+    {
+      "model": "Galaxy L7",
+      "name": "Geely Galaxy L7",
+      "price_from": 2473000,
+      "price_from_text": "2 473 000 ₽",
+      "credit_from_text": "33 741 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/galaxy-l7"
+    },
+    {
+      "model": "Atlas",
+      "name": "Geely Atlas",
+      "price_from": 2566990,
+      "price_from_text": "2 566 990 ₽",
+      "credit_from_text": "35 024 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/atlas"
+    },
+    {
+      "model": "Icon",
+      "name": "Geely Icon",
+      "price_from": 2679000,
+      "price_from_text": "2 679 000 ₽",
+      "credit_from_text": "36 552 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/icon"
+    },
+    {
+      "model": "Okavango",
+      "name": "Geely Okavango",
+      "price_from": 2850990,
+      "price_from_text": "2 850 990 ₽",
+      "credit_from_text": "38 898 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/okavango"
+    },
+    {
+      "model": "Preface",
+      "name": "Geely Preface",
+      "price_from": 2956990,
+      "price_from_text": "2 956 990 ₽",
+      "credit_from_text": "40 345 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/preface"
+    },
+    {
+      "model": "New Tugella",
+      "name": "Geely New Tugella",
+      "price_from": 3132990,
+      "price_from_text": "3 132 990 ₽",
+      "credit_from_text": "42 746 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/new-tugella"
+    },
+    {
+      "model": "Monjaro",
+      "name": "Geely Monjaro",
+      "price_from": 3259990,
+      "price_from_text": "3 259 990 ₽",
+      "credit_from_text": "44 479 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/monjaro"
+    },
+    {
+      "model": "EX5",
+      "name": "Geely EX5",
+      "price_from": 3475990,
+      "price_from_text": "3 475 990 ₽",
+      "credit_from_text": "47 426 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/geely-ex5"
+    },
+    {
+      "model": "EX5 EM-i",
+      "name": "Geely EX5 EM-i",
+      "price_from": 3594990,
+      "price_from_text": "3 594 990 ₽",
+      "credit_from_text": "49 049 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/geely/geely-ex5-em-i"
+    }
+  ],
+  "Great Wall": [
+    {
+      "model": "Poer Kingkong",
+      "name": "Great Wall Poer Kingkong",
+      "price_from": 2674000,
+      "price_from_text": "2 674 000 ₽",
+      "credit_from_text": "36 484 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/great-wall/poer-kingkong"
+    },
+    {
+      "model": "Poer",
+      "name": "Great Wall Poer",
+      "price_from": 3059000,
+      "price_from_text": "3 059 000 ₽",
+      "credit_from_text": "41 736 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/great-wall/poer"
+    }
+  ],
+  "Haima": [
+    {
+      "model": "8s",
+      "name": "Haima 8s",
+      "price_from": 2760000,
+      "price_from_text": "2 760 000 ₽",
+      "credit_from_text": "37 657 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haima/8s"
+    },
+    {
+      "model": "7x",
+      "name": "Haima 7x",
+      "price_from": 3130000,
+      "price_from_text": "3 130 000 ₽",
+      "credit_from_text": "42 705 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haima/7x"
+    }
+  ],
+  "Haval": [
+    {
+      "model": "M6",
+      "name": "Haval M6",
+      "price_from": 1624000,
+      "price_from_text": "1 624 000 ₽",
+      "credit_from_text": "22 158 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/m6"
+    },
+    {
+      "model": "Big Dog",
+      "name": "Haval Big Dog",
+      "price_from": 1774000,
+      "price_from_text": "1 774 000 ₽",
+      "credit_from_text": "24 204 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/bigdog"
+    },
+    {
+      "model": "H6 PHEV",
+      "name": "Haval H6 PHEV",
+      "price_from": 1774000,
+      "price_from_text": "1 774 000 ₽",
+      "credit_from_text": "24 204 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/phev"
+    },
+    {
+      "model": "Jolion",
+      "name": "Haval Jolion",
+      "price_from": 1774000,
+      "price_from_text": "1 774 000 ₽",
+      "credit_from_text": "24 204 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/jolion"
+    },
+    {
+      "model": "H6",
+      "name": "Haval H6",
+      "price_from": 1775000,
+      "price_from_text": "1 775 000 ₽",
+      "credit_from_text": "24 218 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/h6"
+    },
+    {
+      "model": "H3",
+      "name": "Haval H3",
+      "price_from": 2364000,
+      "price_from_text": "2 364 000 ₽",
+      "credit_from_text": "32 254 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/h3"
+    },
+    {
+      "model": "F7",
+      "name": "Haval F7",
+      "price_from": 2459000,
+      "price_from_text": "2 459 000 ₽",
+      "credit_from_text": "33 550 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/f7"
+    },
+    {
+      "model": "Dargo",
+      "name": "Haval Dargo",
+      "price_from": 2524000,
+      "price_from_text": "2 524 000 ₽",
+      "credit_from_text": "34 437 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/dargo"
+    },
+    {
+      "model": "Dargo X",
+      "name": "Haval Dargo X",
+      "price_from": 2634000,
+      "price_from_text": "2 634 000 ₽",
+      "credit_from_text": "35 938 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/dargo-x"
+    },
+    {
+      "model": "F7x",
+      "name": "Haval F7x",
+      "price_from": 3074000,
+      "price_from_text": "3 074 000 ₽",
+      "credit_from_text": "41 941 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/f7x"
+    },
+    {
+      "model": "H5",
+      "name": "Haval H5",
+      "price_from": 3304000,
+      "price_from_text": "3 304 000 ₽",
+      "credit_from_text": "45 079 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/h5-new"
+    },
+    {
+      "model": "H7",
+      "name": "Haval H7",
+      "price_from": 3724000,
+      "price_from_text": "3 724 000 ₽",
+      "credit_from_text": "50 810 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/haval-h7"
+    },
+    {
+      "model": "H9 II",
+      "name": "Haval H9 II",
+      "price_from": 4244000,
+      "price_from_text": "4 244 000 ₽",
+      "credit_from_text": "57 904 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/haval/h9"
+    }
+  ],
+  "Honda": [
+    {
+      "model": "CR-V",
+      "name": "Honda CR-V",
+      "price_from": 4085000,
+      "price_from_text": "4 085 000 ₽",
+      "credit_from_text": "55 735 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/honda/cr-v"
+    }
+  ],
+  "Hongqi": [
+    {
+      "model": "HS3",
+      "name": "Hongqi HS3",
+      "price_from": 2815000,
+      "price_from_text": "2 815 000 ₽",
+      "credit_from_text": "38 407 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/hs3"
+    },
+    {
+      "model": "HS5",
+      "name": "Hongqi HS5",
+      "price_from": 3225000,
+      "price_from_text": "3 225 000 ₽",
+      "credit_from_text": "44 001 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/hs5"
+    },
+    {
+      "model": "H5",
+      "name": "Hongqi H5",
+      "price_from": 3415000,
+      "price_from_text": "3 415 000 ₽",
+      "credit_from_text": "46 594 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/h5"
+    },
+    {
+      "model": "H6",
+      "name": "Hongqi H6",
+      "price_from": 3625000,
+      "price_from_text": "3 625 000 ₽",
+      "credit_from_text": "49 459 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/h6"
+    },
+    {
+      "model": "New HS5",
+      "name": "Hongqi New HS5",
+      "price_from": 3805000,
+      "price_from_text": "3 805 000 ₽",
+      "credit_from_text": "51 915 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/new-hs5"
+    },
+    {
+      "model": "New HS7",
+      "name": "Hongqi New HS7",
+      "price_from": 4725000,
+      "price_from_text": "4 725 000 ₽",
+      "credit_from_text": "64 467 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/new-hs7"
+    },
+    {
+      "model": "H9",
+      "name": "Hongqi H9",
+      "price_from": 4802000,
+      "price_from_text": "4 802 000 ₽",
+      "credit_from_text": "65 518 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/h9"
+    },
+    {
+      "model": "HS7",
+      "name": "Hongqi HS7",
+      "price_from": 4815000,
+      "price_from_text": "4 815 000 ₽",
+      "credit_from_text": "65 695 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/hs7"
+    },
+    {
+      "model": "E-HS9",
+      "name": "Hongqi E-HS9",
+      "price_from": 5054000,
+      "price_from_text": "5 054 000 ₽",
+      "credit_from_text": "68 956 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/e-hs9"
+    },
+    {
+      "model": "HQ9",
+      "name": "Hongqi HQ9",
+      "price_from": 6515000,
+      "price_from_text": "6 515 000 ₽",
+      "credit_from_text": "88 889 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hongqi/hq9"
+    }
+  ],
+  "Hyundai": [
+    {
+      "model": "Creta",
+      "name": "Hyundai Creta",
+      "price_from": 1349000,
+      "price_from_text": "1 349 000 ₽",
+      "credit_from_text": "18 405 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/creta"
+    },
+    {
+      "model": "Solaris",
+      "name": "Hyundai Solaris",
+      "price_from": 1643000,
+      "price_from_text": "1 643 000 ₽",
+      "credit_from_text": "22 417 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/solaris"
+    },
+    {
+      "model": "Elantra",
+      "name": "Hyundai Elantra",
+      "price_from": 1960000,
+      "price_from_text": "1 960 000 ₽",
+      "credit_from_text": "26 742 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/elantra"
+    },
+    {
+      "model": "Mufasa",
+      "name": "Hyundai Mufasa",
+      "price_from": 2375000,
+      "price_from_text": "2 375 000 ₽",
+      "credit_from_text": "32 404 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/mufasa"
+    },
+    {
+      "model": "Sonata",
+      "name": "Hyundai Sonata",
+      "price_from": 2664000,
+      "price_from_text": "2 664 000 ₽",
+      "credit_from_text": "36 347 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/newsonata"
+    },
+    {
+      "model": "Tucson",
+      "name": "Hyundai Tucson",
+      "price_from": 3295000,
+      "price_from_text": "3 295 000 ₽",
+      "credit_from_text": "44 956 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/tucson"
+    },
+    {
+      "model": "Custin",
+      "name": "Hyundai Custin",
+      "price_from": 3575000,
+      "price_from_text": "3 575 000 ₽",
+      "credit_from_text": "48 777 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/custin"
+    },
+    {
+      "model": "Sonata New",
+      "name": "Hyunday Sonata New",
+      "price_from": 3699000,
+      "price_from_text": "3 699 000 ₽",
+      "credit_from_text": "50 468 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/sonata-new"
+    },
+    {
+      "model": "Santa Fe",
+      "name": "Hyunday Santa Fe",
+      "price_from": 5325000,
+      "price_from_text": "5 325 000 ₽",
+      "credit_from_text": "72 653 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/santa-fe"
+    },
+    {
+      "model": "Staria",
+      "name": "Hyundai Staria",
+      "price_from": 6664000,
+      "price_from_text": "6 664 000 ₽",
+      "credit_from_text": "90 922 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/staria"
+    },
+    {
+      "model": "Palisade",
+      "name": "Hyundai Palisade",
+      "price_from": 7799000,
+      "price_from_text": "7 799 000 ₽",
+      "credit_from_text": "106 408 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/palisade"
+    },
+    {
+      "model": "Palisade II",
+      "name": "Hyundai Palisade II",
+      "price_from": 8715000,
+      "price_from_text": "8 715 000 ₽",
+      "credit_from_text": "118 906 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/hyundai/palisade-2"
+    }
+  ],
+  "JMC": [
+    {
+      "model": "Vigus Work",
+      "name": "JMC Vigus Work",
+      "price_from": 2579000,
+      "price_from_text": "2 579 000 ₽",
+      "credit_from_text": "35 187 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jmc/vigus"
+    }
+  ],
+  "Jac": [
+    {
+      "model": "J4",
+      "name": "Jac J4",
+      "price_from": 1184000,
+      "price_from_text": "1 184 000 ₽",
+      "credit_from_text": "16 154 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/j4"
+    },
+    {
+      "model": "S3",
+      "name": "Jac S3",
+      "price_from": 1184000,
+      "price_from_text": "1 184 000 ₽",
+      "credit_from_text": "16 154 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/s3"
+    },
+    {
+      "model": "JS3",
+      "name": "Jac JS3",
+      "price_from": 1259000,
+      "price_from_text": "1 259 000 ₽",
+      "credit_from_text": "17 178 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/js3"
+    },
+    {
+      "model": "J7",
+      "name": "Jac J7",
+      "price_from": 1600000,
+      "price_from_text": "1 600 000 ₽",
+      "credit_from_text": "21 830 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/j7"
+    },
+    {
+      "model": "S7",
+      "name": "Jac S7",
+      "price_from": 1692000,
+      "price_from_text": "1 692 000 ₽",
+      "credit_from_text": "23 085 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/s7"
+    },
+    {
+      "model": "JS6",
+      "name": "Jac JS6",
+      "price_from": 1814000,
+      "price_from_text": "1 814 000 ₽",
+      "credit_from_text": "24 750 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/js6"
+    },
+    {
+      "model": "T6",
+      "name": "Jac T6",
+      "price_from": 2439000,
+      "price_from_text": "2 439 000 ₽",
+      "credit_from_text": "33 277 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/t6"
+    },
+    {
+      "model": "T8",
+      "name": "JAC T8",
+      "price_from": 2514000,
+      "price_from_text": "2 514 000 ₽",
+      "credit_from_text": "34 301 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/t8"
+    },
+    {
+      "model": "T8 Pro",
+      "name": "Jac T8 Pro",
+      "price_from": 2654000,
+      "price_from_text": "2 654 000 ₽",
+      "credit_from_text": "36 211 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/t8-pro"
+    },
+    {
+      "model": "IEV7S",
+      "name": "Jac IEV7S",
+      "price_from": 2674000,
+      "price_from_text": "2 674 000 ₽",
+      "credit_from_text": "36 484 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/iev7s"
+    },
+    {
+      "model": "T9",
+      "name": "Jac T9",
+      "price_from": 3304000,
+      "price_from_text": "3 304 000 ₽",
+      "credit_from_text": "45 079 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/t9"
+    },
+    {
+      "model": "RF8",
+      "name": "Jac RF8",
+      "price_from": 4699000,
+      "price_from_text": "4 699 000 ₽",
+      "credit_from_text": "64 112 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jac/rf8"
+    }
+  ],
+  "Jaecoo": [
+    {
+      "model": "J6",
+      "name": "Jaecoo J6",
+      "price_from": 2215000,
+      "price_from_text": "2 215 000 ₽",
+      "credit_from_text": "30 221 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jaecoo/j6"
+    },
+    {
+      "model": "J7 new",
+      "name": "Jaecoo J7 new",
+      "price_from": 2534000,
+      "price_from_text": "2 534 000 ₽",
+      "credit_from_text": "34 573 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jaecoo/j7-new"
+    },
+    {
+      "model": "J7",
+      "name": "Jaecoo J7",
+      "price_from": 3094000,
+      "price_from_text": "3 094 000 ₽",
+      "credit_from_text": "42 214 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jaecoo/j7"
+    },
+    {
+      "model": "J8",
+      "name": "Jaecoo J8",
+      "price_from": 3404000,
+      "price_from_text": "3 404 000 ₽",
+      "credit_from_text": "46 444 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jaecoo/j8"
+    }
+  ],
+  "Jetour": [
+    {
+      "model": "X50",
+      "name": "Jetour X50",
+      "price_from": 1760000,
+      "price_from_text": "1 760 000 ₽",
+      "credit_from_text": "24 013 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/x50"
+    },
+    {
+      "model": "Dashing",
+      "name": "Jetour Dashing",
+      "price_from": 1774900,
+      "price_from_text": "1 774 900 ₽",
+      "credit_from_text": "24 216 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/dashing"
+    },
+    {
+      "model": "X70 PLUS",
+      "name": "Jetour X70 PLUS",
+      "price_from": 2129900,
+      "price_from_text": "2 129 900 ₽",
+      "credit_from_text": "29 060 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/x70"
+    },
+    {
+      "model": "X70",
+      "name": "Jetour X70",
+      "price_from": 2409000,
+      "price_from_text": "2 409 000 ₽",
+      "credit_from_text": "32 868 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/jetour-x70"
+    },
+    {
+      "model": "X90 Plus",
+      "name": "Jetour X90 Plus",
+      "price_from": 2449900,
+      "price_from_text": "2 449 900 ₽",
+      "credit_from_text": "33 426 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/x90plus"
+    },
+    {
+      "model": "T2",
+      "name": "Jetour T2",
+      "price_from": 3064000,
+      "price_from_text": "3 064 000 ₽",
+      "credit_from_text": "41 805 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/t2"
+    },
+    {
+      "model": "T1",
+      "name": "Jetour T1",
+      "price_from": 3295000,
+      "price_from_text": "3 295 000 ₽",
+      "credit_from_text": "44 956 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetour/t1"
+    }
+  ],
+  "Jetta": [
+    {
+      "model": "VA3",
+      "name": "Jetta VA3",
+      "price_from": 1075000,
+      "price_from_text": "1 075 000 ₽",
+      "credit_from_text": "14 667 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetta/va3"
+    },
+    {
+      "model": "VS7",
+      "name": "Jetta VS7",
+      "price_from": 1893000,
+      "price_from_text": "1 893 000 ₽",
+      "credit_from_text": "25 828 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetta/vs7"
+    },
+    {
+      "model": "VS5",
+      "name": "Jetta VS5",
+      "price_from": 1943000,
+      "price_from_text": "1 943 000 ₽",
+      "credit_from_text": "26 510 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/jetta/vs5"
+    }
+  ],
+  "Kaiyi": [
+    {
+      "model": "E5",
+      "name": "Kaiyi E5",
+      "price_from": 1220000,
+      "price_from_text": "1 220 000 ₽",
+      "credit_from_text": "16 645 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kaiyi/e5"
+    },
+    {
+      "model": "X3",
+      "name": "Kaiyi X3",
+      "price_from": 1293000,
+      "price_from_text": "1 293 000 ₽",
+      "credit_from_text": "17 641 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kaiyi/x3"
+    },
+    {
+      "model": "X3 Pro",
+      "name": "Kaiyi X3 Pro",
+      "price_from": 1614000,
+      "price_from_text": "1 614 000 ₽",
+      "credit_from_text": "22 021 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kaiyi/kaiyi-x3-pro"
+    },
+    {
+      "model": "X7 Kunlun",
+      "name": "Kaiyi X7 Kunlun",
+      "price_from": 2222000,
+      "price_from_text": "2 222 000 ₽",
+      "credit_from_text": "30 317 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kaiyi/kaiyi-x7-kunlun"
+    }
+  ],
+  "Kia": [
+    {
+      "model": "Picanto",
+      "name": "KIA Picanto",
+      "price_from": 924900,
+      "price_from_text": "924 900 ₽",
+      "credit_from_text": "12 619 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/picanto"
+    },
+    {
+      "model": "Rio",
+      "name": "KIA Rio",
+      "price_from": 1019900,
+      "price_from_text": "1 019 900 ₽",
+      "credit_from_text": "13 915 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/rio"
+    },
+    {
+      "model": "Rio Х",
+      "name": "Kia Rio Х",
+      "price_from": 1159900,
+      "price_from_text": "1 159 900 ₽",
+      "credit_from_text": "15 825 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/rio-x"
+    },
+    {
+      "model": "Soul",
+      "name": "Kia Soul",
+      "price_from": 1499900,
+      "price_from_text": "1 499 900 ₽",
+      "credit_from_text": "20 464 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/soul"
+    },
+    {
+      "model": "Seltos",
+      "name": "KIA Seltos",
+      "price_from": 1629900,
+      "price_from_text": "1 629 900 ₽",
+      "credit_from_text": "22 238 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/seltos"
+    },
+    {
+      "model": "Cerato",
+      "name": "KIA Cerato",
+      "price_from": 1724900,
+      "price_from_text": "1 724 900 ₽",
+      "credit_from_text": "23 534 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/cerato"
+    },
+    {
+      "model": "Ceed SW",
+      "name": "KIA Ceed SW",
+      "price_from": 1859900,
+      "price_from_text": "1 859 900 ₽",
+      "credit_from_text": "25 376 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/ceed-sw-new"
+    },
+    {
+      "model": "Ceed",
+      "name": "KIA Ceed",
+      "price_from": 1909900,
+      "price_from_text": "1 909 900 ₽",
+      "credit_from_text": "26 058 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/ceed"
+    },
+    {
+      "model": "K5",
+      "name": "Kia K5",
+      "price_from": 2279900,
+      "price_from_text": "2 279 900 ₽",
+      "credit_from_text": "31 107 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/k5"
+    },
+    {
+      "model": "Sportage",
+      "name": "KIA Sportage",
+      "price_from": 2444900,
+      "price_from_text": "2 444 900 ₽",
+      "credit_from_text": "33 358 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/sportage-new"
+    },
+    {
+      "model": "Stinger",
+      "name": "Kia Stinger",
+      "price_from": 3424900,
+      "price_from_text": "3 424 900 ₽",
+      "credit_from_text": "46 729 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/stinger"
+    },
+    {
+      "model": "Carnival",
+      "name": "Kia Carnival",
+      "price_from": 3519900,
+      "price_from_text": "3 519 900 ₽",
+      "credit_from_text": "48 025 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/carnival"
+    },
+    {
+      "model": "Mohave",
+      "name": "KIA Mohave",
+      "price_from": 5034900,
+      "price_from_text": "5 034 900 ₽",
+      "credit_from_text": "68 695 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/mohave"
+    },
+    {
+      "model": "K9",
+      "name": "Kia K9",
+      "price_from": 6579900,
+      "price_from_text": "6 579 900 ₽",
+      "credit_from_text": "89 775 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/k-9"
+    },
+    {
+      "model": "Sorento",
+      "name": "KIA Sorento",
+      "price_from": 8505000,
+      "price_from_text": "8 505 000 ₽",
+      "credit_from_text": "116 041 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/kia/sorento"
+    }
+  ],
+  "Lada": [
+    {
+      "model": "Granta Седан",
+      "name": "Lada Granta Седан",
+      "price_from": 529900,
+      "price_from_text": "529 900 ₽",
+      "credit_from_text": "7 230 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-granta-sedan"
+    },
+    {
+      "model": "Iskra",
+      "name": "Lada Iskra",
+      "price_from": 529900,
+      "price_from_text": "529 900 ₽",
+      "credit_from_text": "7 230 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/iskra"
+    },
+    {
+      "model": "Granta Хэтчбек",
+      "name": "Lada Granta Хэтчбек",
+      "price_from": 554575,
+      "price_from_text": "554 575 ₽",
+      "credit_from_text": "7 567 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-hatchback"
+    },
+    {
+      "model": "Niva legend 5dr",
+      "name": "Lada Niva legend 5dr",
+      "price_from": 677955,
+      "price_from_text": "677 955 ₽",
+      "credit_from_text": "9 250 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-legend-5dr"
+    },
+    {
+      "model": "Granta Drive Active",
+      "name": "Lada Granta Drive Active",
+      "price_from": 783155,
+      "price_from_text": "783 155 ₽",
+      "credit_from_text": "10 685 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-granta-driveactive"
+    },
+    {
+      "model": "Niva legend 3 dr.",
+      "name": "Lada Niva legend 3 dr.",
+      "price_from": 817505,
+      "price_from_text": "817 505 ₽",
+      "credit_from_text": "11 154 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/legend-3dr"
+    },
+    {
+      "model": "Granta Лифтбек",
+      "name": "Lada Granta Лифтбек",
+      "price_from": 825900,
+      "price_from_text": "825 900 ₽",
+      "credit_from_text": "11 268 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-liftbek"
+    },
+    {
+      "model": "Granta Drive Active liftback",
+      "name": "Lada Granta Drive Active liftback",
+      "price_from": 881655,
+      "price_from_text": "881 655 ₽",
+      "credit_from_text": "12 029 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-driveactive-liftback"
+    },
+    {
+      "model": "Granta Sport Drive Active лифтбек",
+      "name": "Lada Granta Sport Drive Active лифтбек",
+      "price_from": 886655,
+      "price_from_text": "886 655 ₽",
+      "credit_from_text": "12 097 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-sport-driveactive"
+    },
+    {
+      "model": "Granta Cross",
+      "name": "Lada Granta Cross",
+      "price_from": 914000,
+      "price_from_text": "914 000 ₽",
+      "credit_from_text": "12 470 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-granta-cross"
+    },
+    {
+      "model": "Vesta",
+      "name": "Lada Vesta",
+      "price_from": 962905,
+      "price_from_text": "962 905 ₽",
+      "credit_from_text": "13 138 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-sedan"
+    },
+    {
+      "model": "iskra sedan",
+      "name": "Lada iskra sedan",
+      "price_from": 1062000,
+      "price_from_text": "1 062 000 ₽",
+      "credit_from_text": "14 490 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-iskra-sedan"
+    },
+    {
+      "model": "Niva Travel",
+      "name": "Lada Niva Travel",
+      "price_from": 1062300,
+      "price_from_text": "1 062 300 ₽",
+      "credit_from_text": "14 494 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/niva-travel"
+    },
+    {
+      "model": "Largus Универсал",
+      "name": "Lada Largus Универсал",
+      "price_from": 1135000,
+      "price_from_text": "1 135 000 ₽",
+      "credit_from_text": "15 486 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/largus-universal"
+    },
+    {
+      "model": "Granta Sportline",
+      "name": "Lada Granta Sportline",
+      "price_from": 1155700,
+      "price_from_text": "1 155 700 ₽",
+      "credit_from_text": "15 768 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-sportline"
+    },
+    {
+      "model": "Granta Sportline Лифтбек",
+      "name": "Lada Granta Sportline Лифтбек",
+      "price_from": 1189200,
+      "price_from_text": "1 189 200 ₽",
+      "credit_from_text": "16 225 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-sportline-liftback"
+    },
+    {
+      "model": "Bronto",
+      "name": "Lada Bronto",
+      "price_from": 1196800,
+      "price_from_text": "1 196 800 ₽",
+      "credit_from_text": "16 329 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-bronto"
+    },
+    {
+      "model": "Granta Sport седан",
+      "name": "Lada Granta Sport седан",
+      "price_from": 1201850,
+      "price_from_text": "1 201 850 ₽",
+      "credit_from_text": "16 398 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-sport"
+    },
+    {
+      "model": "Vesta SW",
+      "name": "Lada Vesta SW",
+      "price_from": 1275805,
+      "price_from_text": "1 275 805 ₽",
+      "credit_from_text": "17 407 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-sw"
+    },
+    {
+      "model": "Granta Sport Лифтбек",
+      "name": "Lada Granta Sport Лифтбек",
+      "price_from": 1309850,
+      "price_from_text": "1 309 850 ₽",
+      "credit_from_text": "17 871 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/granta-sport-liftback"
+    },
+    {
+      "model": "ISKRA SW",
+      "name": "LADA ISKRA SW",
+      "price_from": 1312000,
+      "price_from_text": "1 312 000 ₽",
+      "credit_from_text": "17 901 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-iskra-sw"
+    },
+    {
+      "model": "Vesta Cross",
+      "name": "Lada Vesta Cross",
+      "price_from": 1344000,
+      "price_from_text": "1 344 000 ₽",
+      "credit_from_text": "18 337 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-cross"
+    },
+    {
+      "model": "Largus furgon",
+      "name": "Lada Largus furgon",
+      "price_from": 1355000,
+      "price_from_text": "1 355 000 ₽",
+      "credit_from_text": "18 487 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/largus-furgon"
+    },
+    {
+      "model": "Iskra sw cross",
+      "name": "Lada Iskra sw cross",
+      "price_from": 1442000,
+      "price_from_text": "1 442 000 ₽",
+      "credit_from_text": "19 674 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-iskra-sw-cross"
+    },
+    {
+      "model": "Vesta SW Cross",
+      "name": "Lada Vesta SW Cross",
+      "price_from": 1464000,
+      "price_from_text": "1 464 000 ₽",
+      "credit_from_text": "19 975 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-sw-cross"
+    },
+    {
+      "model": "niva sport",
+      "name": "Lada niva sport",
+      "price_from": 1519000,
+      "price_from_text": "1 519 000 ₽",
+      "credit_from_text": "20 725 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/lada-niva-sport"
+    },
+    {
+      "model": "Largus Cross",
+      "name": "LADA Largus Cross",
+      "price_from": 1727805,
+      "price_from_text": "1 727 805 ₽",
+      "credit_from_text": "23 574 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/largus-cross"
+    },
+    {
+      "model": "X-Cross 5",
+      "name": "Lada X-Cross 5",
+      "price_from": 1875550,
+      "price_from_text": "1 875 550 ₽",
+      "credit_from_text": "25 590 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/xross"
+    },
+    {
+      "model": "Vesta Sportline",
+      "name": "Lada Vesta Sportline",
+      "price_from": 1978000,
+      "price_from_text": "1 978 000 ₽",
+      "credit_from_text": "26 987 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-sportline"
+    },
+    {
+      "model": "Vesta SW Sportline",
+      "name": "Lada Vesta SW Sportline",
+      "price_from": 2118000,
+      "price_from_text": "2 118 000 ₽",
+      "credit_from_text": "28 898 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta-sw-sportline"
+    },
+    {
+      "model": "Aura",
+      "name": "Lada Aura",
+      "price_from": 2434000,
+      "price_from_text": "2 434 000 ₽",
+      "credit_from_text": "33 209 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vaz/vesta"
+    }
+  ],
+  "Li Auto": [
+    {
+      "model": "i8",
+      "name": "Lixiang i8",
+      "price_from": 5925000,
+      "price_from_text": "5 925 000 ₽",
+      "credit_from_text": "80 840 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/i8"
+    },
+    {
+      "model": "L6",
+      "name": "LiXiang L6",
+      "price_from": 6925000,
+      "price_from_text": "6 925 000 ₽",
+      "credit_from_text": "94 483 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/l6"
+    },
+    {
+      "model": "L8",
+      "name": "LiXiang L8",
+      "price_from": 7925000,
+      "price_from_text": "7 925 000 ₽",
+      "credit_from_text": "108 127 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/l8"
+    },
+    {
+      "model": "L7",
+      "name": "LiXiang L7",
+      "price_from": 8925000,
+      "price_from_text": "8 925 000 ₽",
+      "credit_from_text": "121 771 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/l7"
+    },
+    {
+      "model": "Mega",
+      "name": "Lixiang Mega",
+      "price_from": 9425000,
+      "price_from_text": "9 425 000 ₽",
+      "credit_from_text": "128 593 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/mega"
+    },
+    {
+      "model": "L9",
+      "name": "LiXiang L9",
+      "price_from": 9625000,
+      "price_from_text": "9 625 000 ₽",
+      "credit_from_text": "131 322 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/li-auto/l9"
+    }
+  ],
+  "Lifan": [
+    {
+      "model": "X50",
+      "name": "Lifan X50",
+      "price_from": 544900,
+      "price_from_text": "544 900 ₽",
+      "credit_from_text": "7 435 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lifan/x50"
+    },
+    {
+      "model": "Solano II",
+      "name": "Lifan Solano II",
+      "price_from": 564900,
+      "price_from_text": "564 900 ₽",
+      "credit_from_text": "7 707 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lifan/solano"
+    },
+    {
+      "model": "X60 New",
+      "name": "Lifan X60 New",
+      "price_from": 619900,
+      "price_from_text": "619 900 ₽",
+      "credit_from_text": "8 458 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lifan/x60"
+    }
+  ],
+  "Livan": [
+    {
+      "model": "X3 Pro",
+      "name": "Livan X3 Pro",
+      "price_from": 1377000,
+      "price_from_text": "1 377 000 ₽",
+      "credit_from_text": "18 788 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/livan/x3-pro"
+    },
+    {
+      "model": "S6 Pro",
+      "name": "Livan S6 Pro",
+      "price_from": 2174900,
+      "price_from_text": "2 174 900 ₽",
+      "credit_from_text": "29 674 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/livan/s6-pro"
+    },
+    {
+      "model": "X6 Pro",
+      "name": "Livan X6 Pro",
+      "price_from": 2244900,
+      "price_from_text": "2 244 900 ₽",
+      "credit_from_text": "30 629 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/livan/x6-pro"
+    }
+  ],
+  "Lynk & Co": [
+    {
+      "model": "05",
+      "name": "Lynk & Co 05",
+      "price_from": 3025000,
+      "price_from_text": "3 025 000 ₽",
+      "credit_from_text": "41 273 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lynk-co/05"
+    },
+    {
+      "model": "06",
+      "name": "Lynk & Co 06",
+      "price_from": 3125500,
+      "price_from_text": "3 125 500 ₽",
+      "credit_from_text": "42 644 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lynk-co/06"
+    },
+    {
+      "model": "& Co 08",
+      "name": "Lync & Co 08",
+      "price_from": 4625000,
+      "price_from_text": "4 625 000 ₽",
+      "credit_from_text": "63 103 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lynk-co/08"
+    },
+    {
+      "model": "09",
+      "name": "Lynk & Co 09",
+      "price_from": 6025000,
+      "price_from_text": "6 025 000 ₽",
+      "credit_from_text": "82 204 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lynk-co/09"
+    },
+    {
+      "model": "900",
+      "name": "Lynk & Co 900",
+      "price_from": 7025000,
+      "price_from_text": "7 025 000 ₽",
+      "credit_from_text": "95 848 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/lynk-co/900"
+    }
+  ],
+  "M-Hero": [
+    {
+      "model": "I",
+      "name": "M-Hero I",
+      "price_from": 15915000,
+      "price_from_text": "15 915 000 ₽",
+      "credit_from_text": "217 141 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/m-hero/i"
+    }
+  ],
+  "MG": [
+    {
+      "model": "5",
+      "name": "MG 5",
+      "price_from": 2102000,
+      "price_from_text": "2 102 000 ₽",
+      "credit_from_text": "28 679 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mg/5"
+    },
+    {
+      "model": "6",
+      "name": "MG 6",
+      "price_from": 2489000,
+      "price_from_text": "2 489 000 ₽",
+      "credit_from_text": "33 959 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mg/6"
+    },
+    {
+      "model": "One",
+      "name": "MG One",
+      "price_from": 2780000,
+      "price_from_text": "2 780 000 ₽",
+      "credit_from_text": "37 930 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mg/one"
+    },
+    {
+      "model": "7",
+      "name": "MG 7",
+      "price_from": 3461000,
+      "price_from_text": "3 461 000 ₽",
+      "credit_from_text": "47 221 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mg/7"
+    }
+  ],
+  "Mazda": [
+    {
+      "model": "6",
+      "name": "6",
+      "price_from": 2093000,
+      "price_from_text": "2 093 000 ₽",
+      "credit_from_text": "28 556 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mazda/6-sedan"
+    },
+    {
+      "model": "CX-5",
+      "name": "Mazda CX-5",
+      "price_from": 2245000,
+      "price_from_text": "2 245 000 ₽",
+      "credit_from_text": "30 630 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mazda/cx-5"
+    },
+    {
+      "model": "CX-30",
+      "name": "Mazda CX-30",
+      "price_from": 3555000,
+      "price_from_text": "3 555 000 ₽",
+      "credit_from_text": "48 504 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mazda/cx-30"
+    },
+    {
+      "model": "CX-9",
+      "name": "Mazda CX-9",
+      "price_from": 3945000,
+      "price_from_text": "3 945 000 ₽",
+      "credit_from_text": "53 825 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mazda/cx-9"
+    }
+  ],
+  "Mitsubishi": [
+    {
+      "model": "ASX",
+      "name": "Mitsubishi ASX",
+      "price_from": 2214000,
+      "price_from_text": "2 214 000 ₽",
+      "credit_from_text": "30 207 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/asx"
+    },
+    {
+      "model": "Outlander New",
+      "name": "Mitsubishi Outlander New",
+      "price_from": 2234000,
+      "price_from_text": "2 234 000 ₽",
+      "credit_from_text": "30 480 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/outlander"
+    },
+    {
+      "model": "Outlander 7 seats",
+      "name": "Mitsubishi Outlander 7 seats",
+      "price_from": 2959000,
+      "price_from_text": "2 959 000 ₽",
+      "credit_from_text": "40 372 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/outlander-7seats"
+    },
+    {
+      "model": "Eclipse Cross",
+      "name": "Mitsubishi Eclipse Cross",
+      "price_from": 3039000,
+      "price_from_text": "3 039 000 ₽",
+      "credit_from_text": "41 464 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/eclipse-cross"
+    },
+    {
+      "model": "L200",
+      "name": "Mitsubishi L200",
+      "price_from": 3549000,
+      "price_from_text": "3 549 000 ₽",
+      "credit_from_text": "48 422 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/l200"
+    },
+    {
+      "model": "не найдена",
+      "name": "Страница не найдена",
+      "price_from": 3814000,
+      "price_from_text": "3 814 000 ₽",
+      "credit_from_text": "52 037 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/mitsubishi/pajero-sport-old"
+    }
+  ],
+  "Nissan": [
+    {
+      "model": "Terrano",
+      "name": "Nissan Terrano",
+      "price_from": 2725000,
+      "price_from_text": "2 725 000 ₽",
+      "credit_from_text": "37 179 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/nissan/terrano"
+    },
+    {
+      "model": "Qashqai",
+      "name": "Nissan Qashqai",
+      "price_from": 3110000,
+      "price_from_text": "3 110 000 ₽",
+      "credit_from_text": "42 432 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/nissan/qashqai"
+    },
+    {
+      "model": "X-Trail",
+      "name": "Nissan X-Trail",
+      "price_from": 3195000,
+      "price_from_text": "3 195 000 ₽",
+      "credit_from_text": "43 592 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/nissan/x-trail"
+    },
+    {
+      "model": "Murano",
+      "name": "Nissan Murano",
+      "price_from": 3644000,
+      "price_from_text": "3 644 000 ₽",
+      "credit_from_text": "49 718 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/nissan/murano"
+    },
+    {
+      "model": "Pathfinder",
+      "name": "Nissan Pathfinder",
+      "price_from": 4880000,
+      "price_from_text": "4 880 000 ₽",
+      "credit_from_text": "66 582 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/nissan/pathfinder"
+    }
+  ],
+  "Omoda": [
+    {
+      "model": "E5",
+      "name": "Omoda E5",
+      "price_from": 1483000,
+      "price_from_text": "1 483 000 ₽",
+      "credit_from_text": "20 234 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/e5"
+    },
+    {
+      "model": "S5",
+      "name": "Omoda S5",
+      "price_from": 1483000,
+      "price_from_text": "1 483 000 ₽",
+      "credit_from_text": "20 234 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/s5"
+    },
+    {
+      "model": "C5",
+      "name": "Omoda C5",
+      "price_from": 1674000,
+      "price_from_text": "1 674 000 ₽",
+      "credit_from_text": "22 840 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/c5"
+    },
+    {
+      "model": "C5 new",
+      "name": "Omoda C5 new",
+      "price_from": 1744000,
+      "price_from_text": "1 744 000 ₽",
+      "credit_from_text": "23 795 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/c5-new"
+    },
+    {
+      "model": "C5 Restyle",
+      "name": "Omoda C5 Restyle",
+      "price_from": 2064900,
+      "price_from_text": "2 064 900 ₽",
+      "credit_from_text": "28 173 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/omoda-c5-restyle"
+    },
+    {
+      "model": "C7",
+      "name": "Omoda C7",
+      "price_from": 2874000,
+      "price_from_text": "2 874 000 ₽",
+      "credit_from_text": "39 212 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/omoda/c7"
+    }
+  ],
+  "Opel": [
+    {
+      "model": "Crossland",
+      "name": "Opel Crossland",
+      "price_from": 1554000,
+      "price_from_text": "1 554 000 ₽",
+      "credit_from_text": "21 202 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/crossland"
+    },
+    {
+      "model": "Combo Cargo",
+      "name": "Opel Combo Cargo",
+      "price_from": 1634000,
+      "price_from_text": "1 634 000 ₽",
+      "credit_from_text": "22 294 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/combo-cargo"
+    },
+    {
+      "model": "Grandland X",
+      "name": "Opel Grandland X",
+      "price_from": 1724000,
+      "price_from_text": "1 724 000 ₽",
+      "credit_from_text": "23 522 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/grandlandx"
+    },
+    {
+      "model": "Combo Life",
+      "name": "Opel Combo Life",
+      "price_from": 1744000,
+      "price_from_text": "1 744 000 ₽",
+      "credit_from_text": "23 795 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/combo-life"
+    },
+    {
+      "model": "Vivaro",
+      "name": "Opel Vivaro",
+      "price_from": 2594900,
+      "price_from_text": "2 594 900 ₽",
+      "credit_from_text": "35 404 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/vivaro"
+    },
+    {
+      "model": "Zafira Life",
+      "name": "Opel Zafira Life",
+      "price_from": 3659900,
+      "price_from_text": "3 659 900 ₽",
+      "credit_from_text": "49 935 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/opel/zafira-life"
+    }
+  ],
+  "Ora": [
+    {
+      "model": "03",
+      "name": "Ora 03",
+      "price_from": 3039000,
+      "price_from_text": "3 039 000 ₽",
+      "credit_from_text": "41 464 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ora/03"
+    },
+    {
+      "model": "03 GT",
+      "name": "Ora 03 GT",
+      "price_from": 3219000,
+      "price_from_text": "3 219 000 ₽",
+      "credit_from_text": "43 919 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ora/03-gt"
+    }
+  ],
+  "Oting": [
+    {
+      "model": "Paladin",
+      "name": "Oting Paladin",
+      "price_from": 3309000,
+      "price_from_text": "3 309 000 ₽",
+      "credit_from_text": "45 147 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/oting/paladin"
+    }
+  ],
+  "Peugeot": [
+    {
+      "model": "408",
+      "name": "Peugeot 408",
+      "price_from": 1714000,
+      "price_from_text": "1 714 000 ₽",
+      "credit_from_text": "23 385 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/408"
+    },
+    {
+      "model": "Partner Crossway",
+      "name": "Peugeot Partner Crossway",
+      "price_from": 1719000,
+      "price_from_text": "1 719 000 ₽",
+      "credit_from_text": "23 454 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/partner"
+    },
+    {
+      "model": "3008",
+      "name": "Peugeot 3008",
+      "price_from": 2064000,
+      "price_from_text": "2 064 000 ₽",
+      "credit_from_text": "28 161 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/3008"
+    },
+    {
+      "model": "2008",
+      "name": "Peugeot 2008",
+      "price_from": 2269000,
+      "price_from_text": "2 269 000 ₽",
+      "credit_from_text": "30 958 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/2008"
+    },
+    {
+      "model": "Traveller",
+      "name": "Peugeot Traveller",
+      "price_from": 3379900,
+      "price_from_text": "3 379 900 ₽",
+      "credit_from_text": "46 115 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/traveller"
+    },
+    {
+      "model": "4008",
+      "name": "Peugeot 4008",
+      "price_from": 3574000,
+      "price_from_text": "3 574 000 ₽",
+      "credit_from_text": "48 763 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/4008"
+    },
+    {
+      "model": "5008",
+      "name": "Peugeot 5008",
+      "price_from": 3674000,
+      "price_from_text": "3 674 000 ₽",
+      "credit_from_text": "50 127 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/5008"
+    },
+    {
+      "model": "408X",
+      "name": "Peugeot 408X",
+      "price_from": 4374000,
+      "price_from_text": "4 374 000 ₽",
+      "credit_from_text": "59 678 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/peugeot/408x"
+    }
+  ],
+  "Ravon": [
+    {
+      "model": "Nexia R3",
+      "name": "Ravon Nexia R3",
+      "price_from": 610000,
+      "price_from_text": "610 000 ₽",
+      "credit_from_text": "8 323 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ravon/nexia"
+    },
+    {
+      "model": "R4",
+      "name": "Ravon R4",
+      "price_from": 636000,
+      "price_from_text": "636 000 ₽",
+      "credit_from_text": "8 677 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ravon/r4"
+    },
+    {
+      "model": "R2",
+      "name": "Ravon R2",
+      "price_from": 668000,
+      "price_from_text": "668 000 ₽",
+      "credit_from_text": "9 114 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/ravon/r2"
+    }
+  ],
+  "Renault": [
+    {
+      "model": "Logan New",
+      "name": "Renault Logan New",
+      "price_from": 925000,
+      "price_from_text": "925 000 ₽",
+      "credit_from_text": "12 621 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/logan"
+    },
+    {
+      "model": "Logan Stepway",
+      "name": "Renault Logan Stepway",
+      "price_from": 1075000,
+      "price_from_text": "1 075 000 ₽",
+      "credit_from_text": "14 667 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/logan-stepway"
+    },
+    {
+      "model": "Sandero",
+      "name": "Renault Sandero",
+      "price_from": 1125000,
+      "price_from_text": "1 125 000 ₽",
+      "credit_from_text": "15 349 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/sandero"
+    },
+    {
+      "model": "Sandero Stepway New",
+      "name": "Renault Sandero Stepway New",
+      "price_from": 1275000,
+      "price_from_text": "1 275 000 ₽",
+      "credit_from_text": "17 396 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/sandero-stepway"
+    },
+    {
+      "model": "Duster",
+      "name": "Renault Duster",
+      "price_from": 1425000,
+      "price_from_text": "1 425 000 ₽",
+      "credit_from_text": "19 442 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/duster"
+    },
+    {
+      "model": "Kaptur",
+      "name": "Renault Kaptur",
+      "price_from": 1625000,
+      "price_from_text": "1 625 000 ₽",
+      "credit_from_text": "22 171 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/kaptur"
+    },
+    {
+      "model": "Arkana",
+      "name": "Renault Arkana",
+      "price_from": 1725000,
+      "price_from_text": "1 725 000 ₽",
+      "credit_from_text": "23 536 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/arkana"
+    },
+    {
+      "model": "Express II",
+      "name": "Renault Express II",
+      "price_from": 3385000,
+      "price_from_text": "3 385 000 ₽",
+      "credit_from_text": "46 184 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/renault/express-ll"
+    }
+  ],
+  "Rising": [
+    {
+      "model": "F7",
+      "name": "Rising F7",
+      "price_from": 6585000,
+      "price_from_text": "6 585 000 ₽",
+      "credit_from_text": "89 844 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/rising/f7"
+    },
+    {
+      "model": "R7",
+      "name": "Rising R7",
+      "price_from": 7275000,
+      "price_from_text": "7 275 000 ₽",
+      "credit_from_text": "99 259 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/rising/r7"
+    }
+  ],
+  "Rox": [
+    {
+      "model": "01",
+      "name": "Rox 01",
+      "price_from": 8001000,
+      "price_from_text": "8 001 000 ₽",
+      "credit_from_text": "109 164 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/rox/01"
+    }
+  ],
+  "SWM": [
+    {
+      "model": "G01",
+      "name": "SWM G01",
+      "price_from": 1529500,
+      "price_from_text": "1 529 500 ₽",
+      "credit_from_text": "20 868 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/swm/g01"
+    },
+    {
+      "model": "G01f",
+      "name": "SWM G01f",
+      "price_from": 1909000,
+      "price_from_text": "1 909 000 ₽",
+      "credit_from_text": "26 046 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/swm/g01f"
+    },
+    {
+      "model": "G05 Pro",
+      "name": "SWM G05 Pro",
+      "price_from": 2274900,
+      "price_from_text": "2 274 900 ₽",
+      "credit_from_text": "31 038 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/swm/g05-pro"
+    }
+  ],
+  "Skoda": [
+    {
+      "model": "Rapid",
+      "name": "Skoda Rapid",
+      "price_from": 1187000,
+      "price_from_text": "1 187 000 ₽",
+      "credit_from_text": "16 195 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/rapid"
+    },
+    {
+      "model": "Octavia",
+      "name": "Skoda Octavia",
+      "price_from": 2159000,
+      "price_from_text": "2 159 000 ₽",
+      "credit_from_text": "29 457 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/octavia"
+    },
+    {
+      "model": "Superb",
+      "name": "Skoda Superb",
+      "price_from": 2165000,
+      "price_from_text": "2 165 000 ₽",
+      "credit_from_text": "29 539 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/superb"
+    },
+    {
+      "model": "Karoq",
+      "name": "Skoda Karoq",
+      "price_from": 2661000,
+      "price_from_text": "2 661 000 ₽",
+      "credit_from_text": "36 306 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/karog"
+    },
+    {
+      "model": "Superb Combi",
+      "name": "Skoda Superb Combi",
+      "price_from": 3222000,
+      "price_from_text": "3 222 000 ₽",
+      "credit_from_text": "43 960 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/superb-combi"
+    },
+    {
+      "model": "Kodiaq",
+      "name": "Skoda Kodiaq",
+      "price_from": 4410000,
+      "price_from_text": "4 410 000 ₽",
+      "credit_from_text": "60 169 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skoda/kodiaq"
+    }
+  ],
+  "Skywell": [
+    {
+      "model": "HT-i",
+      "name": "Skywell HT-i",
+      "price_from": 3905000,
+      "price_from_text": "3 905 000 ₽",
+      "credit_from_text": "53 279 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skywell/ht-i"
+    },
+    {
+      "model": "ET5",
+      "name": "Skywell ET5",
+      "price_from": 4025000,
+      "price_from_text": "4 025 000 ₽",
+      "credit_from_text": "54 916 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/skywell/et5"
+    }
+  ],
+  "Solaris": [
+    {
+      "model": "HS",
+      "name": "Solaris HS",
+      "price_from": 1605000,
+      "price_from_text": "1 605 000 ₽",
+      "credit_from_text": "21 898 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/solaris/hs"
+    },
+    {
+      "model": "KRS",
+      "name": "Solaris KRS",
+      "price_from": 1625000,
+      "price_from_text": "1 625 000 ₽",
+      "credit_from_text": "22 171 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/solaris/krs"
+    },
+    {
+      "model": "KRX",
+      "name": "Solaris KRX",
+      "price_from": 1625000,
+      "price_from_text": "1 625 000 ₽",
+      "credit_from_text": "22 171 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/solaris/krx"
+    },
+    {
+      "model": "HC",
+      "name": "Solaris HC",
+      "price_from": 2010000,
+      "price_from_text": "2 010 000 ₽",
+      "credit_from_text": "27 424 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/solaris/hc"
+    }
+  ],
+  "Sollers": [
+    {
+      "model": "ST6",
+      "name": "Sollers ST6",
+      "price_from": 2270000,
+      "price_from_text": "2 270 000 ₽",
+      "credit_from_text": "30 971 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/sollers/st6"
+    },
+    {
+      "model": "ST6",
+      "name": "Sollers ST6",
+      "price_from": 2843000,
+      "price_from_text": "2 843 000 ₽",
+      "credit_from_text": "38 789 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/sollers/st8"
+    },
+    {
+      "model": "ST9",
+      "name": "Sollers ST9",
+      "price_from": 3483000,
+      "price_from_text": "3 483 000 ₽",
+      "credit_from_text": "47 521 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/sollers/st9"
+    },
+    {
+      "model": "SP7",
+      "name": "Sollers SP7",
+      "price_from": 5000000,
+      "price_from_text": "5 000 000 ₽",
+      "credit_from_text": "68 219 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/sollers/sp7"
+    }
+  ],
+  "Soueast": [
+    {
+      "model": "DX8S",
+      "name": "Soueast DX8S",
+      "price_from": 1830000,
+      "price_from_text": "1 830 000 ₽",
+      "credit_from_text": "24 968 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/soueast/dx8s"
+    },
+    {
+      "model": "DX5",
+      "name": "Soueast DX5",
+      "price_from": 1915000,
+      "price_from_text": "1 915 000 ₽",
+      "credit_from_text": "26 128 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/soueast/dx5"
+    },
+    {
+      "model": "S07",
+      "name": "Soueast S07",
+      "price_from": 2279000,
+      "price_from_text": "2 279 000 ₽",
+      "credit_from_text": "31 094 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/soueast/s07"
+    },
+    {
+      "model": "S09",
+      "name": "Soueast S09",
+      "price_from": 2659000,
+      "price_from_text": "2 659 000 ₽",
+      "credit_from_text": "36 279 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/soueast/s09"
+    }
+  ],
+  "Suzuki": [
+    {
+      "model": "SX4",
+      "name": "Suzuki SX4",
+      "price_from": 1634000,
+      "price_from_text": "1 634 000 ₽",
+      "credit_from_text": "22 294 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/suzuki/sx-4"
+    },
+    {
+      "model": "Vitara",
+      "name": "Suzuki Vitara",
+      "price_from": 2205000,
+      "price_from_text": "2 205 000 ₽",
+      "credit_from_text": "30 085 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/suzuki/new-vitara"
+    },
+    {
+      "model": "Jimny",
+      "name": "Suzuki Jimny",
+      "price_from": 2945000,
+      "price_from_text": "2 945 000 ₽",
+      "credit_from_text": "40 181 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/suzuki/newjimny-fl"
+    }
+  ],
+  "Tank": [
+    {
+      "model": "300",
+      "name": "Tank 300",
+      "price_from": 3634000,
+      "price_from_text": "3 634 000 ₽",
+      "credit_from_text": "49 582 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tank/300"
+    },
+    {
+      "model": "400",
+      "name": "Tank 400",
+      "price_from": 4814000,
+      "price_from_text": "4 814 000 ₽",
+      "credit_from_text": "65 681 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tank/400"
+    },
+    {
+      "model": "500",
+      "name": "Tank 500",
+      "price_from": 5939000,
+      "price_from_text": "5 939 000 ₽",
+      "credit_from_text": "81 031 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tank/500"
+    },
+    {
+      "model": "700",
+      "name": "Tank 700",
+      "price_from": 8284000,
+      "price_from_text": "8 284 000 ₽",
+      "credit_from_text": "113 025 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tank/700"
+    }
+  ],
+  "Tenet": [
+    {
+      "model": "T4",
+      "name": "Tenet T4",
+      "price_from": 1575000,
+      "price_from_text": "1 575 000 ₽",
+      "credit_from_text": "21 489 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tenet/t4"
+    },
+    {
+      "model": "T7",
+      "name": "Tenet T7",
+      "price_from": 1925000,
+      "price_from_text": "1 925 000 ₽",
+      "credit_from_text": "26 264 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tenet/t7"
+    },
+    {
+      "model": "T8",
+      "name": "Tenet T8",
+      "price_from": 2815000,
+      "price_from_text": "2 815 000 ₽",
+      "credit_from_text": "38 407 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/tenet/t8"
+    }
+  ],
+  "Toyota": [
+    {
+      "model": "Corolla",
+      "name": "Toyota Corolla",
+      "price_from": 2345000,
+      "price_from_text": "2 345 000 ₽",
+      "credit_from_text": "31 995 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/corolla"
+    },
+    {
+      "model": "C-HR (NA Market)",
+      "name": "Toyota C-HR (NA Market)",
+      "price_from": 2745000,
+      "price_from_text": "2 745 000 ₽",
+      "credit_from_text": "37 452 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/c-hr-na-market"
+    },
+    {
+      "model": "Corolla Kross",
+      "name": "Toyta Corolla Kross",
+      "price_from": 2825000,
+      "price_from_text": "2 825 000 ₽",
+      "credit_from_text": "38 544 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/corolla-cross"
+    },
+    {
+      "model": "C-HR",
+      "name": "Toyota C-HR",
+      "price_from": 3145000,
+      "price_from_text": "3 145 000 ₽",
+      "credit_from_text": "42 910 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/c-hr"
+    },
+    {
+      "model": "Fortuner",
+      "name": "Toyota Fortuner",
+      "price_from": 3618000,
+      "price_from_text": "3 618 000 ₽",
+      "credit_from_text": "49 363 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/fortuner"
+    },
+    {
+      "model": "Rav4",
+      "name": "Toyota Rav4",
+      "price_from": 3734000,
+      "price_from_text": "3 734 000 ₽",
+      "credit_from_text": "50 946 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/rav4"
+    },
+    {
+      "model": "Rav4-2026",
+      "name": "Toyota Rav4-2026",
+      "price_from": 4025000,
+      "price_from_text": "4 025 000 ₽",
+      "credit_from_text": "54 916 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/rav4-g6"
+    },
+    {
+      "model": "Highlander",
+      "name": "Toyota Highlander",
+      "price_from": 5285000,
+      "price_from_text": "5 285 000 ₽",
+      "credit_from_text": "72 108 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/highlander"
+    },
+    {
+      "model": "Hilux",
+      "name": "Toyota Hilux",
+      "price_from": 7185000,
+      "price_from_text": "7 185 000 ₽",
+      "credit_from_text": "98 031 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/hilux"
+    },
+    {
+      "model": "Hiace",
+      "name": "Toyota Hiace",
+      "price_from": 9470000,
+      "price_from_text": "9 470 000 ₽",
+      "credit_from_text": "129 207 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/hiace"
+    },
+    {
+      "model": "Land Cruiser Prado 250 Series",
+      "name": "Toyota Land Cruiser Prado 250 Series",
+      "price_from": 9885000,
+      "price_from_text": "9 885 000 ₽",
+      "credit_from_text": "134 869 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/land-cruiser-prado"
+    },
+    {
+      "model": "Land Cruiser 300",
+      "name": "Toyota Land Cruiser 300",
+      "price_from": 11284000,
+      "price_from_text": "11 284 000 ₽",
+      "credit_from_text": "153 957 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/land-cruiser-300"
+    },
+    {
+      "model": "Alphard",
+      "name": "Toyota Alphard",
+      "price_from": 13675000,
+      "price_from_text": "13 675 000 ₽",
+      "credit_from_text": "186 579 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/toyota/alphard"
+    },
+    {
+      "model": "не найдена",
+      "name": "Страница не найдена",
+      "price_from": null,
+      "price_from_text": null,
+      "credit_from_text": null,
+      "url": "https://skayavto.ru/catalog/toyota/camry"
+    }
+  ],
+  "UAZ": [
+    {
+      "model": "Hunter",
+      "name": "UAZ Hunter",
+      "price_from": 1186000,
+      "price_from_text": "1 186 000 ₽",
+      "credit_from_text": "16 182 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/uaz/hunter"
+    },
+    {
+      "model": "Patriot",
+      "name": "UAZ Patriot",
+      "price_from": 1337000,
+      "price_from_text": "1 337 000 ₽",
+      "credit_from_text": "18 242 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/uaz/patriot"
+    },
+    {
+      "model": "Pickup",
+      "name": "UAZ Pickup",
+      "price_from": 1374500,
+      "price_from_text": "1 374 500 ₽",
+      "credit_from_text": "18 753 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/uaz/patriot-pickup"
+    },
+    {
+      "model": "SGR Expedition",
+      "name": "UAZ SGR Expedition",
+      "price_from": 1471000,
+      "price_from_text": "1 471 000 ₽",
+      "credit_from_text": "20 070 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/uaz/sgr-expedition"
+    }
+  ],
+  "UMO": [
+    {
+      "model": "5",
+      "name": "UMO 5",
+      "price_from": 2425000,
+      "price_from_text": "2 425 000 ₽",
+      "credit_from_text": "33 086 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/umo/5"
+    }
+  ],
+  "VGV": [
+    {
+      "model": "U70 Pro",
+      "name": "VGV U70 Pro",
+      "price_from": 1959900,
+      "price_from_text": "1 959 900 ₽",
+      "credit_from_text": "26 741 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vgv/u70-pro"
+    },
+    {
+      "model": "U75 Plus",
+      "name": "VGV U75 Plus",
+      "price_from": 2549900,
+      "price_from_text": "2 549 900 ₽",
+      "credit_from_text": "34 790 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/vgv/u75-plus"
+    }
+  ],
+  "Venucia": [
+    {
+      "model": "D60 Plus",
+      "name": "Venucia D60 Plus",
+      "price_from": 2165000,
+      "price_from_text": "2 165 000 ₽",
+      "credit_from_text": "29 539 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/venucia/d60-plus"
+    },
+    {
+      "model": "V-Online",
+      "name": "Venucia V-Online",
+      "price_from": 2740000,
+      "price_from_text": "2 740 000 ₽",
+      "credit_from_text": "37 384 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/venucia/v-online"
+    }
+  ],
+  "Volga": [
+    {
+      "model": "K40",
+      "name": "Volga K40",
+      "price_from": null,
+      "price_from_text": null,
+      "credit_from_text": null,
+      "url": "https://skayavto.ru/catalog/volga/k40"
+    }
+  ],
+  "Volkswagen": [
+    {
+      "model": "Polo",
+      "name": "Volkswagen Polo",
+      "price_from": 1200900,
+      "price_from_text": "1 200 900 ₽",
+      "credit_from_text": "16 385 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/polo"
+    },
+    {
+      "model": "Passat",
+      "name": "Volkswagen Passat",
+      "price_from": 2147000,
+      "price_from_text": "2 147 000 ₽",
+      "credit_from_text": "29 293 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/passat"
+    },
+    {
+      "model": "Taos",
+      "name": "Volkswagen Taos",
+      "price_from": 2373900,
+      "price_from_text": "2 373 900 ₽",
+      "credit_from_text": "32 389 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/taos"
+    },
+    {
+      "model": "Tiguan",
+      "name": "Volkswagen Tiguan",
+      "price_from": 2790900,
+      "price_from_text": "2 790 900 ₽",
+      "credit_from_text": "38 079 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/tiguan"
+    },
+    {
+      "model": "Golf",
+      "name": "Volkswagen Golf",
+      "price_from": 3671000,
+      "price_from_text": "3 671 000 ₽",
+      "credit_from_text": "50 086 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/golf-new"
+    },
+    {
+      "model": "Teramont",
+      "name": "Volkswagen Teramont",
+      "price_from": 5321500,
+      "price_from_text": "5 321 500 ₽",
+      "credit_from_text": "72 606 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/teramont"
+    },
+    {
+      "model": "Touareg",
+      "name": "Volkswagen Touareg",
+      "price_from": 7644500,
+      "price_from_text": "7 644 500 ₽",
+      "credit_from_text": "104 300 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/volkswagen/touareg"
+    }
+  ],
+  "Voyah": [
+    {
+      "model": "Passion",
+      "name": "Voyah Passion",
+      "price_from": 4515000,
+      "price_from_text": "4 515 000 ₽",
+      "credit_from_text": "61 602 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/voyah/passion"
+    },
+    {
+      "model": "Free",
+      "name": "Voyah Free",
+      "price_from": 4625000,
+      "price_from_text": "4 625 000 ₽",
+      "credit_from_text": "63 103 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/voyah/free"
+    },
+    {
+      "model": "Free Sport Edition",
+      "name": "Voyah Free Sport Edition",
+      "price_from": 4875000,
+      "price_from_text": "4 875 000 ₽",
+      "credit_from_text": "66 514 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/voyah/free-sport-edition"
+    },
+    {
+      "model": "Free Sport plus",
+      "name": "Voyah Free Sport plus",
+      "price_from": 4900000,
+      "price_from_text": "4 900 000 ₽",
+      "credit_from_text": "66 855 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/voyah/free-sport-plus"
+    },
+    {
+      "model": "Dream",
+      "name": "Voyah Dream",
+      "price_from": 7925000,
+      "price_from_text": "7 925 000 ₽",
+      "credit_from_text": "108 127 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/voyah/dream"
+    }
+  ],
+  "Wey": [
+    {
+      "model": "05",
+      "name": "Wey 05",
+      "price_from": 5924000,
+      "price_from_text": "5 924 000 ₽",
+      "credit_from_text": "80 826 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/wey/05"
+    },
+    {
+      "model": "Coffee 01",
+      "name": "Wey Coffee 01",
+      "price_from": 6424000,
+      "price_from_text": "6 424 000 ₽",
+      "credit_from_text": "87 648 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/wey/coffee-01"
+    },
+    {
+      "model": "07",
+      "name": "Wey 07",
+      "price_from": 7024000,
+      "price_from_text": "7 024 000 ₽",
+      "credit_from_text": "95 834 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/wey/07"
+    }
+  ],
+  "Xcite": [
+    {
+      "model": "X-Cross 7",
+      "name": "Xcite X-Cross 7",
+      "price_from": 2124000,
+      "price_from_text": "2 124 000 ₽",
+      "credit_from_text": "28 979 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/xcite/x-cross-7"
+    },
+    {
+      "model": "X-Cross 8",
+      "name": "Xcite X-Cross 8",
+      "price_from": 2780500,
+      "price_from_text": "2 780 500 ₽",
+      "credit_from_text": "37 937 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/xcite/x-cross-8"
+    }
+  ],
+  "Xiaomi": [
+    {
+      "model": "SU7",
+      "name": "Xiaomi SU7",
+      "price_from": 4625000,
+      "price_from_text": "4 625 000 ₽",
+      "credit_from_text": "63 103 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/xiaomi/xiaomi-su-7"
+    },
+    {
+      "model": "xiaomi",
+      "name": "Xiaomi",
+      "price_from": 5905000,
+      "price_from_text": "5 905 000 ₽",
+      "credit_from_text": "80 567 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/xiaomi/xiaomi"
+    },
+    {
+      "model": "SU7 Ultra",
+      "name": "Xiaomi SU7 Ultra",
+      "price_from": 8825000,
+      "price_from_text": "8 825 000 ₽",
+      "credit_from_text": "120 407 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/xiaomi/xiaomi-su-7-ultra"
+    }
+  ],
+  "Zeekr": [
+    {
+      "model": "X",
+      "name": "Zeekr X",
+      "price_from": 4125000,
+      "price_from_text": "4 125 000 ₽",
+      "credit_from_text": "56 281 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zeekr/x"
+    },
+    {
+      "model": "007",
+      "name": "Zeekr 007",
+      "price_from": 4395000,
+      "price_from_text": "4 395 000 ₽",
+      "credit_from_text": "59 965 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zeekr/007"
+    },
+    {
+      "model": "7x",
+      "name": "Zeekr 7x",
+      "price_from": 4725000,
+      "price_from_text": "4 725 000 ₽",
+      "credit_from_text": "64 467 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zeekr/7x"
+    },
+    {
+      "model": "001",
+      "name": "Zeekr 001",
+      "price_from": 5325000,
+      "price_from_text": "5 325 000 ₽",
+      "credit_from_text": "72 653 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zeekr/001"
+    },
+    {
+      "model": "009",
+      "name": "Zeekr 009",
+      "price_from": 9085000,
+      "price_from_text": "9 085 000 ₽",
+      "credit_from_text": "123 954 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zeekr/009"
+    }
+  ],
+  "Zotye": [
+    {
+      "model": "T600",
+      "name": "Zotye T600",
+      "price_from": 863000,
+      "price_from_text": "863 000 ₽",
+      "credit_from_text": "11 775 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zotye/t600"
+    },
+    {
+      "model": "Coupa",
+      "name": "Zotye Coupa",
+      "price_from": 1131500,
+      "price_from_text": "1 131 500 ₽",
+      "credit_from_text": "15 438 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/zotye/coupa"
+    }
+  ],
+  "Москвич": [
+    {
+      "model": "3",
+      "name": "Moskvich 3",
+      "price_from": 1492000,
+      "price_from_text": "1 492 000 ₽",
+      "credit_from_text": "20 357 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/3"
+    },
+    {
+      "model": "6",
+      "name": "Moskvich 6",
+      "price_from": 1802000,
+      "price_from_text": "1 802 000 ₽",
+      "credit_from_text": "24 586 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/6"
+    },
+    {
+      "model": "3e",
+      "name": "Moskvich 3e",
+      "price_from": 2455000,
+      "price_from_text": "2 455 000 ₽",
+      "credit_from_text": "33 496 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/3e"
+    },
+    {
+      "model": "8",
+      "name": "Moskvich 8",
+      "price_from": 2805000,
+      "price_from_text": "2 805 000 ₽",
+      "credit_from_text": "38 271 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/8"
+    },
+    {
+      "model": "М70",
+      "name": "Москвич М70",
+      "price_from": 3225000,
+      "price_from_text": "3 225 000 ₽",
+      "credit_from_text": "44 001 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/m70"
+    },
+    {
+      "model": "М90",
+      "name": "Москвич М90",
+      "price_from": 4225000,
+      "price_from_text": "4 225 000 ₽",
+      "credit_from_text": "57 645 ₽/мес.",
+      "url": "https://skayavto.ru/catalog/moskvich/m90"
+    }
+  ]
+}
