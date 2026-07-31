@@ -1,136 +1,106 @@
 # Инструкция по установке и запуску
 
-Документ описывает установку Smart-crm-antispam, запуск с локальной моделью Ollama и переключение на OpenAI provider.
+Документ описывает локальный запуск Smart-crm-antispam на Python.
+
+**Docker (без локального venv):** см. [docs/deployment.md](docs/deployment.md) · [EN](docs/en/deployment.md).  
+Полный список переменных: [docs/environment.md](docs/environment.md).
 
 ## 1. Требования
 
 - Python `3.14`
-- SQLite, идет вместе с Python/Django
+- SQLite (идёт с Python/Django)
 - `pip`
-- `openssl` для генерации HMAC-подписи в curl-примере
-- Ollama, если используется локальный AI provider
-- Telegram bot token, только если нужно запускать Telegram-чат-бот
+- `openssl` (секреты и HMAC в curl-примерах)
+- Ollama — только если нужен локальный AI
+- Telegram bot token — только если нужен чат-бот
 
 Официальные источники:
 
-- Ollama macOS: `https://docs.ollama.com/macos`
-- Ollama download: `https://ollama.com/download`
-- OpenAI API keys: `https://developers.openai.com/api/reference/overview/`
+- Ollama: `https://ollama.com/download`
+- OpenAI keys: `https://developers.openai.com/api/reference/overview/`
 
 ## 2. Получение проекта
-
-Если проект еще не скачан, клонировать репозиторий:
 
 ```bash
 git clone <repository-url>
 cd <repository-folder>
 ```
 
-Если архив уже распакован, перейти в папку проекта:
+Или перейти в уже распакованную папку проекта.
 
-```bash
-cd <project-folder>
-```
-
-Создать и активировать виртуальное окружение:
+Локальный Python-путь:
 
 ```bash
 python3.14 -m venv .venv
 source .venv/bin/activate
-```
-
-Установить зависимости:
-
-```bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-```
-
-Создать локальный `.env`:
-
-```bash
 cp .env.example .env
 ```
 
 ## 3. Настройка `.env`
 
-Сгенерировать секреты:
+Минимальный `.env` (как в `.env.example`):
+
+```env
+DJANGO_SECRET_KEY=
+DJANGO_DEBUG=true
+DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
+CRM_BASE_URL=http://127.0.0.1:8000
+```
+
+Секреты:
 
 ```bash
+# без manage.py (удобно и для Docker):
+openssl rand -hex 32   # → DJANGO_SECRET_KEY
+
+# или после установки зависимостей:
 python manage.py generate_tokens
 ```
 
-Команда печатает значения для `DJANGO_SECRET_KEY`, `WEBHOOK_SECRET`, `ADMIN_API_TOKEN`. Она не пишет `.env` автоматически и не меняет файлы репозитория.
+Команда `generate_tokens` печатает `DJANGO_SECRET_KEY`, `WEBHOOK_SECRET`, `ADMIN_API_TOKEN` — в `.env` их нужно вставить вручную.
 
-Заполнить `.env`:
+Опционально (стабильные пароли seed и prod):
 
 ```env
-DJANGO_SECRET_KEY=<django-secret>
-DJANGO_DEBUG=true
-DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
-
 CRM_HEAD_PASSWORD=head12345
 CRM_MANAGER1_PASSWORD=manager12345
 CRM_MANAGER2_PASSWORD=manager22345
-
-WEBHOOK_SECRET=<webhook-secret>
-ADMIN_API_TOKEN=<admin-api-token>
-
-BOT_TOKEN=
-ADMIN_CHAT_ID=
-ADMIN_TELEGRAM_IDS=
-
-AI_PROVIDER=ollama
-AI_BACKPRESSURE_ENABLED=true
-AI_QUEUE_BACKPRESSURE_THRESHOLD=100
-AI_RETRY_BACKPRESSURE_THRESHOLD=10
-AI_RETRY_BACKPRESSURE_WINDOW_MINUTES=10
-
-OLLAMA_URL=http://127.0.0.1:11434
-OLLAMA_MODEL=qwen3.5:9b
-
-OPENAI_API_KEY=
-OPENAI_BASE_URL=https://api.openai.com/v1
-OPENAI_MODEL=gpt-5.6-sol
-OPENAI_TRANSCRIPTION_MODEL=gpt-transcribe
-
-CRM_BASE_URL=http://127.0.0.1:8000
+WEBHOOK_SECRET=
+ADMIN_API_TOKEN=
 ```
+
+Для доступа по IP/домену добавь хост в `DJANGO_ALLOWED_HOSTS`, иначе будет `DisallowedHost`.
 
 Правила:
 
 - `.env` не коммитить.
-- `DJANGO_SECRET_KEY`, `WEBHOOK_SECRET`, `ADMIN_API_TOKEN`, `BOT_TOKEN`, `OPENAI_API_KEY` не хранить в коде.
-- При `DJANGO_DEBUG=false` переменные `WEBHOOK_SECRET` и `ADMIN_API_TOKEN` обязательны.
-- После `migrate` AI provider удобнее менять через CRM: `/settings/ai/` под пользователем с ролью `head`.
+- AI / Telegram / webhook-секрет после старта — в UI: `/settings/ai|bot|webhook/` (head).  
+  **Не** клади `OPENAI_API_KEY` и `BOT_TOKEN` в `.env`, если пользуешься UI.
+- При `DJANGO_DEBUG=false` обязательны `WEBHOOK_SECRET` и `ADMIN_API_TOKEN`.
+- Остальные переменные — в [docs/environment.md](docs/environment.md). Docker — в [docs/deployment.md](docs/deployment.md).
 
 ## 4. База данных и демо-данные
-
-Применить миграции:
 
 ```bash
 python manage.py migrate
 ```
 
-Создать пользователей:
+Выбери **один** вариант seed:
 
 ```bash
+# A — только пользователи (пароли из ЭТОГО вывода):
 python manage.py seed_users
-```
 
-Создать демо-клиентов и сделки:
-
-```bash
+# B — демо (внутри снова вызовет seed_users;
+# пароли из предыдущего seed_users станут недействительными —
+# смотри пароли в выводе seed_demo):
 python manage.py seed_demo
 ```
 
-Логины из примера `.env`:
-
-```text
-head / head12345
-manager1 / manager12345
-manager2 / manager22345
-```
+Если заданы `CRM_*_PASSWORD` в `.env`, используются они.  
+Итоговые логины всегда из **последнего** вывода seed.
 
 ## 5. Запуск CRM
 
@@ -362,7 +332,33 @@ curl -i http://127.0.0.1:8000/api/v1/intake/lead \
 - в CRM появится заявка
 - после работы worker появится клиент и сделка
 
-## 12. Демо-заявки
+## 12. Демо-атака для защиты (проверяющему)
+
+Обычный Python-скрипт **без Django**: только stdlib → HMAC POST на API.
+
+Перед запуском: `runserver` работает. **`process_inbound` на время отправки остановите** (SQLite: иначе `database is locked`). После скрипта воркер снова запустите — он разберёт заявки.
+
+```bash
+# 1) Fingerprint: 10 заявок, похожие на РФ номера, разные UA, один IP
+python3 scripts/defense_spam_demo.py
+python3 scripts/defense_spam_demo.py --delay 1.2
+
+# 2) Ошибки: битые телефоны, toxic, 401 без HMAC, дубль external_id
+python3 scripts/defense_spam_errors.py
+python3 scripts/defense_spam_errors.py --secret "$WEBHOOK_SECRET"
+```
+
+Секрет: `--secret` / `WEBHOOK_SECRET` / `.env` / `db.sqlite3` (`intake_webhooksettings`).
+
+Смотреть: http://127.0.0.1:8000/requests/ (логин `head`) — IP `203.0.113.50` / `203.0.113.77`.
+
+Альтернатива через Django:
+
+```bash
+python manage.py demo_spam_attack --scenario defense --count 20 --delay 1.2 --process --rules-only
+```
+
+## 12b. Демо-заявки (общий набор)
 
 Отправить 12 демо-заявок через реальные endpoints:
 

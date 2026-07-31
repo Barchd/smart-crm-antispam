@@ -1,5 +1,3 @@
-version: "3.9"
-
 # web и worker используют один volume, чтобы делить db.sqlite3
 # При `docker compose down -v` данные теряются — используй `down` без -v
 
@@ -11,6 +9,8 @@ services:
       - "8000:8000"
     volumes:
       - crm_data:/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     restart: unless-stopped
     command: python manage.py runserver 0.0.0.0:8000
 
@@ -19,6 +19,8 @@ services:
     env_file: .env
     volumes:
       - crm_data:/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     restart: unless-stopped
     command: python manage.py process_inbound
     depends_on:
@@ -30,10 +32,12 @@ services:
   #   env_file: .env
   #   volumes:
   #     - crm_data:/app
+  #   extra_hosts:
+  #     - "host.docker.internal:host-gateway"
   #   restart: unless-stopped
   #   command: python manage.py run_admin_bot
 
-  # Ollama (local AI — optional, or set OLLAMA_URL to external host)
+  # Ollama (local AI — optional, or set OLLAMA_URL to host)
   # ollama:
   #   image: ollama/ollama
   #   ports:

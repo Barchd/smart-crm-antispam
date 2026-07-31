@@ -11,8 +11,28 @@ source .venv/bin/activate
 
 ```bash
 cp .env.example .env
-python manage.py generate_tokens   # скопируй DJANGO_SECRET_KEY в .env
+# без Python: openssl rand -hex 32
+# или: python manage.py generate_tokens / docker compose exec web python manage.py generate_tokens
 ```
+
+## DisallowedHost при доступе по IP/домену
+
+Добавь хост в `.env`:
+
+```env
+DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost,194.135.33.204
+CRM_BASE_URL=http://194.135.33.204:8000
+```
+
+Пересоздай контейнеры: `docker compose up -d --force-recreate`.
+
+## Warning staticfiles.W004 (нет каталога /app/static)
+
+В репозитории есть `static/` (с `.gitkeep`). Если volume старый — создай каталог в контейнере или пересобери volume. Предупреждение не блокирует работу.
+
+## После seed_demo не подходит пароль от seed_users
+
+`seed_demo` снова вызывает `seed_users` и может сменить пароли. Используй пароли из **последнего** вывода seed либо задай `CRM_*_PASSWORD` в `.env`.
 
 ## Воркер не создаёт сделки (заявки в retry_wait)
 

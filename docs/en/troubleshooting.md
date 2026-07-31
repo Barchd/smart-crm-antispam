@@ -11,8 +11,28 @@ source .venv/bin/activate
 
 ```bash
 cp .env.example .env
-python manage.py generate_tokens   # copy DJANGO_SECRET_KEY into .env
+# without Python: openssl rand -hex 32
+# or: python manage.py generate_tokens / docker compose exec web python manage.py generate_tokens
 ```
+
+## DisallowedHost when opening by IP/domain
+
+Add the host to `.env`:
+
+```env
+DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost,194.135.33.204
+CRM_BASE_URL=http://194.135.33.204:8000
+```
+
+Recreate containers: `docker compose up -d --force-recreate`.
+
+## Warning staticfiles.W004 (missing /app/static)
+
+The repo includes `static/` (with `.gitkeep`). If an old volume lacks it, create the directory in the container or rebuild the volume. The warning is non-fatal.
+
+## seed_demo passwords differ from earlier seed_users
+
+`seed_demo` calls `seed_users` again and may rotate passwords. Use passwords from the **last** seed output, or set `CRM_*_PASSWORD` in `.env`.
 
 ## Worker does not create deals (requests stuck in retry_wait)
 
