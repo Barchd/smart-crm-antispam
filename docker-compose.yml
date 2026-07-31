@@ -26,7 +26,9 @@ services:
     depends_on:
       - web
 
-  # Telegram customer chat-bot (optional — uncomment to enable)
+  # Telegram customer chat-bot (optional).
+  # 1. Start web first and set the token in CRM: /settings/bot/ (head access).
+  # 2. Then uncomment this service and run: docker compose up -d --build bot
   # bot:
   #   build: .
   #   env_file: .env
