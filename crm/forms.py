@@ -23,14 +23,13 @@ class ThrottledAuthenticationForm(AuthenticationForm):
         username = (self.data.get("username") or "").strip()
         ip_address = get_client_ip(self.request)
 
-        if username and LoginAttempt.is_locked(username):
-            LoginAttempt.record_blocked(username=username, ip_address=ip_address)
-            raise ValidationError(self.throttle_message, code="throttled")
-
         try:
             cleaned_data = super().clean()
         except ValidationError:
             if username:
+                if LoginAttempt.is_locked(username, ip_address=ip_address):
+                    LoginAttempt.record_blocked(username=username, ip_address=ip_address)
+                    raise ValidationError(self.throttle_message, code="throttled")
                 LoginAttempt.record_failed(username=username, ip_address=ip_address)
             raise
 

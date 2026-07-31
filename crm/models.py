@@ -92,19 +92,21 @@ class LoginAttempt(models.Model):
 
     @classmethod
     def window_start(cls):
-        return timezone.now() - timedelta(minutes=15)
+        return timezone.now() - timedelta(minutes=settings.LOGIN_ATTEMPT_WINDOW_MINUTES)
 
     @classmethod
-    def failure_count(cls, username: str) -> int:
-        return cls.objects.filter(
-            username=cls.normalize_username(username),
-            result=LoginAttemptResult.FAILED,
-            attempted_at__gte=cls.window_start(),
-        ).count()
+    def failure_count(cls, username: str, *, ip_address: str | None = None) -> int:
+        attempts = cls.objects.filter(username=cls.normalize_username(username), attempted_at__gte=cls.window_start())
+        attempts = attempts.filter(ip_address__isnull=True) if ip_address is None else attempts.filter(ip_address=ip_address)
+        last_success = attempts.filter(result=LoginAttemptResult.SUCCESS).order_by("-attempted_at").first()
+        failures = attempts.filter(result=LoginAttemptResult.FAILED)
+        if last_success:
+            failures = failures.filter(attempted_at__gt=last_success.attempted_at)
+        return failures.count()
 
     @classmethod
-    def is_locked(cls, username: str) -> bool:
-        return cls.failure_count(username) >= 5
+    def is_locked(cls, username: str, *, ip_address: str | None = None) -> bool:
+        return cls.failure_count(username, ip_address=ip_address) >= settings.LOGIN_MAX_ATTEMPTS
 
     @classmethod
     def record_success(cls, username: str, *, ip_address: str | None = None) -> None:

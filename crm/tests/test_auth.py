@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 from django.contrib.auth import get_user_model
 from django.core.management import call_command
-from django.test import TestCase
+from django.test import TestCase, override_settings
 from django.urls import reverse
 
 from crm.models import LoginAttempt, LoginAttemptResult, RoleChoices
@@ -46,7 +46,7 @@ class AuthFlowTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Вход в CRM")
 
-    def test_login_throttle_blocks_after_five_failed_attempts(self):
+    def test_correct_password_bypasses_previous_failed_attempts_and_resets_active_series(self):
         for _ in range(5):
             response = self.client.post(
                 reverse("login"),
@@ -58,7 +58,17 @@ class AuthFlowTests(TestCase):
         response = self.client.post(
             reverse("login"),
             {"username": "manager1", "password": "manager-pass-123"},
+            follow=True,
         )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Manager One")
+        self.assertEqual(LoginAttempt.failure_count("manager1", ip_address="127.0.0.1"), 0)
+
+    def test_login_throttle_blocks_sixth_bad_password_from_same_ip(self):
+        for _ in range(5):
+            self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"})
+
+        response = self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"})
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Слишком много неудачных попыток")
         self.assertFalse(self.client.session.get("_auth_user_id"))
@@ -73,6 +83,26 @@ class AuthFlowTests(TestCase):
         ).count()
         self.assertEqual(failed_count, 5)
         self.assertEqual(blocked_count, 1)
+
+    def test_failures_from_another_ip_do_not_lock_login(self):
+        for _ in range(5):
+            self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"}, REMOTE_ADDR="198.51.100.10")
+
+        response = self.client.post(
+            reverse("login"),
+            {"username": "manager1", "password": "manager-pass-123"},
+            REMOTE_ADDR="198.51.100.11",
+            follow=True,
+        )
+        self.assertContains(response, "Manager One")
+
+    @override_settings(LOGIN_MAX_ATTEMPTS=2, LOGIN_ATTEMPT_WINDOW_MINUTES=10)
+    def test_login_throttle_uses_settings(self):
+        self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"})
+        self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"})
+
+        response = self.client.post(reverse("login"), {"username": "manager1", "password": "wrong-password"})
+        self.assertContains(response, "Слишком много неудачных попыток")
 
 
 class SeedUsersCommandTests(TestCase):
