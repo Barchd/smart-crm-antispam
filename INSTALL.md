@@ -60,16 +60,7 @@ python manage.py generate_tokens
 ```
 
 Команда `generate_tokens` печатает `DJANGO_SECRET_KEY`, `WEBHOOK_SECRET`, `ADMIN_API_TOKEN` — в `.env` их нужно вставить вручную.
-
-Опционально (стабильные пароли seed и prod):
-
-```env
-CRM_HEAD_PASSWORD=head12345
-CRM_MANAGER1_PASSWORD=manager12345
-CRM_MANAGER2_PASSWORD=manager22345
-WEBHOOK_SECRET=
-ADMIN_API_TOKEN=
-```
+ 
 
 Для доступа по IP/домену добавь хост в `DJANGO_ALLOWED_HOSTS`, иначе будет `DisallowedHost`.
 
